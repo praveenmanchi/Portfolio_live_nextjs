@@ -40,7 +40,7 @@ const Header1 = ({ onePageMenu }) => {
                 <Link legacyBehavior href="/">
                   <a>
                     <img
-                      src="assets/images/logos/logo.png"
+                      src="assets/images/logos/logo.svg"
                       alt="Logo"
                       title="Logo"
                     />
@@ -56,7 +56,7 @@ const Header1 = ({ onePageMenu }) => {
                     <Link legacyBehavior href="/">
                       <a>
                         <img
-                          src="assets/images/logos/logo.png"
+                          src="assets/images/logos/logo.svg"
                           alt="Logo"
                           title="Logo"
                         />
@@ -128,7 +128,7 @@ const Header2 = ({ onePageMenu }) => {
                 <Link legacyBehavior href="/">
                   <a>
                     <img
-                      src="assets/images/logos/logo.png"
+                      src="assets/images/logos/logo.svg"
                       alt="Logo"
                       title="Logo"
                     />
@@ -144,7 +144,7 @@ const Header2 = ({ onePageMenu }) => {
                     <Link legacyBehavior href="/">
                       <a>
                         <img
-                          src="assets/images/logos/logo.png"
+                          src="assets/images/logos/logo.svg"
                           alt="Logo"
                           title="Logo"
                         />

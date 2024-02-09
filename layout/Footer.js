@@ -32,7 +32,7 @@ const Footer1 = () => {
                 <div className="footer-logo">
                   <Link legacyBehavior href="/">
                     <a>
-                      <img src="assets/images/logos/logo.png" alt="Logo" />
+                      <img src="assets/images/logos/logo.svg" alt="Logo" />
                     </a>
                   </Link>
                 </div>
@@ -96,11 +96,11 @@ const Footer1 = () => {
                   </li> */}
                   <li>
                     <i className="far fa-envelope" />{" "}
-                    <a href="mailto:support@gmail.com">support@gmail.com</a>
+                    <a href="mailto:Praveenmanchi.work@proton.me">Praveenmanchi.work@proton.me</a>
                   </li>
                   <li>
                     <i className="far fa-phone" />{" "}
-                    <a href="callto:+880(123)45688">+880 (123) 456 88</a>
+                    <a href="callto:91 8297987394">+91 8297987394</a>
                   </li>
                 </ul>
               </div>

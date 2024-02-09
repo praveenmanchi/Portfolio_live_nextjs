@@ -11,7 +11,7 @@ const Clients = () => {
             href="contact"
           >
             <img
-              src="assets/images/client-logos/client-logo-two4.png"
+              src="assets/images/client-logos/baxter.svg"
               alt="Client Logo"
             />
           </Link>
@@ -21,7 +21,7 @@ const Clients = () => {
             href="contact"
           >
             <img
-              src="assets/images/client-logos/client-logo-two4.png"
+              src="assets/images/client-logos/ge.svg"
               alt="Client Logo"
             />
           </Link>
@@ -31,7 +31,7 @@ const Clients = () => {
             href="contact"
           >
             <img
-              src="assets/images/client-logos/client-logo-two3.png"
+              src="assets/images/client-logos/honda.svg"
               alt="Client Logo"
             />
           </Link>
@@ -41,7 +41,7 @@ const Clients = () => {
             href="contact"
           >
             <img
-              src="assets/images/client-logos/client-logo-two4.png"
+              src="assets/images/client-logos/tatamotors.svg"
               alt="Client Logo"
             />
           </Link>
@@ -51,7 +51,7 @@ const Clients = () => {
             href="contact"
           >
             <img
-              src="assets/images/client-logos/client-logo-two5.png"
+              src="assets/images/client-logos/deloitte.svg"
               alt="Client Logo"
             />
           </Link>
