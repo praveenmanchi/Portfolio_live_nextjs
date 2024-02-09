@@ -11,7 +11,7 @@ const ProjectGridIsotop = dynamic(
 );
 
 export const metadata = {
-  title: "Projects Grid",
+  title: "Case Studies",
 };
 
 const ProjectsPage = () => {

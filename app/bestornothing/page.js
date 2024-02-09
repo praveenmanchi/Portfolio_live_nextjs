@@ -4,7 +4,7 @@ import ScrollTop from "@/components/ScrollTop";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Projects Details",
+  title: "AMG Driving Academy",
 };
 
 const ProjectDetails = () => {
