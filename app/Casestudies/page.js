@@ -17,14 +17,14 @@ export const metadata = {
 const ProjectsPage = () => {
   return (
     <NoxfolioLayout onePageMenu={true}>
-      <PageBanner pageName={"Project Grid View"} />
+      <PageBanner pageName={"Personal Casestudies"} />
       <section className="projects-area pt-40 pb-130 rpb-100 rel z-1">
         <div className="container">
           <ProjectGridIsotop />
           <div className="project-btn text-center wow fadeInUp delay-0-2s">
-            <Link legacyBehavior href="/projects">
+            <Link legacyBehavior href="/Casestudies">
               <a className="theme-btn">
-                View More Projects <i className="far fa-angle-right" />
+                View More Casestudies <i className="far fa-angle-right" />
               </a>
             </Link>
           </div>

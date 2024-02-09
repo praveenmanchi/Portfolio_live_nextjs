@@ -11,7 +11,7 @@ const ProjectDetails = () => {
   
   return (
     <NoxfolioLayout onePageMenu={true}>
-      <PageBanner pageName={"Mobile Application Design"} />
+      {/* <PageBanner pageName={"Mobile Application Design"} /> */}
       {/* ProjectDetails Area start */}
       <section className="Projects-details-area pt-40 pb-130 rpb-100 rel z-1">
         <div className="container">

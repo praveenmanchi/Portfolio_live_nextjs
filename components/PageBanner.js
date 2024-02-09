@@ -9,11 +9,11 @@ const PageBanner = ({ pageName }) => {
           <nav aria-label="breadcrumb">
             <ol className="breadcrumb justify-content-center wow fadeInUp delay-0-4s">
               <li className="breadcrumb-item">
-                <Link legacyBehavior href="/">
-                  Home
+                <Link legacyBehavior href="#">
+                The case studies that are presented below were not completed as part of my actual work with clients. These are nothing more than my own personal projects.
                 </Link>
               </li>
-              <li className="breadcrumb-item active">{pageName}</li>
+              {/* <li className="breadcrumb-item active">{pageName}</li> */}
             </ol>
           </nav>
         </div>

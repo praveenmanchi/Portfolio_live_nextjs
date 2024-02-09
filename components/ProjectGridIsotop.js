@@ -85,7 +85,7 @@ const ProjectGridIsotop = () => {
           <div className="project-item style-two wow fadeInUp delay-0-2s">
             <div className="project-image">
               <img src="assets/images/projects/project1.jpg" alt="Project" />
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/bestornothing">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>

@@ -27,7 +27,7 @@ const Projects = () => {
             <div className="project-content wow fadeInRight delay-0-2s">
               <span className="sub-title">Product Design</span>
               <h2>
-                <Link legacyBehavior href="project-details">
+                <Link legacyBehavior href="/bestornothing">
                   Mobile Application Design
                 </Link>
               </h2>
