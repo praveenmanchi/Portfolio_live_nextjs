@@ -100,20 +100,20 @@ export const OnePageMenu = () => {
       <li>
         <a href="#resume">Resume</a>
       </li>
-      <li>
+      {/* <li>
         <a href="#services">services</a>
-      </li>
+      </li> */}
       <li>
         <a href="#skills">skills</a>
       </li>
       <li>
-        <a href="#portfolio">projects</a>
+        <a href="/Casestudies">Casestudies</a>
       </li>
-      <li>
+      {/* <li>
         <a href="#blog">blog</a>
-      </li>
+      </li> */}
       <li>
-        <a href="#contact">Contact</a>
+        <a href="#Footer">Contact</a>
       </li>
     </ul>
   );

@@ -20,7 +20,7 @@ const Projects = () => {
         <div className="row align-items-center pb-25">
           <div className="col-lg-6">
             <div className="project-image wow fadeInLeft delay-0-2s">
-              <img src="assets/images/projects/project1.jpg" alt="Project" />
+              <img src="/assets/images/benz/benz banner.png" alt="Project" />
             </div>
           </div>
           <div className="col-xl-5 col-lg-6">
@@ -35,7 +35,7 @@ const Projects = () => {
                 Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
                 inventore veritatis architecto beatae
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/bestornothing">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -122,7 +122,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-btn text-center wow fadeInUp delay-0-2s">
-          <Link legacyBehavior href="/projects">
+          <Link legacyBehavior href="/Casestudies">
             <a className="theme-btn">
               View More Projects <i className="far fa-angle-right" />
             </a>

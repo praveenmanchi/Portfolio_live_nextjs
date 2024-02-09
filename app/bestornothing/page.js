@@ -1,5 +1,6 @@
 import PageBanner from "@/components/PageBanner";
 import NoxfolioLayout from "@/layout/NoxfolioLayout";
+import ScrollTop from "@/components/ScrollTop";
 import Link from "next/link";
 
 export const metadata = {
@@ -7,8 +8,9 @@ export const metadata = {
 };
 
 const ProjectDetails = () => {
+  
   return (
-    <NoxfolioLayout>
+    <NoxfolioLayout onePageMenu={true}>
       <PageBanner pageName={"Mobile Application Design"} />
       {/* ProjectDetails Area start */}
       <section className="Projects-details-area pt-40 pb-130 rpb-100 rel z-1">
@@ -59,12 +61,12 @@ const ProjectDetails = () => {
                 </div>
                 <div className="pd-info-item">
                   <span>Tools Used</span>
-                  <div>
-                    <img src="assets/images/skills/skill2.png" alt="Tool Icon 1" width="24" height="24" />
-                    <img src="assets/images/skills/skill2.png" alt="Tool Icon 2" width="24" height="24" />
-                    <img src="assets/images/skills/skill2.png" alt="Tool Icon 3" width="24" height="24" />
-                    <img src="assets/images/skills/skill2.png" alt="Tool Icon 4" width="24" height="24" />
-                    <img src="assets/images/skills/skill2.png" alt="Tool Icon 5" width="24" height="24" />
+                  <div style={{ display: "flex", gap: "30px" }}>
+                    <img src="assets/images/skills/skill1.svg" alt="Tool Icon 1" width="30" height="30" />
+                    <img src="assets/images/skills/skill2.svg" alt="Tool Icon 2" width="30" height="30" />
+                    <img src="assets/images/skills/skill3.svg" alt="Tool Icon 3" width="30" height="30" />
+                    <img src="assets/images/skills/skill4.svg" alt="Tool Icon 4" width="30" height="30" />
+                    <img src="assets/images/skills/skill5.svg" alt="Tool Icon 5" width="30" height="30" />
                   </div>
                 </div>
                 <div className="pd-info-item">
@@ -92,26 +94,109 @@ const ProjectDetails = () => {
             </p>
           </div>
           <div className="row pb-15">
-            <div className="col-lg-4 col-sm-6">
+            <div className="col-lg-12">
               <div className="image mb-30 wow fadeInUp delay-0-2s">
                 <img
-                  src="assets/images/Projects/project-middle1.jpg"
+                  src="/assets/images/benz/2.png"
                   alt="Project Middle"
                 />
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6">
+            <div className="col-lg-12">
               <div className="image mb-30 wow fadeInUp delay-0-4s">
                 <img
-                  src="assets/images/Projects/project-middle2.jpg"
+                  src="/assets/images/benz/3.png"
                   alt="Project Middle"
                 />
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6">
+            <div className="col-lg-12">
               <div className="image mb-30 wow fadeInUp delay-0-6s">
                 <img
-                  src="assets/images/Projects/project-middle3.jpg"
+                  src="/assets/images/benz/4.png"
+                  alt="Project Middle"
+                />
+              </div>
+            </div>
+            <div className="col-lg-12">
+              <div className="iframe mb-30 wow fadeInUp delay-0-6s">
+              <iframe width="100%" height="700"
+                src="https://miro.com/app/embed/uXjVO6G7kMw=/?pres=1&frameId=3458764556934523919&embedId=634206250766"
+                frameBorder="0" scrolling="no" allowFullScreen></iframe>
+              </div>
+            </div>
+            <div className="col-lg-12">
+              <div className="image mb-30 wow fadeInUp delay-0-6s">
+                <img
+                  src="/assets/images/benz/5.png"
+                  alt="Project Middle"
+                />
+              </div>
+            </div>
+            <div className="col-lg-12">
+              <div className="iframe mb-30 wow fadeInUp delay-0-6s">
+              <iframe width="100%" height="700"
+                src="https://miro.com/app/embed/uXjVO6G7kMw=/?pres=1&frameId=3458764556935056038&embedId=347979214595"
+                frameBorder="0" scrolling="no" allowFullScreen></iframe>
+              </div>
+            </div>
+            <div className="col-lg-12">
+              <div className="image mb-30 wow fadeInUp delay-0-6s">
+                <img
+                  src="/assets/images/benz/5.png"
+                  alt="Project Middle"
+                />
+              </div>
+            </div>
+            <div className="col-lg-12">
+              <div className="image mb-30 wow fadeInUp delay-0-6s">
+                <img
+                  src="/assets/images/benz/6.png"
+                  alt="Project Middle"
+                />
+              </div>
+            </div>
+            <div className="col-lg-12">
+              <div className="iframe mb-30 wow fadeInUp delay-0-6s">
+              <iframe width="100%" height="700"
+                src="https://miro.com/app/embed/uXjVO6G7kMw=/?pres=1&frameId=3458764556930073563&embedId=228051356671"
+                frameBorder="0" scrolling="no" allowFullScreen></iframe>
+              </div>
+            </div>
+            <div className="col-lg-12">
+              <div className="image mb-30 wow fadeInUp delay-0-6s">
+                <img
+                  src="/assets/images/benz/7.png"
+                  alt="Project Middle"
+                />
+              </div>
+            </div>
+            <div className="col-lg-12">
+              <div className="iframe mb-30 wow fadeInUp delay-0-6s">
+              <iframe width="100%" height="700"
+                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fk5F1bQ0lJCJXdz3XWBp2ci%2FDo-best-or-nothing%3Ftype%3Ddesign%26node-id%3D1%253A2%26t%3DrQA5nrTDnCorjyp5-1"
+                frameBorder="0" scrolling="no" allowFullScreen></iframe>
+              </div>
+            </div>
+            <div className="col-lg-12">
+              <div className="image mb-30 wow fadeInUp delay-0-6s">
+                <img
+                  src="/assets/images/benz/8.png"
+                  alt="Project Middle"
+                />
+              </div>
+            </div>
+            <div className="col-lg-12">
+              <div className="iframe mb-30 wow fadeInUp delay-0-6s">
+              <iframe width="100%" height="700"
+                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fk5F1bQ0lJCJXdz3XWBp2ci%2FDo-best-or-nothing%3Fpage-id%3D1%253A2%26type%3Ddesign%26node-id%3D1-224424%26viewport%3D370%252C626%252C0.02%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A224424%26show-proto-sidebar%3D1"
+                frameBorder="0" scrolling="no" allowFullScreen></iframe>
+              </div>
+            </div>
+            <div className="col-lg-12">
+              <div className="image mb-30 wow fadeInUp delay-0-6s">
+                <img
+                  src="/assets/images/benz/9.png"
                   alt="Project Middle"
                 />
               </div>
@@ -246,6 +331,7 @@ const ProjectDetails = () => {
           <span />
         </div>
       </section>
+      <ScrollTop />
     </NoxfolioLayout>
   );
 };

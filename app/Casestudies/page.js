@@ -16,7 +16,7 @@ export const metadata = {
 
 const ProjectsPage = () => {
   return (
-    <NoxfolioLayout>
+    <NoxfolioLayout onePageMenu={true}>
       <PageBanner pageName={"Project Grid View"} />
       <section className="projects-area pt-40 pb-130 rpb-100 rel z-1">
         <div className="container">
