@@ -16,10 +16,13 @@ const Hero = () => {
             <div className="hero-content rmb-55 wow fadeInUp delay-0-2s">
               <span className="h2">Hello, i’m </span>
               <h1>
-                <b>Praveen Manchi</b> Product designer
+                Praveen Manchi
               </h1>
+              <h5>
+                Praveen Manchi
+              </h5>
               <p>
-              "Designing cool ul screens is my super Power Don't tell to anyone it's a secret"
+              UI/UX DESIGNER | PRODUCT DESIGNER | PHOTOGRAPHER
               </p>
               <div className="hero-btns">
                 <Link legacyBehavior href="https://s466bgvk1segjdyf.public.blob.vercel-storage.com/Resume-AdInczTcCzuVCHVKG5Iv44XXTjFLIz.pdf">
@@ -46,7 +49,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="col-lg-5">
-            <div className="author-image-part wow fadeIn delay-0-3s">
+            {/* <div className="author-image-part wow fadeIn delay-0-3s">
               <div className="bg-circle" />
               <img src="assets/images/hero/me.png" alt="Author" />
               <div className="progress-shape">
@@ -55,7 +58,7 @@ const Hero = () => {
                   alt="Progress"
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
