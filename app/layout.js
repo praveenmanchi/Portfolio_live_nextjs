@@ -1,5 +1,5 @@
 import { DM_Sans, Inter } from "next/font/google";
-
+import { Analytics } from '@vercel/analytics/react';
 import Preloader from "@/layout/Preloader";
 import "@css/animate.min.css";
 import "@css/bootstrap.min.css";
@@ -43,6 +43,7 @@ export default function RootLayout({ children }) {
       <body>
         <Preloader />
         {children}
+        <Analytics />
       </body>
     </html>
   );
