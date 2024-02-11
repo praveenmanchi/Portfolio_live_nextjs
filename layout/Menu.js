@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Analytics } from '@vercel/analytics/react';
+import { track } from '@vercel/analytics';
 
 
 const DropdownBtn = () => (
@@ -94,22 +95,22 @@ export const OnePageMenu = () => {
   return (
     <ul className="navigation onepage clearfix">
       <li>
-        <a href="/" onClick={() => trackEvent("Home")}>Home</a>
+        <a href="/" onClick={() => track("Home")}>Home</a>
       </li>
       <li>
-        <a href="#about" onClick={() => trackEvent("About")}>about</a>
+        <a href="#about" onClick={() => track("About")}>about</a>
       </li>
       <li>
-        <a href="#resume" onClick={() => trackEvent("Resume")}>Resume</a>
+        <a href="#resume" onClick={() => track("Resume")}>Resume</a>
       </li>
       {/* <li>
         <a href="#services" onClick={() => trackEvent("Services")}>services</a>
       </li> */}
       <li>
-        <a href="#skills" onClick={() => trackEvent("Skills")}>skills</a>
+        <a href="#skills" onClick={() => track("Skills")}>skills</a>
       </li>
       <li>
-        <a href="/Casestudies" onClick={() => trackEvent("Case Studies")}>Casestudies</a>
+        <a href="/Casestudies" onClick={() => track("Case Studies")}>Casestudies</a>
       </li>
       {/* <li>
         <a href="#blog" onClick={() => trackEvent("Blog")}>blog</a>
