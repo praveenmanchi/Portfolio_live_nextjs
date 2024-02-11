@@ -1,11 +1,5 @@
 @charset "UTF-8";
 /*----------------------------------------------------------------------
-    Template Name: Noxfolio - Personal Portfolio Resume HTML Template
-    Template URI: https://demo.webtend.net/html/noxfolio/
-    Author: WebTend
-    Author URI:  https://webtend.net/
-    Version: 1.0
-
     Note: This is Main Style CSS File. */
 /*----------------------------------------------------------------------
 	CSS INDEX
@@ -37,10 +31,11 @@
     ## Sidebar Widgets
     ## Main Footer */
 /* -------------------------------------------------------------- */
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600;700&display=swap');
 /*******************************************************/
 /******************* ## Default Style *****************/
 /*******************************************************/
+
 * {
   margin: 0;
   padding: 0;
@@ -50,13 +45,17 @@
   box-shadow: none;
 }
 
+:root {
+  --font-primary: 'Source Code Pro', monospace;
+}
+
 body {
   color: var(--base-color);
   background: #131313;
   font-weight: 400;
   line-height: 30px;
   font-size: 16px;
-  font-family: var(--font-inter);
+  font-family: var(--font-primary);
   --base-color: rgba(255, 255, 255, 0.65);
   --heading-color: #ffffff;
   --primary-color: #c9f31d;
@@ -1116,7 +1115,7 @@ h6,
 .h6,
 .accordion-item .accordion-button {
   color: var(--heading-color);
-  font-family: var(--font-dm_sans);
+  font-family: var(--font-primary);
 }
 
 h1,
@@ -4247,7 +4246,7 @@ h6,
   font-weight: 500;
   position: relative;
   color: var(--heading-color);
-  font-family: var(--font-dm_sans);
+  font-family: var(--font-primary);
   text-transform: capitalize;
   -webkit-transition: all 500ms ease;
   -o-transition: all 500ms ease;
@@ -4937,7 +4936,7 @@ h6,
   display: block;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: var(--font-dm_sans);
+  font-family: var(--font-primary);
 }
 
 .hero-two-content .sub-title {
@@ -5266,7 +5265,7 @@ h6,
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  font-family: var(--font-dm_sans);
+  font-family: var(--font-primary);
   background: var(--primary-color);
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -5352,7 +5351,7 @@ h6,
 .about-info-item {
   margin-top: 40px;
   font-weight: 500;
-  font-family: var(--font-dm_sans);
+  font-family: var(--font-primary);
   text-transform: uppercase;
 }
 .about-info-item small {
@@ -5394,7 +5393,7 @@ h6,
   stroke: #ffffff42;
   color: transparent;
   margin-bottom: 20px;
-  font-family: var(--font-dm_sans);
+  font-family: var(--font-primary);
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #ffffff42;
 }
@@ -5437,7 +5436,7 @@ h6,
 .award-box {
   position: relative;
   margin: 0 -1px -1px 0;
-  font-family: var(--font-dm_sans);
+  font-family: var(--font-primary);
   padding: 55px 35px 45px 45px;
   border: 1px solid var(--border-color);
 }
@@ -5543,7 +5542,7 @@ h6,
   color: white;
   font-size: 24px;
   margin-right: 50px;
-  font-family: var(--font-dm_sans);
+  font-family: var(--font-primary);
 }
 @media only screen and (max-width: 479px) {
   .service-item .content {
@@ -5631,7 +5630,7 @@ h6,
   line-height: 1.5;
   margin-right: 5%;
   padding-left: 20px;
-  font-family: var(--font-dm_sans);
+  font-family: var(--font-primary);
   border-left: 1px solid var(--primary-color);
 }
 @media only screen and (max-width: 991px) {
@@ -5658,7 +5657,7 @@ h6,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: var(--font-dm_sans);
+  font-family: var(--font-primary);
 }
 .service-item-two .list li:before {
   font-size: 14px;
@@ -5723,7 +5722,7 @@ h6,
   line-height: 1.2;
   border-radius: 14px;
   background: #131313;
-  font-family: var(--font-dm_sans);
+  font-family: var(--font-primary);
   color: rgba(255, 255, 255, 0.35);
 }
 .skill-item:hover {
@@ -5946,7 +5945,7 @@ h6,
   font-weight: 500;
   margin-bottom: 8px;
   text-transform: uppercase;
-  font-family: var(--font-dm_sans);
+  font-family: var(--font-primary);
 }
 .resume-box .timeline-item .duration i {
   margin-right: 7px;
@@ -6040,7 +6039,7 @@ h6,
   display: inline-block;
   text-transform: uppercase;
   background: var(--lighter-color);
-  font-family: var(--font-dm_sans);
+  font-family: var(--font-primary);
 }
 @media only screen and (max-width: 767px) {
   .timeline-heading .title {
@@ -6111,7 +6110,7 @@ h6,
   padding: 19px 45px 19px 30px;
   border-radius: 14px;
   background: var(--lighter-color);
-  font-family: var(--font-dm_sans);
+  font-family: var(--font-primary);
   border: 1px solid var(--border-color);
 }
 .form-style-one .form-group .nice-select:focus,
@@ -6162,7 +6161,7 @@ h6,
   color: white;
   font-weight: 500;
   margin-bottom: 18px;
-  font-family: var(--font-dm_sans);
+  font-family: var(--font-primary);
 }
 .form-style-one .form-group .nice-select .current {
   font-weight: 400;
@@ -6756,12 +6755,12 @@ h6,
 .pd-info-item span {
   display: block;
   color: var(--lighter-color);
-  font-family: var(--font-dm_sans);
+  font-family: var(--font-primary);
 }
 
 .pd-info-item h5 {
   color: var(--lighter-color);
-  font-family: var(--font-inter);
+  font-family: var(--font-primary);
 }
 @media only screen and (min-width: 376px) {
   .pd-info-item h5 {
@@ -6820,7 +6819,7 @@ h6,
   margin-right: 20px;
   color: var(--lighter-color);
   text-transform: uppercase;
-  font-family: var(--font-dm_sans);
+  font-family: var(--font-primary);
   background: var(--primary-color);
 }
 
@@ -6854,7 +6853,7 @@ h6,
   font-size: 20px;
   font-weight: 700;
   margin-right: 20px;
-  font-family: var(--font-dm_sans);
+  font-family: var(--font-primary);
   text-transform: uppercase;
 }
 .marquee-item i {
@@ -6993,7 +6992,7 @@ h6,
   font-size: 48px;
   font-weight: 500;
   color: var(--primary-color);
-  font-family: var(--font-dm_sans);
+  font-family: var(--font-primary);
 }
 @media only screen and (max-width: 1199px) {
   .pricing-item .pricing-header .price {
@@ -7102,7 +7101,7 @@ h6,
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 30px;
-  font-family: var(--font-dm_sans);
+  font-family: var(--font-primary);
 }
 .pricing-item.style-two .price:before {
   content: "$";
@@ -7141,7 +7140,7 @@ h6,
   display: flex;
   font-size: 18px;
   line-height: 1.3;
-  font-family: var(--font-dm_sans);
+  font-family: var(--font-primary);
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -7219,7 +7218,7 @@ h6,
   position: relative;
   background: transparent;
   text-transform: uppercase;
-  font-family: var(--font-dm_sans);
+  font-family: var(--font-primary);
 }
 .pricing-tab li button:focus,
 .pricing-tab li button:hover {
@@ -7683,7 +7682,7 @@ h6,
   }
 }
 .author-date-share .text span {
-  font-family: var(--font-dm_sans);
+  font-family: var(--font-primary);
 }
 .author-date-share .text h5 {
   margin-bottom: 0;
@@ -7721,7 +7720,7 @@ blockquote {
   padding: 30px 40px 30px 125px;
   color: white;
   background: #131313;
-  font-family: var(--font-dm_sans);
+  font-family: var(--font-primary);
   border-left: 3px solid var(--primary-color);
 }
 blockquote:before {
@@ -7770,7 +7769,7 @@ blockquote .blockquote-footer {
   font-size: 16px;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.35);
-  font-family: var(--font-inter);
+  font-family: var(--font-primary);
   margin-bottom: 0;
   margin-top: 20px;
 }
@@ -8184,7 +8183,7 @@ blockquote .blockquote-footer:before {
   font-size: 16px;
   font-weight: 400;
   background: transparent;
-  font-family: var(--font-inter);
+  font-family: var(--font-primary);
 }
 .widget-search form input::-webkit-input-placeholder {
   color: #3e3e3e;
@@ -8224,7 +8223,7 @@ blockquote .blockquote-footer:before {
 }
 .widget-category ul li a {
   font-weight: 500;
-  font-family: var(--font-dm_sans);
+  font-family: var(--font-primary);
 }
 .widget-category ul li a:not(:hover) {
   color: rgba(255, 255, 255, 0.3);
@@ -8284,7 +8283,7 @@ blockquote .blockquote-footer:before {
   padding: 2px 20px;
   margin: 10px 5px 0;
   border-radius: 10px;
-  font-family: var(--font-dm_sans);
+  font-family: var(--font-primary);
   text-transform: capitalize;
   background: rgba(255, 255, 255, 0.1);
 }
@@ -8346,7 +8345,7 @@ blockquote .blockquote-footer:before {
   font-weight: 600;
   margin-bottom: 15px;
   color: var(--heading-color);
-  font-family: var(--font-dm_sans);
+  font-family: var(--font-primary);
 }
 .widget-search-filter .form-group input,
 .widget-search-filter .form-group .nice-select {
@@ -8356,7 +8355,7 @@ blockquote .blockquote-footer:before {
   font-weight: 400;
   padding: 16px 25px;
   border-bottom: none;
-  font-family: var(--font-inter);
+  font-family: var(--font-primary);
 }
 .widget-search-filter .form-group .nice-select .current {
   color: #cdcdcd;
@@ -8402,7 +8401,7 @@ blockquote .blockquote-footer:before {
 }
 .widget_nav_menu ul li {
   margin: 0 22px 5px;
-  font-family: var(--font-dm_sans);
+  font-family: var(--font-primary);
 }
 
 .widget_newsletter form {
