@@ -15,8 +15,15 @@ export const metadata = {
     template: "Praveen Manchi || %s",
     default:"Praveen Manchi || Casestudies", // a default is required when creating a template
   },
+  metadataBase: new URL('https://manchipraveen.vercel.app/'),
+  alternates: {
+    canonical: '/',
+    languages: {
+      'en-US': '/en-US',
+    },
+  },
   openGraph: {
-    images: ['https://media.istockphoto.com/id/1399246824/photo/digital-eye-wave-lines-stock-background.jpg?s=1024x1024&w=is&k=20&c=429ls1h7nmRkKERaJdq6TLaO1H0eSQHLgYXUXkPjJDI='],
+    images: ['https://blogassets.leverageedu.com/blog/wp-content/uploads/2020/07/30182024/UX-UI-Design.jpg'],
   },
   description: "Praveen's Portfolio - Explore the creative works and projects in UX/UI design, web development, and more.",
 };
