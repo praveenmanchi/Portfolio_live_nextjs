@@ -11,19 +11,12 @@ const ProjectGridIsotop = dynamic(
 );
 
 export const metadata = {
-  metadataBase: new URL('https://manchipraveen.vercel.app/'),
-  alternates: {
-    canonical: '/',
-    languages: {
-      'en-US': '/en-US',
-    },
-  },
   title: {
     template: "Praveen Manchi || %s",
     default:"Praveen Manchi || Casestudies", // a default is required when creating a template
   },
   openGraph: {
-    images: ['https://www.aceinfoway.com/blog/wp-content/uploads/2020/05/uiux_2.jpg'],
+    images: ['https://media.istockphoto.com/id/1399246824/photo/digital-eye-wave-lines-stock-background.jpg?s=1024x1024&w=is&k=20&c=429ls1h7nmRkKERaJdq6TLaO1H0eSQHLgYXUXkPjJDI='],
   },
   description: "Praveen's Portfolio - Explore the creative works and projects in UX/UI design, web development, and more.",
 };
