@@ -31,8 +31,8 @@ export const metadata = {
   title: {
     template:
       "Praveen Manchi -|| %s",
-    default:
-      "Praveen Manchi -|| Home", // a default is required when creating a template
+    // default:
+    //   "Praveen Manchi -|| Home", // a default is required when creating a template
   },
   description: "Praveen's Portfolio - Explore the creative works and projects in UX/UI design, web development, and more.",
 };

@@ -13,7 +13,7 @@ const ProjectGridIsotop = dynamic(
 export const metadata = {
   title: {
     template: "Praveen Manchi || %s",
-    // default:"Praveen Manchi || Casestudies", // a default is required when creating a template
+    default:"Praveen Manchi || Casestudies", // a default is required when creating a template
   },
   openGraph: {
     images: ['https://ycsfwdainpwgmgsjqppv.supabase.co/storage/v1/object/public/OG-images/casestudies-og.png'],
