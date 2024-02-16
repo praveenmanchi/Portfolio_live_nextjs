@@ -3,8 +3,19 @@ import NoxfolioLayout from "@/layout/NoxfolioLayout";
 import ScrollTop from "@/components/ScrollTop";
 import Link from "next/link";
 
+// export const metadata = {
+//   title: "AMG Driving Academy",
+// };
+
 export const metadata = {
-  title: "AMG Driving Academy",
+  title: {
+    title: "AMG Driving Academy",
+    // default:"Praveen Manchi || Casestudies", // a default is required when creating a template
+  },
+  openGraph: {
+    images: ['https://ycsfwdainpwgmgsjqppv.supabase.co/storage/v1/object/public/OG-images/benz-og.png'],
+  },
+  description: "AMG Driving academy, a car racing event organizer is planning to build a new platform to host their upcoming car racing event. The platform aims to provide a comprehensive solution for the participants, spectators, and event organizers to engage with each other before, during, and after the event.",
 };
 
 const ProjectDetails = () => {

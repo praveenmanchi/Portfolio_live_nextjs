@@ -13,12 +13,12 @@ const ProjectGridIsotop = dynamic(
 export const metadata = {
   title: {
     template: "Praveen Manchi || %s",
-    default:"Praveen Manchi || Casestudies", // a default is required when creating a template
+    // default:"Praveen Manchi || Casestudies", // a default is required when creating a template
   },
   openGraph: {
-    images: ['https://media.istockphoto.com/id/1399246824/photo/digital-eye-wave-lines-stock-background.jpg?s=1024x1024&w=is&k=20&c=429ls1h7nmRkKERaJdq6TLaO1H0eSQHLgYXUXkPjJDI='],
+    images: ['https://ycsfwdainpwgmgsjqppv.supabase.co/storage/v1/object/public/OG-images/casestudies-og.png'],
   },
-  description: "Praveen's Portfolio - Explore the creative works and projects in UX/UI design, web development, and more.",
+  description: "Praveen's Casestudies - Explore the creative works and projects in UX/UI design, web development, and more.",
 };
 
 
