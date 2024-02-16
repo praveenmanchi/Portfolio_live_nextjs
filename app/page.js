@@ -18,6 +18,13 @@ export const metadata = {
     template: "Praveen Manchi || %s",
     default:"Praveen Manchi || Home", // a default is required when creating a template
   },
+  metadataBase: new URL('https://manchipraveen.vercel.app/'),
+  alternates: {
+    canonical: '/',
+    languages: {
+      'en-US': '/en-US',
+    },
+  },
   openGraph: {
     images: ['https://www.istockphoto.com/photo/digital-eye-wave-lines-stock-background-gm1399246824-453166593'],
   },

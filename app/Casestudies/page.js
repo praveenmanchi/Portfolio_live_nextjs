@@ -11,6 +11,13 @@ const ProjectGridIsotop = dynamic(
 );
 
 export const metadata = {
+  metadataBase: new URL('https://manchipraveen.vercel.app/'),
+  alternates: {
+    canonical: '/',
+    languages: {
+      'en-US': '/en-US',
+    },
+  },
   title: {
     template: "Praveen Manchi || %s",
     default:"Praveen Manchi || Casestudies", // a default is required when creating a template
