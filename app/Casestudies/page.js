@@ -23,7 +23,7 @@ export const metadata = {
     default:"Praveen Manchi || Casestudies", // a default is required when creating a template
   },
   openGraph: {
-    images: ['https://www.istockphoto.com/photo/concepts-of-laser-eye-surgery-or-visual-acuity-check-up-gm1083316464-290625254'],
+    images: ['https://www.aceinfoway.com/blog/wp-content/uploads/2020/05/uiux_2.jpg'],
   },
   description: "Praveen's Portfolio - Explore the creative works and projects in UX/UI design, web development, and more.",
 };

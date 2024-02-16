@@ -26,7 +26,7 @@ export const metadata = {
     },
   },
   openGraph: {
-    images: ['https://www.istockphoto.com/photo/digital-eye-wave-lines-stock-background-gm1399246824-453166593'],
+    images: ['https://blogassets.leverageedu.com/blog/wp-content/uploads/2020/07/30182024/UX-UI-Design.jpg'],
   },
   description: "Praveen's Portfolio - Explore the creative works and projects in UX/UI design, web development, and more.",
 };
