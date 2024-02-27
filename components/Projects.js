@@ -29,12 +29,11 @@ const Projects = () => {
               <span className="sub-title">Product Design</span>
               <h2>
                 <Link legacyBehavior href="/bestornothing">
-                  Mobile Application Design
+                AMG Driving academy
                 </Link>
               </h2>
               <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae
+              AMG Driving academy, a car racing event organizer is planning to build a new platform to host their upcoming car racing event. The platform aims to provide a comprehensive solution for the participants, spectators, and event organizers to engage with each other before, during, and after the event.
               </p>
               <Link legacyBehavior href="/bestornothing">
                 <a className="details-btn">
@@ -55,7 +54,7 @@ const Projects = () => {
               <span className="sub-title">Product Design</span>
               <h2>
                 <Link legacyBehavior href="project-details">
-                  Website Makeup Design
+                Food Delivery for Senior Citizens
                 </Link>
               </h2>
               <p>
@@ -81,7 +80,7 @@ const Projects = () => {
               <span className="sub-title">Product Design</span>
               <h2>
                 <Link legacyBehavior href="project-details">
-                  Brand Identity and Motion Design
+                Paysafe
                 </Link>
               </h2>
               <p>
@@ -107,7 +106,7 @@ const Projects = () => {
               <span className="sub-title">Product Design</span>
               <h2>
                 <Link legacyBehavior href="project-details">
-                  Mobile Application Development
+                ABC Re-design
                 </Link>
               </h2>
               <p>

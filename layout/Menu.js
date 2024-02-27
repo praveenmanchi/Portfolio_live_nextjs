@@ -98,19 +98,25 @@ export const OnePageMenu = () => {
         <a href="/" onClick={() => track("Home")}>Home</a>
       </li>
       <li>
-        <a href="#about" onClick={() => track("About")}>about</a>
+        <a href="#about" onClick={() => track("About")}>about Me</a>
       </li>
-      <li>
+      {/* <li>
         <a href="#resume" onClick={() => track("Resume")}>Resume</a>
-      </li>
+      </li> */}
       {/* <li>
         <a href="#services" onClick={() => trackEvent("Services")}>services</a>
       </li> */}
-      <li>
+      {/* <li>
         <a href="#skills" onClick={() => track("Skills")}>skills</a>
-      </li>
+      </li> */}
       <li>
         <a href="/Casestudies" onClick={() => track("Case Studies")}>Casestudies</a>
+      </li>
+      <li>
+        <a href="/Resume" onClick={() => track("Resume")}>Resume</a>
+      </li>
+      <li>
+        <a href="/Photography" onClick={() => track("Photography")}>Photography</a>
       </li>
       {/* <li>
         <a href="#blog" onClick={() => trackEvent("Blog")}>blog</a>
