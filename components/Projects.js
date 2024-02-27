@@ -13,7 +13,7 @@ const Projects = () => {
             <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
               <span className="sub-title mb-15">Latest Works</span>
               <h2>
-                Explore My Popular <span>Projects</span>
+               Discover My <span>Casestudies</span>
               </h2>
             </div>
           </div>

@@ -47,25 +47,25 @@ const ProjectGridIsotop = () => {
           className={`c-pointer ${activeBtn("design")}`}
           onClick={handleFilterKeyChange("design")}
         >
-          Design
+          Web
         </li>
         <li
           className={`c-pointer ${activeBtn("branding")}`}
           onClick={handleFilterKeyChange("branding")}
         >
-          Branding
+          Design System
         </li>
         <li
           className={`c-pointer ${activeBtn("marketing")}`}
           onClick={handleFilterKeyChange("marketing")}
         >
-          Marketing
+          Heuristic Evaluation
         </li>
         <li
           className={`c-pointer ${activeBtn("development")}`}
           onClick={handleFilterKeyChange("development")}
         >
-          Development
+          Usability Testing
         </li>
         <li
           className={`c-pointer ${activeBtn("apps")}`}
@@ -77,7 +77,7 @@ const ProjectGridIsotop = () => {
           className={`c-pointer ${activeBtn("graphics")}`}
           onClick={handleFilterKeyChange("graphics")}
         >
-          Graphics
+          Design Process
         </li>
       </ul>
       <div className="row project-masonry-active">
@@ -135,7 +135,7 @@ const ProjectGridIsotop = () => {
               <span className="sub-title">Graphics Design</span>
               <h3>
                 <Link legacyBehavior href="project-details">
-                  Brand Identity and Motion Design
+                  Brand Identity and Motion Design 1
                 </Link>
               </h3>
             </div>
@@ -155,7 +155,7 @@ const ProjectGridIsotop = () => {
               <span className="sub-title">Product Design</span>
               <h3>
                 <Link legacyBehavior href="project-details">
-                  Mobile Application Design
+                  Mobile Application Design 2
                 </Link>
               </h3>
             </div>
@@ -175,7 +175,7 @@ const ProjectGridIsotop = () => {
               <span className="sub-title">Design &amp; Branding</span>
               <h3>
                 <Link legacyBehavior href="project-details">
-                  Creative Graphics Design
+                  Creative Graphics Design 4
                 </Link>
               </h3>
             </div>

@@ -32,7 +32,7 @@ I am passionate about building and designing delightful experiences that conside
               </div>
             </div>
             <div className="col-lg-5">
-              <div className="about-image-part wow fadeInUp delay-0-3s">
+              <div className="about-image-part wow fadeInUp delay-0-2s">
                 <img src="assets/images/about/profile.jpeg" alt="About Me" />
                 {/* <div className="about-btn btn-one wow fadeInRight delay-0-4s">
                   <img src="assets/images/about/btn-image1.png" alt="Image" />

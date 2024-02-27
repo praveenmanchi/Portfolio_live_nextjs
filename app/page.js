@@ -41,23 +41,61 @@ export default function HomeOnePage() {
           <span className="marquee-wrap">
             <span className="marquee-inner left">
               <span className="marquee-item">
-                branding
+                UX designing
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
-                product design
+                Product design
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
-                digital marketing
+                UI designing
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
-                product design
+                Usability Testing
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
-                art direction
+                Lean UX
+                <i className="far fa-asterisk" />
+              </span>
+              <span className="marquee-item">
+                Design Thinking
+                <i className="far fa-asterisk" />
+              </span>
+              <span className="marquee-item">
+                Prototyping
+                <i className="far fa-asterisk" />
+              </span>
+              <span className="marquee-item">
+                Personas
+                <i className="far fa-asterisk" />
+              </span>
+              <span className="marquee-item">
+                A/B Testing
+                <i className="far fa-asterisk" />
+              </span>
+            </span>
+            {/* <span className="marquee-inner left">
+              <span className="marquee-item">
+               Data Visualisation
+                <i className="far fa-asterisk" />
+              </span>
+              <span className="marquee-item">
+                User Flow
+                <i className="far fa-asterisk" />
+              </span>
+              <span className="marquee-item">
+                low To High Fidelity
+                <i className="far fa-asterisk" />
+              </span>
+              <span className="marquee-item">
+                User Acceptance Testing
+                <i className="far fa-asterisk" />
+              </span>
+              <span className="marquee-item">
+                User-Centered Design (UCD) 
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
@@ -76,26 +114,26 @@ export default function HomeOnePage() {
                 strategy
                 <i className="far fa-asterisk" />
               </span>
-            </span>
+            </span> */}
             <span className="marquee-inner left">
               <span className="marquee-item">
-                branding
+                Design System
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
-                product design
+                Product design
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
-                digital marketing
+                UX Research
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
-                product design
+                Visualisation
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
-                art direction
+              Accessibility
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
@@ -107,45 +145,7 @@ export default function HomeOnePage() {
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
-                motion graphics
-                <i className="far fa-asterisk" />
-              </span>
-              <span className="marquee-item">
-                strategy
-                <i className="far fa-asterisk" />
-              </span>
-            </span>
-            <span className="marquee-inner left">
-              <span className="marquee-item">
-                branding
-                <i className="far fa-asterisk" />
-              </span>
-              <span className="marquee-item">
-                product design
-                <i className="far fa-asterisk" />
-              </span>
-              <span className="marquee-item">
-                digital marketing
-                <i className="far fa-asterisk" />
-              </span>
-              <span className="marquee-item">
-                product design
-                <i className="far fa-asterisk" />
-              </span>
-              <span className="marquee-item">
-                art direction
-                <i className="far fa-asterisk" />
-              </span>
-              <span className="marquee-item">
-                development
-                <i className="far fa-asterisk" />
-              </span>
-              <span className="marquee-item">
-                UI/UX Design
-                <i className="far fa-asterisk" />
-              </span>
-              <span className="marquee-item">
-                motion graphics
+                User-First
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
@@ -168,7 +168,7 @@ export default function HomeOnePage() {
       <Projects />
       {/* Projects Area end */}
       {/* Testimonial Area start */}
-      <Testimonial />
+      {/* <Testimonial /> */}
       {/* Testimonial Area end */}
       {/* Pricing Area start */}
       <ScrollTop />

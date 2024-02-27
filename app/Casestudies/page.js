@@ -29,13 +29,13 @@ const ProjectsPage = () => {
       <section className="projects-area pt-40 pb-130 rpb-100 rel z-1">
         <div className="container">
           <ProjectGridIsotop />
-          <div className="project-btn text-center wow fadeInUp delay-0-2s">
+          {/* <div className="project-btn text-center wow fadeInUp delay-0-2s">
             <Link legacyBehavior href="/Casestudies">
               <a className="theme-btn">
                 View More Casestudies <i className="far fa-angle-right" />
               </a>
             </Link>
-          </div>
+          </div> */}
         </div>
         <div className="bg-lines">
           <span />

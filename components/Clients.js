@@ -57,7 +57,9 @@ const Clients = () => {
           </Link>
           
         </div>
+        
       </div>
+      
       <div className="bg-lines">
         <span />
         <span />

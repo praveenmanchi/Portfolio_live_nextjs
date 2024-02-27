@@ -18,9 +18,9 @@ const Hero = () => {
               <h1>
                 Praveen Manchi
               </h1>
-              <h5>
+              {/* <h5>
                 Praveen Manchi
-              </h5>
+              </h5> */}
               <p>
               UI/UX DESIGNER | PRODUCT DESIGNER | PHOTOGRAPHER
               </p>

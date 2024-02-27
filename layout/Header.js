@@ -87,8 +87,9 @@ const Header1 = ({ onePageMenu }) => {
               {/* Main Menu End*/}
             </div>
             {/* Menu Button */}
-            <div className="menu-btns d-none d-lg-block">
-              {/* menu sidbar */}
+             {/* menu sidbar */}
+            {/* <div className="menu-btns d-none d-lg-block">
+             
               <div className="menu-sidebar">
                 <button onClick={() => toggleSidebar()}>
                   <img
@@ -97,7 +98,7 @@ const Header1 = ({ onePageMenu }) => {
                   />
                 </button>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -204,8 +205,9 @@ const Header2 = ({ onePageMenu }) => {
               {/* Main Menu End*/}
             </div>
             {/* Menu Button */}
+             {/* menu sidbar */}
             <div className="menu-btns">
-              {/* menu sidbar */}
+             
               <div className="menu-sidebar d-none d-lg-block">
                 <button onClick={() => toggleSidebar()}>
                   <img
