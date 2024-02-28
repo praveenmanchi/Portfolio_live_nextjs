@@ -88,7 +88,7 @@ const ProjectGridIsotop = () => {
             </div>
             <div className="content">
               <h3>
-                <Link legacyBehavior href="project-details">
+                <Link legacyBehavior href="/bestornothing">
                   AMG Driving academy
                 </Link>
               </h3>

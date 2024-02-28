@@ -59,7 +59,7 @@ const Skill = () => {
             <div className="col-lg-5">
               <div className="skill-content-part rel z-2 rmb-55 wow fadeInUp delay-0-2s">
                 <div className="section-title mb-40">
-                  <span className="sub-title mb-15">My Skills</span>
+                  {/* <span className="sub-title mb-15">My Skills</span> */}
                   <h2>
                     Let’s Explore Popular <span>Skills &amp; Tools</span>
                   </h2>

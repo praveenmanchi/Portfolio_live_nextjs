@@ -115,9 +115,9 @@ export const OnePageMenu = () => {
       <li>
         <a href="/Resume" onClick={() => track("Resume")}>Resume</a>
       </li>
-      <li>
+      {/* <li>
         <a href="/Photography" onClick={() => track("Photography")}>Photography</a>
-      </li>
+      </li> */}
       {/* <li>
         <a href="#blog" onClick={() => trackEvent("Blog")}>blog</a>
       </li> */}
