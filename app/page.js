@@ -11,31 +11,30 @@ import Skill from "@/components/Skill";
 import ScrollTop from "@/components/ScrollTop";
 import Testimonial from "@/components/Testimonial";
 import NoxfolioLayout from "@/layout/NoxfolioLayout";
-import Head from 'next/head';
+import Head from "next/head";
 
 export const metadata = {
   title: {
     template: "Praveen Manchi || %s",
-    default:"Praveen Manchi || Home", // a default is required when creating a template
+    default: "Praveen Manchi || Home", // a default is required when creating a template
   },
   openGraph: {
-    images: ['https://ycsfwdainpwgmgsjqppv.supabase.co/storage/v1/object/public/OG-images/home-og.png'],
+    images: [
+      "https://ycsfwdainpwgmgsjqppv.supabase.co/storage/v1/object/public/OG-images/home-og.png",
+    ],
   },
-  description: "Praveen's Portfolio - Explore the creative works and projects in UX/UI design, web development, and more.",
+  description:
+    "Praveen's Portfolio - Explore the creative works and projects in UX/UI design, web development, and more.",
 };
-
 
 export default function HomeOnePage() {
   return (
     <NoxfolioLayout onePageMenu={true}>
-     
       {/* Hero Section Start */}
       <Hero />
       {/* Hero Section End */}
       {/* About Area start */}
-      <About />
-      {/* About Area end */}
-      {/* Resume Area start */}
+      
       <div className="headline-area rel z-2 py-25">
         <div className="headline-wrap">
           <span className="marquee-wrap">
@@ -133,7 +132,7 @@ export default function HomeOnePage() {
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
-              Accessibility
+                Accessibility
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
@@ -156,6 +155,16 @@ export default function HomeOnePage() {
           </span>
         </div>
       </div>
+      <About />
+      {/* About Area end */}
+      {/* Resume Area start */}
+      <Projects />
+      {/* Projects Area end */}
+      {/* Testimonial Area start */}
+      {/* <Testimonial /> */}
+      {/* Testimonial Area end */}
+      {/* Pricing Area start */}
+      
       <Resume />
       {/* Resume Area end */}
       {/* Services Area start */}
@@ -165,12 +174,7 @@ export default function HomeOnePage() {
       {/* Skill Area end */}
       {/* Projects Area start */}
 
-      <Projects />
-      {/* Projects Area end */}
-      {/* Testimonial Area start */}
-      {/* <Testimonial /> */}
-      {/* Testimonial Area end */}
-      {/* Pricing Area start */}
+      
       <ScrollTop />
     </NoxfolioLayout>
   );
