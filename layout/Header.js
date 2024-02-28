@@ -1,9 +1,7 @@
-"use client";
-
-import { noxfolioUtilits } from "@/utility";
-import Link from "next/link";
-import { useEffect, useState } from "react";
-import MultiMenu, { OnePageMenu } from "./Menu";
+import { noxfolioUtilits } from '@/utility';
+import Link from 'next/link';
+import { useEffect, useState } from 'react';
+import MultiMenu, { OnePageMenu } from './Menu';
 
 const Header = ({ header, onePageMenu }) => {
   switch (header) {
@@ -24,7 +22,7 @@ const Header1 = ({ onePageMenu }) => {
   }, []);
 
   const toggleSidebar = () => {
-    document.querySelector("body").classList.add("side-content-visible");
+    document.querySelector('body').classList.add('side-content-visible');
   };
 
   const [toggle, setToggle] = useState(false);
@@ -48,7 +46,7 @@ const Header1 = ({ onePageMenu }) => {
                 </Link>
               </div>
             </div>
-            <div className="nav-outer clearfix mx-auto">
+            <div className="nav-outer clearfix">
               {/* Main Menu */}
               <nav className="main-menu navbar-expand-lg">
                 <div className="navbar-header">
@@ -78,7 +76,7 @@ const Header1 = ({ onePageMenu }) => {
                 </div>
                 <div
                   className={`navbar-collapse collapse clearfix ${
-                    toggle ? "show" : ""
+                    toggle ? 'show' : ''
                   }`}
                 >
                   {onePageMenu ? <OnePageMenu /> : <MultiMenu />}
@@ -87,18 +85,17 @@ const Header1 = ({ onePageMenu }) => {
               {/* Main Menu End*/}
             </div>
             {/* Menu Button */}
-             {/* menu sidbar */}
-            {/* <div className="menu-btns d-none d-lg-block">
-             
-              <div className="menu-sidebar">
+            <div className="menu-btns d-none d-lg-block">
+              {/* menu sidbar */}
+              {/* <div className="menu-sidebar">
                 <button onClick={() => toggleSidebar()}>
                   <img
                     src="assets/images/shape/sidebar-tottler.svg"
                     alt="Toggler"
                   />
                 </button>
-              </div>
-            </div> */}
+              </div> */}
+            </div>
           </div>
         </div>
       </div>
@@ -113,7 +110,7 @@ const Header2 = ({ onePageMenu }) => {
   }, []);
 
   const toggleSidebar = () => {
-    document.querySelector("body").classList.add("side-content-visible");
+    document.querySelector('body').classList.add('side-content-visible');
   };
 
   const [toggle, setToggle] = useState(false);
@@ -167,7 +164,7 @@ const Header2 = ({ onePageMenu }) => {
                 </div>
                 <div
                   className={`navbar-collapse collapse clearfix ${
-                    toggle ? "show" : ""
+                    toggle ? 'show' : ''
                   }`}
                 >
                   {onePageMenu ? (
@@ -205,9 +202,8 @@ const Header2 = ({ onePageMenu }) => {
               {/* Main Menu End*/}
             </div>
             {/* Menu Button */}
-             {/* menu sidbar */}
             <div className="menu-btns">
-             
+              {/* menu sidbar */}
               <div className="menu-sidebar d-none d-lg-block">
                 <button onClick={() => toggleSidebar()}>
                   <img
