@@ -20,20 +20,14 @@ const Clients = () => {
             className="client-logo-item wow fadeInUp delay-0-3s"
             href="contact"
           >
-            <img
-              src="assets/images/client-logos/ge.svg"
-              alt="Client Logo"
-            />
+            <img src="assets/images/client-logos/ge.svg" alt="Client Logo" />
           </Link>
           <Link
             legacyBehavior
             className="client-logo-item wow fadeInUp delay-0-4s"
             href="contact"
           >
-            <img
-              src="assets/images/client-logos/honda.svg"
-              alt="Client Logo"
-            />
+            <img src="assets/images/client-logos/honda.svg" alt="Client Logo" />
           </Link>
           <Link
             legacyBehavior
@@ -47,7 +41,37 @@ const Clients = () => {
           </Link>
           <Link
             legacyBehavior
-            className="client-logo-item wow fadeInUp delay-0-6s"
+            className="client-logo-item wow fadeInUp delay-0-5s"
+            href="contact"
+          >
+            <img
+              src="assets/images/client-logos/tataelxsi.svg"
+              alt="Client Logo"
+            />
+          </Link>
+          
+        </div>
+        <div className="client-logo-wrap style-two">
+        <Link
+            legacyBehavior
+            className="client-logo-item wow fadeInUp delay-0-5s"
+            href="contact"
+          >
+            <img
+              src="assets/images/client-logos/sonyliv.svg"
+              alt="Client Logo"
+            />
+          </Link>
+          <Link
+            legacyBehavior
+            className="client-logo-item wow fadeInUp delay-0-4s"
+            href="contact"
+          >
+            <img src="assets/images/client-logos/advancesystems.svg" alt="Client Logo" />
+          </Link>
+          <Link
+            legacyBehavior
+            className="client-logo-item wow fadeInUp delay-0-5s"
             href="contact"
           >
             <img
@@ -55,9 +79,21 @@ const Clients = () => {
               alt="Client Logo"
             />
           </Link>
+          <Link
+            legacyBehavior
+            className="client-logo-item wow fadeInUp delay-0-5s"
+            href="contact"
+          >
+            <img
+              src="assets/images/client-logos/tataelxsi.svg"
+              alt="Client Logo"
+            />
+          </Link>
           
         </div>
+        
       </div>
+
       <div className="bg-lines">
         <span />
         <span />

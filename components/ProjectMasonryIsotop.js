@@ -98,7 +98,7 @@ const ProjectMasonryIsotop = () => {
               <span className="sub-title">Product Design</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Mobile Application Design
+                  AMG
                 </Link>
               </h4>
             </div>
@@ -121,7 +121,7 @@ const ProjectMasonryIsotop = () => {
               <span className="sub-title">Product Design</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Mobile Application Design
+                  Cisco Foods
                 </Link>
               </h4>
             </div>
@@ -144,7 +144,7 @@ const ProjectMasonryIsotop = () => {
               <span className="sub-title">Product Design</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Mobile Application Design
+                  Paysafe
                 </Link>
               </h4>
             </div>
@@ -167,7 +167,7 @@ const ProjectMasonryIsotop = () => {
               <span className="sub-title">Product Design</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Mobile Application Design
+                  ABC UI Re-designing
                 </Link>
               </h4>
             </div>
@@ -190,7 +190,7 @@ const ProjectMasonryIsotop = () => {
               <span className="sub-title">Product Design</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Mobile Application Design
+                Instrument Cluster
                 </Link>
               </h4>
             </div>
@@ -213,7 +213,7 @@ const ProjectMasonryIsotop = () => {
               <span className="sub-title">Product Design</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Mobile Application Design
+                 Instrumentcluster
                 </Link>
               </h4>
             </div>
@@ -236,7 +236,7 @@ const ProjectMasonryIsotop = () => {
               <span className="sub-title">Product Design</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Mobile Application Design
+                Mue-zero
                 </Link>
               </h4>
             </div>

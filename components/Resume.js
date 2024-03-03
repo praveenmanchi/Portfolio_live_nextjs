@@ -10,10 +10,10 @@ const Resume = () => {
         <div className="row align-items-center pb-20">
           <div className="col-lg-8">
             <div className="section-title mb-35 wow fadeInUp delay-0-2s">
-              <span className="sub-title mb-15">
+              {/* <span className="sub-title mb-15">
                 <i className="flaticon-asterisk-1" />
                 Expereince resume
-              </span>
+              </span> */}
               <h2>work &amp; Education</h2>
             </div>
           </div>

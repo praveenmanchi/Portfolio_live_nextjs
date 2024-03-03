@@ -11,60 +11,90 @@ import Skill from "@/components/Skill";
 import ScrollTop from "@/components/ScrollTop";
 import Testimonial from "@/components/Testimonial";
 import NoxfolioLayout from "@/layout/NoxfolioLayout";
-import Head from 'next/head';
+import Head from "next/head";
 
 export const metadata = {
   title: {
     template: "Praveen Manchi || %s",
-    default:"Praveen Manchi || Home", // a default is required when creating a template
-  },
-  metadataBase: new URL('https://manchipraveen.vercel.app/'),
-  alternates: {
-    canonical: '/',
-    languages: {
-      'en-US': '/en-US',
-    },
+    default: "Praveen Manchi || Home", // a default is required when creating a template
   },
   openGraph: {
-    images: ['https://blogassets.leverageedu.com/blog/wp-content/uploads/2020/07/30182024/UX-UI-Design.jpg'],
+    images: [
+      "https://ycsfwdainpwgmgsjqppv.supabase.co/storage/v1/object/public/OG-images/home-og.png",
+    ],
   },
-  description: "Praveen's Portfolio - Explore the creative works and projects in UX/UI design, web development, and more.",
+  description:
+    "Praveen's Portfolio - Explore the creative works and projects in UX/UI design, web development, and more.",
 };
-
 
 export default function HomeOnePage() {
   return (
     <NoxfolioLayout onePageMenu={true}>
-     
       {/* Hero Section Start */}
       <Hero />
       {/* Hero Section End */}
       {/* About Area start */}
-      <About />
-      {/* About Area end */}
-      {/* Resume Area start */}
+
       <div className="headline-area rel z-2 py-25">
         <div className="headline-wrap">
           <span className="marquee-wrap">
             <span className="marquee-inner left">
               <span className="marquee-item">
-                branding
+                UX designing
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
-                product design
+                Product design
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
-                digital marketing
+                UI designing
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
-                product design
+                Usability Testing
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
-                art direction
+                Lean UX
+                <i className="far fa-asterisk" />
+              </span>
+              <span className="marquee-item">
+                Design Thinking
+                <i className="far fa-asterisk" />
+              </span>
+              <span className="marquee-item">
+                Prototyping
+                <i className="far fa-asterisk" />
+              </span>
+              <span className="marquee-item">
+                Personas
+                <i className="far fa-asterisk" />
+              </span>
+              <span className="marquee-item">
+                A/B Testing
+                <i className="far fa-asterisk" />
+              </span>
+            </span>
+            {/* <span className="marquee-inner left">
+              <span className="marquee-item">
+               Data Visualisation
+                <i className="far fa-asterisk" />
+              </span>
+              <span className="marquee-item">
+                User Flow
+                <i className="far fa-asterisk" />
+              </span>
+              <span className="marquee-item">
+                low To High Fidelity
+                <i className="far fa-asterisk" />
+              </span>
+              <span className="marquee-item">
+                User Acceptance Testing
+                <i className="far fa-asterisk" />
+              </span>
+              <span className="marquee-item">
+                User-Centered Design (UCD)
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
@@ -83,26 +113,26 @@ export default function HomeOnePage() {
                 strategy
                 <i className="far fa-asterisk" />
               </span>
-            </span>
+            </span> */}
             <span className="marquee-inner left">
               <span className="marquee-item">
-                branding
+                Design System
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
-                product design
+                Product design
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
-                digital marketing
+                UX Research
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
-                product design
+                Visualisation
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
-                art direction
+                Accessibility
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
@@ -114,45 +144,7 @@ export default function HomeOnePage() {
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
-                motion graphics
-                <i className="far fa-asterisk" />
-              </span>
-              <span className="marquee-item">
-                strategy
-                <i className="far fa-asterisk" />
-              </span>
-            </span>
-            <span className="marquee-inner left">
-              <span className="marquee-item">
-                branding
-                <i className="far fa-asterisk" />
-              </span>
-              <span className="marquee-item">
-                product design
-                <i className="far fa-asterisk" />
-              </span>
-              <span className="marquee-item">
-                digital marketing
-                <i className="far fa-asterisk" />
-              </span>
-              <span className="marquee-item">
-                product design
-                <i className="far fa-asterisk" />
-              </span>
-              <span className="marquee-item">
-                art direction
-                <i className="far fa-asterisk" />
-              </span>
-              <span className="marquee-item">
-                development
-                <i className="far fa-asterisk" />
-              </span>
-              <span className="marquee-item">
-                UI/UX Design
-                <i className="far fa-asterisk" />
-              </span>
-              <span className="marquee-item">
-                motion graphics
+                User-First
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
@@ -163,6 +155,16 @@ export default function HomeOnePage() {
           </span>
         </div>
       </div>
+      <About />
+      {/* About Area end */}
+      {/* Resume Area start */}
+      <Projects />
+      {/* Projects Area end */}
+      {/* Testimonial Area start */}
+      {/* <Testimonial /> */}
+      {/* Testimonial Area end */}
+      {/* Pricing Area start */}
+
       <Resume />
       {/* Resume Area end */}
       {/* Services Area start */}
@@ -172,12 +174,7 @@ export default function HomeOnePage() {
       {/* Skill Area end */}
       {/* Projects Area start */}
 
-      <Projects />
-      {/* Projects Area end */}
-      {/* Testimonial Area start */}
-      <Testimonial />
-      {/* Testimonial Area end */}
-      {/* Pricing Area start */}
+
       <ScrollTop />
     </NoxfolioLayout>
   );

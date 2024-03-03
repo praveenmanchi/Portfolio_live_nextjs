@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { track } from '@vercel/analytics';
+import { track } from "@vercel/analytics";
 
 const Projects = () => {
   return (
@@ -13,12 +13,137 @@ const Projects = () => {
             <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
               <span className="sub-title mb-15">Latest Works</span>
               <h2>
-                Explore My Popular <span>Projects</span>
+                Discover My <span>Casestudies</span>
               </h2>
             </div>
           </div>
         </div>
-        <div className="row align-items-center pb-25">
+
+        <div className="blog-item wow fadeInUp delay-0-2s">
+          <div className="image">
+            <img src="assets/images/benz/benz banner.png" alt="Blog" />
+          </div>
+          <div className="content">
+            <span className="sub-title">Product Design</span>
+            <h2>
+              <Link legacyBehavior href="/bestornothing">
+                AMG Driving academy
+              </Link>
+            </h2>
+            <p>
+              Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
+              inventore veritatis architecto beatae Sed ut perspiciatis unde
+              omnin natus totam rem aperiam eaque inventore veritatis architecto
+              beatae Sed ut perspiciatis unde omnin natus totam rem aperiam
+              eaque inventore veritatis architecto beatae
+            </p>
+            <div className="tag-coulds">
+              <Link legacyBehavior href=".#">
+                Design
+              </Link>
+              <Link legacyBehavior href="#">
+                Figma
+              </Link>
+              <Link legacyBehavior href="#">
+                Apps
+              </Link>
+              <Link legacyBehavior href="#">
+                Branding
+              </Link>
+            </div>
+            <p></p>
+            <div className="project-btn text-center wow fadeInUp delay-0-2s">
+              <Link legacyBehavior href="/Casestudies">
+                <a className="theme-btn">
+                  View <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="blog-item wow fadeInUp delay-0-2s">
+          <div className="image">
+            <img src="assets/images/benz/benz banner.png" alt="Blog" />
+          </div>
+          <div className="content">
+            <span className="sub-title">Product Design</span>
+            <h2>
+              <Link legacyBehavior href="/bestornothing">
+                Cisco foods
+              </Link>
+            </h2>
+            <p>
+              Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
+              inventore veritatis architecto beatae Sed ut perspiciatis unde
+              omnin natus totam rem aperiam eaque inventore veritatis architecto
+              beatae Sed ut perspiciatis unde omnin natus totam rem aperiam
+              eaque inventore veritatis architecto beatae
+            </p>
+            <div className="tag-coulds">
+              <Link legacyBehavior href=".#">
+                Design
+              </Link>
+              <Link legacyBehavior href="#">
+                Figma
+              </Link>
+              <Link legacyBehavior href="#">
+                Apps
+              </Link>
+              <Link legacyBehavior href="#">
+                Branding
+              </Link>
+            </div>
+            <p></p>
+            <Link legacyBehavior href="/project-details">
+              <a className="details-btn">
+                <i className="far fa-arrow-right" />
+              </a>
+            </Link>
+          </div>
+        </div>
+        <div className="blog-item wow fadeInUp delay-0-2s">
+          <div className="image">
+            <img src="assets/images/benz/benz banner.png" alt="Blog" />
+          </div>
+          <div className="content">
+            <span className="sub-title">Product Design</span>
+            <h2>
+              <Link legacyBehavior href="/bestornothing">
+                Abc
+              </Link>
+            </h2>
+            <p>
+              Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
+              inventore veritatis architecto beatae Sed ut perspiciatis unde
+              omnin natus totam rem aperiam eaque inventore veritatis architecto
+              beatae Sed ut perspiciatis unde omnin natus totam rem aperiam
+              eaque inventore veritatis architecto beatae
+            </p>
+            <div className="tag-coulds">
+              <Link legacyBehavior href=".#">
+                Design
+              </Link>
+              <Link legacyBehavior href="#">
+                Figma
+              </Link>
+              <Link legacyBehavior href="#">
+                Apps
+              </Link>
+              <Link legacyBehavior href="#">
+                Branding
+              </Link>
+            </div>
+            <p></p>
+            <div className="project-btn text-center wow fadeInUp delay-0-2s">
+              <Link legacyBehavior href="/Casestudies">
+                <a className="theme-btn">
+                  View <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+          </div>
+        </div>
+        {/* <div className="row align-items-center pb-25">
           <div className="col-lg-6">
             <div className="project-image wow fadeInLeft delay-0-2s">
               <img src="/assets/images/benz/benz banner.png" alt="Project" />
@@ -29,12 +154,15 @@ const Projects = () => {
               <span className="sub-title">Product Design</span>
               <h2>
                 <Link legacyBehavior href="/bestornothing">
-                  Mobile Application Design
+                  AMG Driving academy
                 </Link>
               </h2>
               <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae
+                AMG Driving academy, a car racing event organizer is planning to
+                build a new platform to host their upcoming car racing event.
+                The platform aims to provide a comprehensive solution for the
+                participants, spectators, and event organizers to engage with
+                each other before, during, and after the event.
               </p>
               <Link legacyBehavior href="/bestornothing">
                 <a className="details-btn">
@@ -44,6 +172,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
+
         <div className="row align-items-center pb-25">
           <div className="col-lg-6 order-lg-2">
             <div className="project-image wow fadeInLeft delay-0-2s">
@@ -55,7 +184,7 @@ const Projects = () => {
               <span className="sub-title">Product Design</span>
               <h2>
                 <Link legacyBehavior href="project-details">
-                  Website Makeup Design
+                  Food Delivery for Senior Citizens
                 </Link>
               </h2>
               <p>
@@ -81,7 +210,7 @@ const Projects = () => {
               <span className="sub-title">Product Design</span>
               <h2>
                 <Link legacyBehavior href="project-details">
-                  Brand Identity and Motion Design
+                  Paysafe
                 </Link>
               </h2>
               <p>
@@ -107,7 +236,7 @@ const Projects = () => {
               <span className="sub-title">Product Design</span>
               <h2>
                 <Link legacyBehavior href="project-details">
-                  Mobile Application Development
+                  ABC Re-design
                 </Link>
               </h2>
               <p>
@@ -121,7 +250,7 @@ const Projects = () => {
               </Link>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="project-btn text-center wow fadeInUp delay-0-2s">
           <Link legacyBehavior href="/Casestudies">
             <a className="theme-btn">

@@ -95,23 +95,53 @@ export const OnePageMenu = () => {
   return (
     <ul className="navigation onepage clearfix">
       <li>
-        <a href="/" onClick={() => track("Home")}>Home</a>
+        <a href="/" onClick={() => track("Home")}>
+          Home
+        </a>
       </li>
       <li>
-        <a href="#about" onClick={() => track("About")}>about</a>
+        <a href="#about" onClick={() => track("About")}>
+          about Me
+        </a>
       </li>
-      <li>
+      {/* <li>
         <a href="#resume" onClick={() => track("Resume")}>Resume</a>
-      </li>
+      </li> */}
       {/* <li>
         <a href="#services" onClick={() => trackEvent("Services")}>services</a>
       </li> */}
-      <li>
+      {/* <li>
         <a href="#skills" onClick={() => track("Skills")}>skills</a>
+      </li> */}
+      <li>
+        <a href="/Casestudies" onClick={() => track("Case Studies")}>
+          Casestudies
+        </a>
       </li>
       <li>
-        <a href="/Casestudies" onClick={() => track("Case Studies")}>Casestudies</a>
+        <a href="/Resume" onClick={() => track("Resume")}>
+          Resume
+        </a>
       </li>
+      
+      <li>
+        <a href="https://designboard.club/" onClick={() => track("designboard")}>
+        Designboard.club ↗ <i className="far fa-arrow-right" />
+        </a>
+      </li>
+      
+      {/* <li>
+        <div className="project-btn text-center wow fadeInUp delay-0-2s">
+          <Link legacyBehavior href="/Casestudies">
+            <a className="theme-btn">
+              Designboard.club <i className="far fa-arrow-right" />
+            </a>
+          </Link>
+        </div>
+      </li> */}
+      {/* <li>
+        <a href="/Photography" onClick={() => track("Photography")}>Photography</a>
+      </li> */}
       {/* <li>
         <a href="#blog" onClick={() => trackEvent("Blog")}>blog</a>
       </li> */}

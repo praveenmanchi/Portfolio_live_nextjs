@@ -9,30 +9,53 @@ const About = () => {
             <div className="col-lg-7">
               <div className="about-content-part rel z-2 rmb-55">
                 <div className="section-title mb-35 wow fadeInUp delay-0-2s">
-                  <span className="sub-title mb-15">Hi,Nice to meet you</span>
-                  <h2>
-                  I Do   <span>Everthing</span> With Passion To Bring Life
-                  </h2>
+                  
+                  <span className="sub-title mb-15">Hi ,Nice to meet you</span>
+                  
+                  <h4>
+                  I'm <span> Praveen Manchi </span>I am a User Interface and User Experience designer.
+                  </h4>
+                  
                   <p>
-
-<h4>I'm <span>Praveen Manchi </span>I am a User Interface and User Experience designer.</h4>
-I currently work at Deloitte, where I am part of an amazing team that is designing thoughtful experiences to help designers, product managers, and engineers collaborate better together. In my spare time, I am learning Unreal Engine to create virtual and augmented reality experiences for the future.
-I am passionate about building and designing delightful experiences that consider the needs of both the business and the end user. My goal is to make customers and users satisfied when they use our products and services online.
-<p>Thank you for taking the time to get to know me!</p>
+                    I currently work at Deloitte, where I am part of an amazing
+                    team that is designing thoughtful experiences to help
+                    designers, product managers, and engineers collaborate
+                    better together. In my spare time, I am learning Unreal
+                    Engine to create virtual and augmented reality experiences
+                    for the future. I am passionate about building and designing
+                    delightful experiences that consider the needs of both the
+                    business and the end user. My goal is to make customers and
+                    users satisfied when they use our products and services
+                    online.
+                    
                   </p>
                   
+                 
+                  
                 </div>
-                <ul className="list-style-one two-column wow fadeInUp delay-0-2s">
-                  <li>UX &amp; UI Designer</li>
-                  {/* <li>Digital Marketing</li>
-                  <li>Web Development</li> */}
-                  <li>Product Designer</li>
-                </ul>
                 
+                <div className="container">
+                  <div className="headline-wrap"></div>
+                </div>
               </div>
+              <blockquote>
+                    <h5>
+                      I Do <span>Everthing</span> With Passion To Bring Life
+                    </h5>
+                    
+                    {/* <span className="blockquote-footer">You know who</span> */}
+                  </blockquote>
+                  <blockquote>
+                    <h5>
+                    Designing cool ul screens is my super Power Don't tell to anyone it's a secret
+                    </h5>
+                    
+                    {/* <span className="blockquote-footer">You know who</span> */}
+                  </blockquote>
+                  <p>Thank you for taking the time to get to know me!</p>
             </div>
             <div className="col-lg-5">
-              <div className="about-image-part wow fadeInUp delay-0-3s">
+              <div className="about-image-part wow fadeInUp delay-0-2s">
                 <img src="assets/images/about/profile.jpeg" alt="About Me" />
                 {/* <div className="about-btn btn-one wow fadeInRight delay-0-4s">
                   <img src="assets/images/about/btn-image1.png" alt="Image" />
@@ -40,7 +63,11 @@ I am passionate about building and designing delightful experiences that conside
                   <i className="fas fa-arrow-right" />
                 </div> */}
                 <div className="about-btn btn-two wow fadeInRight delay-0-5s">
-                  <img src="assets/images/about/about.gif" alt="Image" style={{ width: "40px", height: "40px" }} />
+                  <img
+                    src="assets/images/about/about.gif"
+                    alt="Image"
+                    style={{ width: "40px", height: "40px" }}
+                  />
                   <h6>Praveen Manchi</h6>
                   <i className="fas fa-arrow-right" />
                 </div>

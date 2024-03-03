@@ -47,25 +47,25 @@ const ProjectGridIsotop = () => {
           className={`c-pointer ${activeBtn("design")}`}
           onClick={handleFilterKeyChange("design")}
         >
-          Design
+          Web
         </li>
         <li
           className={`c-pointer ${activeBtn("branding")}`}
           onClick={handleFilterKeyChange("branding")}
         >
-          Branding
+          Design System
         </li>
         <li
           className={`c-pointer ${activeBtn("marketing")}`}
           onClick={handleFilterKeyChange("marketing")}
         >
-          Marketing
+          Heuristic Evaluation
         </li>
         <li
           className={`c-pointer ${activeBtn("development")}`}
           onClick={handleFilterKeyChange("development")}
         >
-          Development
+          Usability Testing
         </li>
         <li
           className={`c-pointer ${activeBtn("apps")}`}
@@ -77,55 +77,265 @@ const ProjectGridIsotop = () => {
           className={`c-pointer ${activeBtn("graphics")}`}
           onClick={handleFilterKeyChange("graphics")}
         >
-          Graphics
+          Design Process
         </li>
       </ul>
       <div className="row project-masonry-active">
         <div className="col-lg-6 item branding development">
-          <div className="project-item style-two wow fadeInUp delay-0-2s">
+          <div className="blog-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
-              <img src="assets/images/projects/project1.jpg" alt="Project" />
-              <Link legacyBehavior href="/bestornothing">
-                <a className="details-btn">
-                  <i className="far fa-arrow-right" />
-                </a>
-              </Link>
+              <img src="assets/images/benz/benz banner.png" alt="Project" />
             </div>
-            <div className="project-content">
-              <span className="sub-title">Product Design</span>
+            <div className="content">
               <h3>
-                <Link legacyBehavior href="project-details">
-                  Mobile Application Design
+                <Link legacyBehavior href="/bestornothing">
+                  AMG Driving academy
                 </Link>
               </h3>
+              <p>
+                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
+                inventore veritatis architecto beatae Sed ut perspiciatis unde
+              </p>
+              <hr />
+              <div className="blog-meta mb-5">
+                <div className="tag-coulds">
+                  <Link legacyBehavior href=".#">
+                    Design
+                  </Link>
+                  <Link legacyBehavior href="#">
+                    Figma
+                  </Link>
+                  <Link legacyBehavior href="#">
+                    Apps
+                  </Link>
+                  <Link legacyBehavior href="#">
+                    Branding
+                  </Link>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <div className="col-lg-6 item branding development">
+          <div className="blog-item style-two wow fadeInUp delay-0-4s">
+            <div className="project-image">
+              <img src="assets/images/benz/benz banner.png" alt="Project" />
+            </div>
+
+            <div className="content">
+              <h3>
+                <Link legacyBehavior href="project-details">
+                  Cisco Foods
+                </Link>
+              </h3>
+              <p>
+                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
+                inventore veritatis architecto beatae Sed ut perspiciatis unde
+              </p>
+              <hr />
+              <div className="blog-meta mb-5">
+                <div className="tag-coulds">
+                  <Link legacyBehavior href=".#">
+                    Design
+                  </Link>
+                  <Link legacyBehavior href="#">
+                    Figma
+                  </Link>
+                  <Link legacyBehavior href="#">
+                    Apps
+                  </Link>
+                  <Link legacyBehavior href="#">
+                    Branding
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div className="col-lg-6 item design marketing graphics">
-          <div className="project-item style-two wow fadeInUp delay-0-4s">
+        <div className="col-lg-6 item branding marketing graphics">
+          <div className="blog-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
-              <img src="assets/images/projects/project2.jpg" alt="Project" />
-              <Link legacyBehavior href="/project-details">
-                <a className="details-btn">
-                  <i className="far fa-arrow-right" />
-                </a>
-              </Link>
+              <img src="assets/images/benz/benz banner.png" alt="Project" />
             </div>
-            <div className="project-content">
-              <span className="sub-title">Product Design</span>
+            <div className="content">
               <h3>
                 <Link legacyBehavior href="project-details">
-                  Website Makeup Design
+                ABC analytics UI Redesigning
                 </Link>
               </h3>
+              <p>
+                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
+                inventore veritatis architecto beatae Sed ut perspiciatis unde
+              </p>
+              <hr />
+              <div className="blog-meta mb-5">
+                <div className="tag-coulds">
+                  <Link legacyBehavior href=".#">
+                    Design
+                  </Link>
+                  <Link legacyBehavior href="#">
+                    Figma
+                  </Link>
+                  <Link legacyBehavior href="#">
+                    Apps
+                  </Link>
+                  <Link legacyBehavior href="#">
+                    Branding
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-6 item branding development">
+          <div className="blog-item style-two wow fadeInUp delay-0-4s">
+            <div className="project-image">
+              <img src="assets/images/benz/benz banner.png" alt="Project" />
+            </div>
+
+            <div className="content">
+              <h3>
+                <Link legacyBehavior href="project-details">
+                  Paysafe
+                </Link>
+              </h3>
+              <p>
+                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
+                inventore veritatis architecto beatae Sed ut perspiciatis unde
+              </p>
+              <hr />
+              <div className="blog-meta mb-5">
+                <div className="tag-coulds">
+                  <Link legacyBehavior href=".#">
+                    Design
+                  </Link>
+                  <Link legacyBehavior href="#">
+                    Figma
+                  </Link>
+                  <Link legacyBehavior href="#">
+                    Apps
+                  </Link>
+                  <Link legacyBehavior href="#">
+                    Branding
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-6 item branding development">
+          <div className="blog-item style-two wow fadeInUp delay-0-4s">
+            <div className="project-image">
+              <img src="assets/images/benz/benz banner.png" alt="Project" />
+            </div>
+            <div className="content">
+              <h3>
+                <Link legacyBehavior href="project-details">
+                Instrument Cluster
+                </Link>
+              </h3>
+              <p>
+                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
+                inventore veritatis architecto beatae Sed ut perspiciatis unde
+              </p>
+              <hr />
+              <div className="blog-meta mb-5">
+                <div className="tag-coulds">
+                  <Link legacyBehavior href=".#">
+                    Design
+                  </Link>
+                  <Link legacyBehavior href="#">
+                    Figma
+                  </Link>
+                  <Link legacyBehavior href="#">
+                    Apps
+                  </Link>
+                  <Link legacyBehavior href="#">
+                    Branding
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-6 item design development apps">
+          <div className="blog-item style-two wow fadeInUp delay-0-4s">
+            <div className="project-image">
+              <img src="assets/images/benz/benz banner.png" alt="Project" />
+            </div>
+
+            <div className="content">
+              <h3>
+                <Link legacyBehavior href="project-details">
+                  Mue-zero
+                </Link>
+              </h3>
+              <p>
+                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
+                inventore veritatis architecto beatae Sed ut perspiciatis unde
+              </p>
+              <hr />
+              <div className="blog-meta mb-5">
+                <div className="tag-coulds">
+                  <Link legacyBehavior href=".#">
+                    Design
+                  </Link>
+                  <Link legacyBehavior href="#">
+                    Figma
+                  </Link>
+                  <Link legacyBehavior href="#">
+                    Apps
+                  </Link>
+                  <Link legacyBehavior href="#">
+                    Branding
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div className="col-lg-6 item development graphics">
+          <div className="blog-item style-two wow fadeInUp delay-0-4s">
+            <div className="project-image">
+              <img src="assets/images/benz/benz banner.png" alt="Project" />
+            </div>
+
+            <div className="content">
+              <h3>
+                <Link legacyBehavior href="project-details">
+                Inflight Entertainment System
+                </Link>
+              </h3>
+              <p>
+                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
+                inventore veritatis architecto beatae Sed ut perspiciatis unde
+              </p>
+              <hr />
+              <div className="blog-meta mb-5">
+                <div className="tag-coulds">
+                  <Link legacyBehavior href=".#">
+                    Design
+                  </Link>
+                  <Link legacyBehavior href="#">
+                    Figma
+                  </Link>
+                  <Link legacyBehavior href="#">
+                    Apps
+                  </Link>
+                  <Link legacyBehavior href="#">
+                    Branding
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <div className="col-lg-6 item development graphics">
           <div className="project-item style-two wow fadeInUp delay-0-2s">
             <div className="project-image">
-              <img src="assets/images/projects/project3.jpg" alt="Project" />
-              <Link legacyBehavior href="/project-details">
+              <img src="assets/images/Casestudies/pay/1.jpg" alt="Project" />
+              <Link legacyBehavior href="/Paysafe">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -135,7 +345,7 @@ const ProjectGridIsotop = () => {
               <span className="sub-title">Graphics Design</span>
               <h3>
                 <Link legacyBehavior href="project-details">
-                  Brand Identity and Motion Design
+                  Paysafe
                 </Link>
               </h3>
             </div>
@@ -144,8 +354,11 @@ const ProjectGridIsotop = () => {
         <div className="col-lg-6 item design development apps">
           <div className="project-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
-              <img src="assets/images/projects/project4.jpg" alt="Project" />
-              <Link legacyBehavior href="/project-details">
+              <img
+                src="assets/images/Casestudies/abc/group2.png"
+                alt="Project"
+              />
+              <Link legacyBehavior href="/ABC">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -155,7 +368,7 @@ const ProjectGridIsotop = () => {
               <span className="sub-title">Product Design</span>
               <h3>
                 <Link legacyBehavior href="project-details">
-                  Mobile Application Design
+                  ABC UI Redesigning
                 </Link>
               </h3>
             </div>
@@ -164,8 +377,11 @@ const ProjectGridIsotop = () => {
         <div className="col-lg-6 item branding marketing graphics">
           <div className="project-item style-two wow fadeInUp delay-0-2s">
             <div className="project-image">
-              <img src="assets/images/projects/project5.jpg" alt="Project" />
-              <Link legacyBehavior href="/project-details">
+              <img
+                src="assets/images/Casestudies/case/innns.png"
+                alt="Project"
+              />
+              <Link legacyBehavior href="/Instrumentcluster">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -175,7 +391,7 @@ const ProjectGridIsotop = () => {
               <span className="sub-title">Design &amp; Branding</span>
               <h3>
                 <Link legacyBehavior href="project-details">
-                  Creative Graphics Design
+                  Instrument Cluster
                 </Link>
               </h3>
             </div>
@@ -185,7 +401,7 @@ const ProjectGridIsotop = () => {
           <div className="project-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
               <img src="assets/images/projects/project6.jpg" alt="Project" />
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/informatica">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -195,13 +411,57 @@ const ProjectGridIsotop = () => {
               <span className="sub-title">Product Design</span>
               <h3>
                 <Link legacyBehavior href="project-details">
-                  Design &amp; Branding Mokeup
+                  Inflight Entertainment System
                 </Link>
               </h3>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
+      {/* <div className="blog-item wow fadeInUp delay-0-2s">
+        <div className="image">
+          <img src="assets/images/benz/benz banner.png" alt="Blog" />
+        </div>
+        <div className="content">
+          <div className="blog-meta mb-35">
+            <Link legacyBehavior className="tag" href="blog">
+              Design
+            </Link>
+          </div>
+          <h5>
+            <Link legacyBehavior href="blog-details">
+              Tips For Conductin See Usability Studies
+            </Link>
+          </h5>
+          <p>
+            Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
+            inventore veritatis architecto beatae Sed ut perspiciatis unde omnin
+            natus totam rem aperiam eaque inventore veritatis architecto beatae
+            Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
+            inventore veritatis architecto beatae
+          </p>
+          <div className="tag-coulds">
+            <Link legacyBehavior href="blog">
+              Design
+            </Link>
+            <Link legacyBehavior href="blog">
+              Figma
+            </Link>
+            <Link legacyBehavior href="blog">
+              Apps
+            </Link>
+            <Link legacyBehavior href="blog">
+              Branding
+            </Link>
+          </div>
+          <p></p>
+          <Link legacyBehavior href="/project-details">
+            <a className="details-btn">
+              <i className="far fa-arrow-right" />
+            </a>
+          </Link>
+        </div>
+      </div> */}
     </Fragment>
   );
 };

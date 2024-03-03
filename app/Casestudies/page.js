@@ -15,17 +15,10 @@ export const metadata = {
     template: "Praveen Manchi || %s",
     default:"Praveen Manchi || Casestudies", // a default is required when creating a template
   },
-  metadataBase: new URL('https://manchipraveen.vercel.app/'),
-  alternates: {
-    canonical: '/',
-    languages: {
-      'en-US': '/en-US',
-    },
-  },
   openGraph: {
-    images: ['https://blogassets.leverageedu.com/blog/wp-content/uploads/2020/07/30182024/UX-UI-Design.jpg'],
+    images: ['https://ycsfwdainpwgmgsjqppv.supabase.co/storage/v1/object/public/OG-images/casestudies-og.png'],
   },
-  description: "Praveen's Portfolio - Explore the creative works and projects in UX/UI design, web development, and more.",
+  description: "Praveen's Casestudies - Explore the creative works and projects in UX/UI design, web development, and more.",
 };
 
 
@@ -36,13 +29,13 @@ const ProjectsPage = () => {
       <section className="projects-area pt-40 pb-130 rpb-100 rel z-1">
         <div className="container">
           <ProjectGridIsotop />
-          <div className="project-btn text-center wow fadeInUp delay-0-2s">
+          {/* <div className="project-btn text-center wow fadeInUp delay-0-2s">
             <Link legacyBehavior href="/Casestudies">
               <a className="theme-btn">
                 View More Casestudies <i className="far fa-angle-right" />
               </a>
             </Link>
-          </div>
+          </div> */}
         </div>
         <div className="bg-lines">
           <span />
