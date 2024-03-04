@@ -40,6 +40,7 @@ const ProjectDetails = () => {
                   AMG Driving academy, a car racing event organizer is planning to build a new platform to host their upcoming car racing event. The platform aims to provide a comprehensive solution for the participants, spectators, and event organizers to engage with each other before, during, and after the event.
                 </p>
                 <p>
+
                 AMG Driving academy, a car racing event organizer is planning to build a new platform to host their upcoming car racing event. The platform aims to provide a comprehensive solution for the participants, spectators, and event organizers to engage with each other before, during, and after the event.
                 </p>
                 <ul className="list-style-one two-column mt-50 mb-40">
