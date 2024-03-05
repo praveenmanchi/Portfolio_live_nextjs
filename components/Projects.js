@@ -37,7 +37,7 @@ const Projects = () => {
               beatae Sed ut perspiciatis unde omnin natus totam rem aperiam
               eaque inventore veritatis architecto beatae
             </p>
-            <div className="tag-coulds">
+            <div className="tag-coulds badges">
               <Link legacyBehavior href=".#">
                 Design
               </Link>
@@ -53,8 +53,8 @@ const Projects = () => {
             </div>
             <p></p>
             <div className="project-btn text-center wow fadeInUp delay-0-2s">
-              <Link legacyBehavior href="/Casestudies">
-                <a className="theme-btn">
+              <Link legacyBehavior  href="/Casestudies">
+                <a className="theme-btn floatright">
                   View <i className="far fa-arrow-right" />
                 </a>
               </Link>
@@ -79,8 +79,8 @@ const Projects = () => {
               beatae Sed ut perspiciatis unde omnin natus totam rem aperiam
               eaque inventore veritatis architecto beatae
             </p>
-            <div className="tag-coulds">
-              <Link legacyBehavior href=".#">
+            <div className="tag-coulds badges">
+              <Link className="pe-none" legacyBehavior href=".#">
                 Design
               </Link>
               <Link legacyBehavior href="#">
@@ -94,11 +94,13 @@ const Projects = () => {
               </Link>
             </div>
             <p></p>
-            <Link legacyBehavior href="/project-details">
-              <a className="details-btn">
-                <i className="far fa-arrow-right" />
-              </a>
-            </Link>
+            <div className="project-btn text-center wow fadeInUp delay-0-2s">
+              <Link legacyBehavior  href="/Casestudies">
+                <a className="theme-btn floatright">
+                  View <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
           </div>
         </div>
         <div className="blog-item wow fadeInUp delay-0-2s">
@@ -119,7 +121,7 @@ const Projects = () => {
               beatae Sed ut perspiciatis unde omnin natus totam rem aperiam
               eaque inventore veritatis architecto beatae
             </p>
-            <div className="tag-coulds">
+            <div className="tag-coulds badges">
               <Link legacyBehavior href=".#">
                 Design
               </Link>
@@ -136,7 +138,7 @@ const Projects = () => {
             <p></p>
             <div className="project-btn text-center wow fadeInUp delay-0-2s">
               <Link legacyBehavior href="/Casestudies">
-                <a className="theme-btn">
+                <a className="theme-btn floatright">
                   View <i className="far fa-arrow-right" />
                 </a>
               </Link>

@@ -34,7 +34,7 @@ export default function HomeOnePage() {
       <Hero />
       {/* Hero Section End */}
       {/* About Area start */}
-      
+
       <div className="headline-area rel z-2 py-25">
         <div className="headline-wrap">
           <span className="marquee-wrap">
@@ -94,7 +94,7 @@ export default function HomeOnePage() {
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
-                User-Centered Design (UCD) 
+                User-Centered Design (UCD)
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
@@ -164,7 +164,7 @@ export default function HomeOnePage() {
       {/* <Testimonial /> */}
       {/* Testimonial Area end */}
       {/* Pricing Area start */}
-      
+
       <Resume />
       {/* Resume Area end */}
       {/* Services Area start */}
@@ -174,7 +174,7 @@ export default function HomeOnePage() {
       {/* Skill Area end */}
       {/* Projects Area start */}
 
-      
+
       <ScrollTop />
     </NoxfolioLayout>
   );

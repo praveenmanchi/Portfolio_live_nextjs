@@ -8548,3 +8548,13 @@ blockquote .blockquote-footer:before {
     justify-content: center;
   }
 }
+.floatright{
+  float: right;
+  margin-top: 3rem;
+}
+.badges{
+  a{
+    cursor: none;
+    pointer-events: none;
+  }
+}

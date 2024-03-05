@@ -3,6 +3,7 @@
 import Isotope from "isotope-layout";
 import Link from "next/link";
 import { Fragment, useEffect, useRef, useState } from "react";
+
 const ProjectGridIsotop = () => {
   // Isotope
   const isotope = useRef();
@@ -81,16 +82,16 @@ const ProjectGridIsotop = () => {
         </li>
       </ul>
       <div className="row project-masonry-active">
+
         <div className="col-lg-6 item branding development">
+          <Link legacyBehavior href='bestornothing'>
           <div className="blog-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
               <img src="assets/images/benz/benz banner.png" alt="Project" />
             </div>
             <div className="content">
               <h3>
-                <Link legacyBehavior href="/bestornothing">
                   AMG Driving academy
-                </Link>
               </h3>
               <p>
                 Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
@@ -98,7 +99,7 @@ const ProjectGridIsotop = () => {
               </p>
               <hr />
               <div className="blog-meta mb-5">
-                <div className="tag-coulds">
+                <div className="tag-coulds badges">
                   <Link legacyBehavior href=".#">
                     Design
                   </Link>
@@ -113,21 +114,21 @@ const ProjectGridIsotop = () => {
                   </Link>
                 </div>
               </div>
-            </div>
-            
-          </div>
-        </div>
-        <div className="col-lg-6 item branding development">
-          <div className="blog-item style-two wow fadeInUp delay-0-4s">
-            <div className="project-image">
-              <img src="assets/images/benz/benz banner.png" alt="Project" />
             </div>
 
+          </div>
+          </Link>
+        </div>
+
+        <div className="col-lg-6 item branding development">
+          <Link legacyBehavior href='Ciscofoods'>
+          <div className="blog-item style-two wow fadeInUp delay-0-4s">
+            <div className="project-image">
+              <img src="assets/images/benz/benz banner.png" alt="Project" />
+            </div>
             <div className="content">
               <h3>
-                <Link legacyBehavior href="project-details">
                   Cisco Foods
-                </Link>
               </h3>
               <p>
                 Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
@@ -135,7 +136,7 @@ const ProjectGridIsotop = () => {
               </p>
               <hr />
               <div className="blog-meta mb-5">
-                <div className="tag-coulds">
+                <div className="tag-coulds badges">
                   <Link legacyBehavior href=".#">
                     Design
                   </Link>
@@ -152,17 +153,17 @@ const ProjectGridIsotop = () => {
               </div>
             </div>
           </div>
+          </Link>
         </div>
         <div className="col-lg-6 item branding marketing graphics">
+          <Link legacyBehavior href="ABC">
           <div className="blog-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
               <img src="assets/images/benz/benz banner.png" alt="Project" />
             </div>
             <div className="content">
               <h3>
-                <Link legacyBehavior href="project-details">
                 ABC analytics UI Redesigning
-                </Link>
               </h3>
               <p>
                 Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
@@ -170,7 +171,7 @@ const ProjectGridIsotop = () => {
               </p>
               <hr />
               <div className="blog-meta mb-5">
-                <div className="tag-coulds">
+                <div className="tag-coulds badges">
                   <Link legacyBehavior href=".#">
                     Design
                   </Link>
@@ -187,8 +188,10 @@ const ProjectGridIsotop = () => {
               </div>
             </div>
           </div>
+          </Link>
         </div>
         <div className="col-lg-6 item branding development">
+          <Link legacyBehavior href="Paysafe">
           <div className="blog-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
               <img src="assets/images/benz/benz banner.png" alt="Project" />
@@ -196,9 +199,7 @@ const ProjectGridIsotop = () => {
 
             <div className="content">
               <h3>
-                <Link legacyBehavior href="project-details">
                   Paysafe
-                </Link>
               </h3>
               <p>
                 Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
@@ -206,7 +207,7 @@ const ProjectGridIsotop = () => {
               </p>
               <hr />
               <div className="blog-meta mb-5">
-                <div className="tag-coulds">
+                <div className="tag-coulds badges">
                   <Link legacyBehavior href=".#">
                     Design
                   </Link>
@@ -223,17 +224,18 @@ const ProjectGridIsotop = () => {
               </div>
             </div>
           </div>
+          </Link>
         </div>
         <div className="col-lg-6 item branding development">
+          <Link legacyBehavior href="Instrumentcluster">
           <div className="blog-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
               <img src="assets/images/benz/benz banner.png" alt="Project" />
             </div>
             <div className="content">
               <h3>
-                <Link legacyBehavior href="project-details">
                 Instrument Cluster
-                </Link>
+
               </h3>
               <p>
                 Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
@@ -241,7 +243,7 @@ const ProjectGridIsotop = () => {
               </p>
               <hr />
               <div className="blog-meta mb-5">
-                <div className="tag-coulds">
+                <div className="tag-coulds badges">
                   <Link legacyBehavior href=".#">
                     Design
                   </Link>
@@ -258,8 +260,10 @@ const ProjectGridIsotop = () => {
               </div>
             </div>
           </div>
+          </Link>
         </div>
         <div className="col-lg-6 item design development apps">
+          <Link legacyBehavior href="Mue-Zero">
           <div className="blog-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
               <img src="assets/images/benz/benz banner.png" alt="Project" />
@@ -267,9 +271,7 @@ const ProjectGridIsotop = () => {
 
             <div className="content">
               <h3>
-                <Link legacyBehavior href="project-details">
                   Mue-zero
-                </Link>
               </h3>
               <p>
                 Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
@@ -277,7 +279,7 @@ const ProjectGridIsotop = () => {
               </p>
               <hr />
               <div className="blog-meta mb-5">
-                <div className="tag-coulds">
+                <div className="tag-coulds badges">
                   <Link legacyBehavior href=".#">
                     Design
                   </Link>
@@ -294,8 +296,10 @@ const ProjectGridIsotop = () => {
               </div>
             </div>
           </div>
+        </Link>
         </div>
         <div className="col-lg-6 item development graphics">
+          <Link legacyBehavior href="#">
           <div className="blog-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
               <img src="assets/images/benz/benz banner.png" alt="Project" />
@@ -303,9 +307,7 @@ const ProjectGridIsotop = () => {
 
             <div className="content">
               <h3>
-                <Link legacyBehavior href="project-details">
                 Inflight Entertainment System
-                </Link>
               </h3>
               <p>
                 Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
@@ -313,7 +315,7 @@ const ProjectGridIsotop = () => {
               </p>
               <hr />
               <div className="blog-meta mb-5">
-                <div className="tag-coulds">
+                <div className="tag-coulds badges">
                   <Link legacyBehavior href=".#">
                     Design
                   </Link>
@@ -330,6 +332,7 @@ const ProjectGridIsotop = () => {
               </div>
             </div>
           </div>
+        </Link>
         </div>
         {/* <div className="col-lg-6 item development graphics">
           <div className="project-item style-two wow fadeInUp delay-0-2s">

@@ -126,7 +126,7 @@ export const OnePageMenu = () => {
       
       <li>
         <a href="https://designboard.club/" onClick={() => track("designboard")}>
-        Designboard.club ↗ <i className="far fa-arrow-right" />
+        Designboard.club ↗ 
         </a>
       </li>
       
