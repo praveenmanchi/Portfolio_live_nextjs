@@ -53,7 +53,7 @@ const Projects = () => {
             </div>
             <p></p>
             <div className="project-btn text-center wow fadeInUp delay-0-2s">
-              <Link legacyBehavior  href="/Casestudies">
+              <Link legacyBehavior  href="/bestornothing">
                 <a className="theme-btn floatright">
                   View <i className="far fa-arrow-right" />
                 </a>
@@ -63,12 +63,12 @@ const Projects = () => {
         </div>
         <div className="blog-item wow fadeInUp delay-0-2s">
           <div className="image">
-            <img src="assets/images/benz/benz banner.png" alt="Blog" />
+            <img src="assets/images/Casestudies/cisco/main-2.png" alt="Blog" />
           </div>
           <div className="content">
-            <span className="sub-title">Product Design</span>
+            <span className="sub-title">Web UI Design</span>
             <h2>
-              <Link legacyBehavior href="/bestornothing">
+              <Link legacyBehavior href="/Ciscofoods">
                 Cisco foods
               </Link>
             </h2>
@@ -95,7 +95,7 @@ const Projects = () => {
             </div>
             <p></p>
             <div className="project-btn text-center wow fadeInUp delay-0-2s">
-              <Link legacyBehavior  href="/Casestudies">
+              <Link legacyBehavior  href="/Ciscofoods">
                 <a className="theme-btn floatright">
                   View <i className="far fa-arrow-right" />
                 </a>
@@ -105,12 +105,12 @@ const Projects = () => {
         </div>
         <div className="blog-item wow fadeInUp delay-0-2s">
           <div className="image">
-            <img src="assets/images/benz/benz banner.png" alt="Blog" />
+            <img src="assets/images/Casestudies/abc/group2.png" alt="Blog" />
           </div>
           <div className="content">
             <span className="sub-title">Product Design</span>
             <h2>
-              <Link legacyBehavior href="/bestornothing">
+              <Link legacyBehavior href="/ABC">
                 Abc
               </Link>
             </h2>
@@ -137,7 +137,7 @@ const Projects = () => {
             </div>
             <p></p>
             <div className="project-btn text-center wow fadeInUp delay-0-2s">
-              <Link legacyBehavior href="/Casestudies">
+              <Link legacyBehavior href="/ABC">
                 <a className="theme-btn floatright">
                   View <i className="far fa-arrow-right" />
                 </a>

@@ -124,7 +124,7 @@ const ProjectGridIsotop = () => {
           <Link legacyBehavior href='Ciscofoods'>
           <div className="blog-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
-              <img src="assets/images/benz/benz banner.png" alt="Project" />
+              <img src="assets/images/Casestudies/cisco/main-2.png" alt="Project" />
             </div>
             <div className="content">
               <h3>
