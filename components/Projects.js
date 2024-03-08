@@ -21,7 +21,7 @@ const Projects = () => {
 
         <div className="blog-item wow fadeInUp delay-0-2s">
           <div className="image">
-            <img src="assets/images/benz/benz banner.png" alt="Blog" />
+            <img src="assets/images/Casestudies/benz/benz banner.png" alt="Blog" />
           </div>
           <div className="content">
             <span className="sub-title">Product Design</span>
