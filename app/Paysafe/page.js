@@ -2,45 +2,49 @@ import PageBanner from "@/components/PageBanner";
 import NoxfolioLayout from "@/layout/NoxfolioLayout";
 import ScrollTop from "@/components/ScrollTop";
 import Link from "next/link";
-
-// export const metadata = {
-//   title: "AMG Driving Academy",
-// };
+import Image from "next/image";
 
 export const metadata = {
   title: {
     template: "Praveen Manchi || %s",
-    default:"Praveen Manchi || Paysafe", // a default is required when creating a template
+    default: "Praveen Manchi || Paysafe",
   },
   openGraph: {
-    images: ['https://ycsfwdainpwgmgsjqppv.supabase.co/storage/v1/object/public/OG-images/benz-og.png'],
+    images: [
+      "https://ycsfwdainpwgmgsjqppv.supabase.co/storage/v1/object/public/OG-images/benz-og.png",
+    ],
   },
-  description: "AMG Driving academy, a car racing event organizer is planning to build a new platform to host their upcoming car racing event. The platform aims to provide a comprehensive solution for the participants, spectators, and event organizers to engage with each other before, during, and after the event.",
+  description:
+    "AMG Driving academy, a car racing event organizer is planning to build a new platform to host their upcoming car racing event. The platform aims to provide a comprehensive solution for the participants, spectators, and event organizers to engage with each other before, during, and after the event.",
 };
 
 const ProjectDetails = () => {
-  
   return (
     <NoxfolioLayout onePageMenu={true}>
-      {/* <PageBanner pageName={"Mobile Application Design"} /> */}
-      {/* ProjectDetails Area start */}
       <section className="Projects-details-area pt-40 pb-130 rpb-100 rel z-1">
         <div className="container">
           <div className="Projects-details-image mb-50 wow fadeInUp delay-0-2s">
-            <img
-              src="/assets/images/benz/1.png"
+            <Image
+              src="/assets/images/Casestudies/pay/1.jpg"
               alt="Project Details"
+              width={1500}
+              height={600}
+              className="w-full h-auto" // Add these classes
             />
           </div>
           <div className="row gap-120">
             <div className="col-lg-8">
               <div className="project-details-content wow fadeInUp delay-0-2s">
-                <h3>AMG Driving academy case-study </h3>
+                <h3>Paysafe</h3>
                 <p className="big-letter">
-                Digital utility payments platform Paysafe
+                Create a seamless and user-friendly payment process for both web and mobile applications, enabling users to pay their utility bills efficiently and securely.
                 </p>
                 <p>
-                AMG Driving academy, a car racing event organizer is planning to build a new platform to host their upcoming car racing event. The platform aims to provide a comprehensive solution for the participants, spectators, and event organizers to engage with each other before, during, and after the event.
+                  AMG Driving academy, a car racing event organizer is planning
+                  to build a new platform to host their upcoming car racing
+                  event. The platform aims to provide a comprehensive solution
+                  for the participants, spectators, and event organizers to
+                  engage with each other before, during, and after the event.
                 </p>
                 <ul className="list-style-one two-column mt-50 mb-40">
                   <li>UX &amp; UI Designing</li>
@@ -58,8 +62,7 @@ const ProjectDetails = () => {
               <div
                 className="project-details-info rmb-55"
                 style={{
-                  backgroundImage:
-                    "url(/assets/images/benz/1.png)",
+                  backgroundImage: "url(/assets/images/Casestudies/benz/1.png)",
                 }}
               >
                 <div className="pd-info-item">
@@ -73,11 +76,36 @@ const ProjectDetails = () => {
                 <div className="pd-info-item">
                   <span>Tools Used</span>
                   <div style={{ display: "flex", gap: "30px" }}>
-                    <img src="assets/images/skills/skill1.svg" alt="Tool Icon 1" width="30" height="30" />
-                    <img src="assets/images/skills/skill2.svg" alt="Tool Icon 2" width="30" height="30" />
-                    <img src="assets/images/skills/skill3.svg" alt="Tool Icon 3" width="30" height="30" />
-                    <img src="assets/images/skills/skill4.svg" alt="Tool Icon 4" width="30" height="30" />
-                    <img src="assets/images/skills/skill5.svg" alt="Tool Icon 5" width="30" height="30" />
+                    <img
+                      src="assets/images/skills/skill1.svg"
+                      alt="Tool Icon 1"
+                      width="30"
+                      height="30"
+                    />
+                    <img
+                      src="assets/images/skills/skill2.svg"
+                      alt="Tool Icon 2"
+                      width="30"
+                      height="30"
+                    />
+                    <img
+                      src="assets/images/skills/skill3.svg"
+                      alt="Tool Icon 3"
+                      width="30"
+                      height="30"
+                    />
+                    <img
+                      src="assets/images/skills/skill4.svg"
+                      alt="Tool Icon 4"
+                      width="30"
+                      height="30"
+                    />
+                    <img
+                      src="assets/images/skills/skill5.svg"
+                      alt="Tool Icon 5"
+                      width="30"
+                      height="30"
+                    />
                   </div>
                 </div>
                 <div className="pd-info-item">
@@ -90,130 +118,139 @@ const ProjectDetails = () => {
           <div className="project-bottom-content mb-50 wow fadeInUp delay-0-2s">
             <h3 className="title mb-25">Project Summery</h3>
             <p>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which don't look even
-              slightly believable. If you are going to use a passage of Lorem
-              Ipsum, you need to be sure there isn't anything embarrassing
-              hidden in the middle of text. All the Lorem Ipsum generators on
-              the Internet tend to repeat predefined chunks as necessary, making
-              this the first true generator on the Internet. It uses a
-              dictionary of over 200 Latin words, combined with a handful of
-              model sentence structures, to generate Lorem Ipsum which looks
-              reasonable. The generated Lorem Ipsum is therefore always free
-              from repetition, injected humour, or non-characteristic words etc.
+            As digitalization accelerates, customers increasingly prefer to manage and pay their utility bills online. However, the experience often involves navigating through different platforms for each utility bill, leading to a frustrating and time-consuming process.
+To address this, there's a need for a unified platform that allows users to manage and pay all their utility bills in one place. The envisioned web and mobile applications will consolidate various utility payments under a single platform, offering a seamless, secure, and intuitive user journey.
+The design will prioritize user comfort and convenience, ensuring responsiveness across devices of different screen sizes. By providing a one-stop solution for utility bill payments, these applications aim to simplify the payment process, saving time and reducing user stress.
             </p>
           </div>
           <div className="row pb-15">
             <div className="col-lg-12">
               <div className="image mb-30 wow fadeInUp delay-0-2s">
-                <img
-                  src="/assets/images/benz/2.png"
+                <Image
+                  src="/assets/images/Casestudies/pay/2.jpg"
                   alt="Project Middle"
+                  width={800}
+                  height={600}
+                  style={{ width: "100%", height: "auto" }}
                 />
               </div>
             </div>
             <div className="col-lg-12">
               <div className="image mb-30 wow fadeInUp delay-0-4s">
-                <img
-                  src="/assets/images/benz/3.png"
+                <Image
+                  src="/assets/images/Casestudies/pay/3.jpg"
                   alt="Project Middle"
+                  width={800}
+                  height={600}
+                  style={{ width: "100%", height: "auto" }}
                 />
               </div>
             </div>
             <div className="col-lg-12">
               <div className="image mb-30 wow fadeInUp delay-0-6s">
-                <img
-                  src="/assets/images/benz/4.png"
+                <Image
+                  src="/assets/images/Casestudies/pay/4.jpg"
                   alt="Project Middle"
-                />
-              </div>
-            </div>
-            <div className="col-lg-12">
-              <div className="iframe mb-30 wow fadeInUp delay-0-6s">
-              <iframe width="100%" height="700"
-                src="https://miro.com/app/embed/uXjVO6G7kMw=/?pres=1&frameId=3458764556934523919&embedId=634206250766"
-                frameBorder="0" scrolling="no" allowFullScreen></iframe>
-              </div>
-            </div>
-            <div className="col-lg-12">
-              <div className="image mb-30 wow fadeInUp delay-0-6s">
-                <img
-                  src="/assets/images/benz/5.png"
-                  alt="Project Middle"
+                  width={800}
+                  height={600}
+                  style={{ width: "100%", height: "auto" }}
                 />
               </div>
             </div>
             <div className="col-lg-12">
               <div className="iframe mb-30 wow fadeInUp delay-0-6s">
-              <iframe width="100%" height="700"
-                src="https://miro.com/app/embed/uXjVO6G7kMw=/?pres=1&frameId=3458764556935056038&embedId=347979214595"
-                frameBorder="0" scrolling="no" allowFullScreen></iframe>
+                <iframe
+                  width="100%"
+                  height="700"
+                  src="https://miro.com/app/live-embed/uXjVMxj4NnI=/?moveToViewport=-19662,-18222,33319,19690&embedId=882233882431"
+                  frameBorder="0"
+                  scrolling="no"
+                  allowFullScreen
+                ></iframe>
               </div>
             </div>
             <div className="col-lg-12">
               <div className="image mb-30 wow fadeInUp delay-0-6s">
-                <img
-                  src="/assets/images/benz/5.png"
+                <Image
+                  src="/assets/images/Casestudies/pay/5.jpg"
                   alt="Project Middle"
-                />
-              </div>
-            </div>
-            <div className="col-lg-12">
-              <div className="image mb-30 wow fadeInUp delay-0-6s">
-                <img
-                  src="/assets/images/benz/6.png"
-                  alt="Project Middle"
-                />
-              </div>
-            </div>
-            <div className="col-lg-12">
-              <div className="iframe mb-30 wow fadeInUp delay-0-6s">
-              <iframe width="100%" height="700"
-                src="https://miro.com/app/embed/uXjVO6G7kMw=/?pres=1&frameId=3458764556930073563&embedId=228051356671"
-                frameBorder="0" scrolling="no" allowFullScreen></iframe>
-              </div>
-            </div>
-            <div className="col-lg-12">
-              <div className="image mb-30 wow fadeInUp delay-0-6s">
-                <img
-                  src="/assets/images/benz/7.png"
-                  alt="Project Middle"
+                  width={800}
+                  height={600}
+                  style={{ width: "100%", height: "auto" }}
                 />
               </div>
             </div>
             <div className="col-lg-12">
               <div className="iframe mb-30 wow fadeInUp delay-0-6s">
-              <iframe width="100%" height="700"
-                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fk5F1bQ0lJCJXdz3XWBp2ci%2FDo-best-or-nothing%3Ftype%3Ddesign%26node-id%3D1%253A2%26t%3DrQA5nrTDnCorjyp5-1"
-                frameBorder="0" scrolling="no" allowFullScreen></iframe>
+                <iframe
+                  width="100%"
+                  height="700"
+                  src="https://miro.com/app/live-embed/uXjVMxj4NnI=/?moveToViewport=-19662,-18222,33319,19690&embedId=882233882431"
+                  frameBorder="0"
+                  scrolling="no"
+                  allowFullScreen
+                ></iframe>
               </div>
             </div>
             <div className="col-lg-12">
               <div className="image mb-30 wow fadeInUp delay-0-6s">
-                <img
-                  src="/assets/images/benz/8.png"
+                <Image
+                  src="/assets/images/Casestudies/pay/6.jpg"
                   alt="Project Middle"
+                  width={800}
+                  height={600}
+                  style={{ width: "100%", height: "auto" }}
                 />
               </div>
             </div>
             <div className="col-lg-12">
               <div className="iframe mb-30 wow fadeInUp delay-0-6s">
-              <iframe width="100%" height="700"
-                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fk5F1bQ0lJCJXdz3XWBp2ci%2FDo-best-or-nothing%3Fpage-id%3D1%253A2%26type%3Ddesign%26node-id%3D1-224424%26viewport%3D370%252C626%252C0.02%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A224424%26show-proto-sidebar%3D1"
-                frameBorder="0" scrolling="no" allowFullScreen></iframe>
+                <iframe
+                  width="100%"
+                  height="700"
+                  src="https://miro.com/app/embed/uXjVO6G7kMw=/?pres=1&frameId=3458764556935056038&embedId=347979214595"
+                  frameBorder="0"
+                  scrolling="no"
+                  allowFullScreen
+                ></iframe>
               </div>
             </div>
             <div className="col-lg-12">
               <div className="image mb-30 wow fadeInUp delay-0-6s">
-                <img
-                  src="/assets/images/benz/9.png"
+                <Image
+                  src="/assets/images/Casestudies/pay/8.jpg"
                   alt="Project Middle"
+                  width={800}
+                  height={600}
+                  style={{ width: "100%", height: "auto" }}
+                />
+              </div>
+            </div>
+            <div className="col-lg-12">
+              <div className="iframe mb-30 wow fadeInUp delay-0-6s">
+                <iframe
+                  width="100%"
+                  height="700"
+                  src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fs2Q3P2KtgvsjxH9BHQ6Y0U%2FPayments-case-study-(Community)%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DdeBDDzKyPqdyTpNB-1"
+                  frameBorder="0"
+                  scrolling="no"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+            <div className="col-lg-12">
+              <div className="image mb-30 wow fadeInUp delay-0-6s">
+                <Image
+                  src="/assets/images/Casestudies/pay/9.jpg"
+                  alt="Project Middle"
+                  width={800}
+                  height={600}
+                  style={{ width: "100%", height: "auto" }}
                 />
               </div>
             </div>
           </div>
-          
+
           {/* <div className="tag-share py-30 wow fadeInUp delay-0-2s">
             <div className="item">
               <b>Tags</b>
