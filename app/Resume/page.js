@@ -29,7 +29,7 @@ const page = () => {
                 <div className="section-title mb-30">
                   {/* <span className="sub-title mb-15">Resume</span> */}
                   <h2>
-                    You have opening <span> Let's Connect </span>
+                    You have openings <span> Let's Connect </span>
                   </h2>
                   {/* <p>
                     Sed ut perspiciatis unde omnin natus totam rem aperiam eaque

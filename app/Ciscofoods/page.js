@@ -2,51 +2,51 @@ import PageBanner from "@/components/PageBanner";
 import NoxfolioLayout from "@/layout/NoxfolioLayout";
 import ScrollTop from "@/components/ScrollTop";
 import Link from "next/link";
-
-// export const metadata = {
-//   title: "AMG Driving Academy",
-// };
+import Image from "next/image";
 
 export const metadata = {
   title: {
     template: "Praveen Manchi || %s",
-    default:"Praveen Manchi || Cisco foods", // a default is required when creating a template
+    default: "Praveen Manchi || Cisco Foods",
   },
   openGraph: {
-    images: ['https://ycsfwdainpwgmgsjqppv.supabase.co/storage/v1/object/public/OG-images/benz-og.png'],
+    images: [
+      "https://ycsfwdainpwgmgsjqppv.supabase.co/storage/v1/object/public/OG-images/benz-og.png",
+    ],
   },
-  description: "AMG Driving academy, a car racing event organizer is planning to build a new platform to host their upcoming car racing event. The platform aims to provide a comprehensive solution for the participants, spectators, and event organizers to engage with each other before, during, and after the event.",
+  description:
+    "AMG Driving academy, a car racing event organizer is planning to build a new platform to host their upcoming car racing event. The platform aims to provide a comprehensive solution for the participants, spectators, and event organizers to engage with each other before, during, and after the event.",
 };
 
 const ProjectDetails = () => {
-  
   return (
     <NoxfolioLayout onePageMenu={true}>
-      {/* <PageBanner pageName={"Mobile Application Design"} /> */}
-      {/* ProjectDetails Area start */}
       <section className="Projects-details-area pt-40 pb-130 rpb-100 rel z-1">
         <div className="container">
           <div className="Projects-details-image mb-50 wow fadeInUp delay-0-2s">
-            <img
-              src="/assets/images/benz/1.png"
+            <Image
+              src="/assets/images/Casestudies/cisco/main.png"
               alt="Project Details"
+              width={1500}
+              height={600}
+              className="w-full h-auto" // Add these classes
             />
           </div>
           <div className="row gap-120">
             <div className="col-lg-8">
               <div className="project-details-content wow fadeInUp delay-0-2s">
-                <h3>Cisco foods</h3>
+                <h3>Food Delivery Website for the senior citizens</h3>
                 <p className="big-letter">
-                  AMG Driving academy, a car racing event organizer is planning to build a new platform to host their upcoming car racing event. The platform aims to provide a comprehensive solution for the participants, spectators, and event organizers to engage with each other before, during, and after the event.
+                showcases a thoughtfully designed food delivery website tailored to the unique needs and preferences of senior citizens in India. With accessibility at the forefront, the proposed solution aims to create an inclusive and seamless online experience for this often overlooked demographic.
                 </p>
                 <p>
-                AMG Driving academy, a car racing event organizer is planning to build a new platform to host their upcoming car racing event. The platform aims to provide a comprehensive solution for the participants, spectators, and event organizers to engage with each other before, during, and after the event.
+                Through meticulous research and user understanding, the presentation delves into the challenges faced by seniors when navigating digital platforms, such as vision, hearing, and motor capability limitations. It explores creative solutions to address these barriers, ensuring that the website is not only functional but also intuitive and enjoyable to use.
                 </p>
                 <ul className="list-style-one two-column mt-50 mb-40">
                   <li>UX &amp; UI Designing</li>
-                  <li>Accessibility</li>
-                  <li>Data Visualisation </li>
-                  <li>Competitive Analysis</li>
+                  <li>Branding</li>
+                  <li>Prototype </li>
+                  <li>HCI</li>
                   {/* <li>Mobile Apps Design</li>
                   <li>System &amp; Guide</li>
                   <li>Graphics Design</li>
@@ -58,31 +58,50 @@ const ProjectDetails = () => {
               <div
                 className="project-details-info rmb-55"
                 style={{
-                  backgroundImage:
-                    "url(/assets/images/benz/1.png)",
+                  backgroundImage: "url(/assets/Casestudies/cisco/home-1.png",
                 }}
               >
                 <div className="pd-info-item">
                   <span>Category</span>
-                  <h5>Web</h5>
+                  <h5>Web UI Design</h5>
                 </div>
                 <div className="pd-info-item">
                   <span>Clients</span>
-                  <h5>Cisco Foods</h5>
+                  <h5>Ciscofoods</h5>
                 </div>
                 <div className="pd-info-item">
                   <span>Tools Used</span>
                   <div style={{ display: "flex", gap: "30px" }}>
-                    <img src="assets/images/skills/skill1.svg" alt="Tool Icon 1" width="30" height="30" />
-                    <img src="assets/images/skills/skill2.svg" alt="Tool Icon 2" width="30" height="30" />
-                    <img src="assets/images/skills/skill3.svg" alt="Tool Icon 3" width="30" height="30" />
-                    <img src="assets/images/skills/skill4.svg" alt="Tool Icon 4" width="30" height="30" />
-                    <img src="assets/images/skills/skill5.svg" alt="Tool Icon 5" width="30" height="30" />
+                    
+                    <img
+                      src="assets/images/skills/skill2.svg"
+                      alt="Tool Icon 2"
+                      width="30"
+                      height="30"
+                    />
+                    <img
+                      src="assets/images/skills/skill3.svg"
+                      alt="Tool Icon 3"
+                      width="30"
+                      height="30"
+                    />
+                    <img
+                      src="assets/images/skills/skill4.svg"
+                      alt="Tool Icon 4"
+                      width="30"
+                      height="30"
+                    />
+                    <img
+                      src="assets/images/skills/skill5.svg"
+                      alt="Tool Icon 5"
+                      width="30"
+                      height="30"
+                    />
                   </div>
                 </div>
                 <div className="pd-info-item">
                   <span>Published</span>
-                  <h5>May 25, 2022</h5>
+                  <h5>September 25, 2021</h5>
                 </div>
               </div>
             </div>
@@ -90,119 +109,117 @@ const ProjectDetails = () => {
           <div className="project-bottom-content mb-50 wow fadeInUp delay-0-2s">
             <h3 className="title mb-25">Project Summery</h3>
             <p>
-            As our user interface is website only, you do not need to design an app or a mobile interface. The age range of your main target audience is 60* years in India. The website will only cater to an audience which can understand English: so your interface does not need to account for other languages for now. Accessibility should be an important consideration for you while designing, as your target audience is likely to have capability limitations in vision, hearing, or motor capability (less ability to use the mouse properly). However, just because the Ul needs to be compliant with Accessibility standards such as WCAG, it does not mean that the functionality and aesthetics should be compromised. e.g. you should consider the possibility that sometimes people who are much younger that the main target audience may be using the website to order food on behalf of their parents / grandparents.
+            The goal of this project is to design an accessible and user-friendly food delivery website tailored specifically for senior citizens (aged 60+) in India. The website aims to provide a seamless online ordering experience while addressing the unique needs and limitations of this demographic, such as vision, hearing, or motor impairments.
+            </p>
+            <p>
+            The primary target audience for this project is senior citizens in India who can understand English. However, the design must also consider the potential involvement of caregivers or family members who may assist in the online ordering process on behalf of the seniors.
             </p>
           </div>
           <div className="row pb-15">
             <div className="col-lg-12">
               <div className="image mb-30 wow fadeInUp delay-0-2s">
-                <img
-                  src="/assets/images/benz/2.png"
+                <Image
+                  src="/assets/images/Casestudies/cisco/home-1.png"
                   alt="Project Middle"
+                  width={800}
+                  height={600}
+                  style={{ width: "100%", height: "auto" }}
                 />
+              </div>
+            </div>
+            <div className="col-lg-12">
+              <div className="iframe mb-30 wow fadeInUp delay-0-6s">
+                <iframe
+                  width="100%"
+                  height="700"
+                  src="https://miro.com/app/live-embed/uXjVOKM2BcA=/?moveToViewport=118,-1002,13929,6484"
+                  frameBorder="0"
+                  scrolling="no"
+                  allowFullScreen
+                ></iframe>
               </div>
             </div>
             <div className="col-lg-12">
               <div className="image mb-30 wow fadeInUp delay-0-4s">
-                <img
-                  src="/assets/images/benz/3.png"
+                <Image
+                  src="/assets/images/Casestudies/cisco/home-2.png"
                   alt="Project Middle"
-                />
-              </div>
-            </div>
-            <div className="col-lg-12">
-              <div className="image mb-30 wow fadeInUp delay-0-6s">
-                <img
-                  src="/assets/images/benz/4.png"
-                  alt="Project Middle"
+                  width={800}
+                  height={600}
+                  style={{ width: "100%", height: "auto" }}
                 />
               </div>
             </div>
             <div className="col-lg-12">
               <div className="iframe mb-30 wow fadeInUp delay-0-6s">
-              <iframe width="100%" height="700"
-                src="https://miro.com/app/embed/uXjVO6G7kMw=/?pres=1&frameId=3458764556934523919&embedId=634206250766"
-                frameBorder="0" scrolling="no" allowFullScreen></iframe>
+                <iframe
+                  width="100%"
+                  height="700"
+                  src="https://miro.com/app/live-embed/uXjVOKM2BcA=/?moveToViewport=118,-1002,13929,6484"
+                  frameBorder="0"
+                  scrolling="no"
+                  allowFullScreen
+                ></iframe>
               </div>
             </div>
             <div className="col-lg-12">
               <div className="image mb-30 wow fadeInUp delay-0-6s">
-                <img
-                  src="/assets/images/benz/5.png"
+                <Image
+                  src="/assets/images/Casestudies/cisco/home-3.png"
                   alt="Project Middle"
+                  width={800}
+                  height={600}
+                  style={{ width: "100%", height: "auto" }}
+                />
+              </div>
+            </div>
+            <div className="col-lg-12">
+              <div className="image mb-30 wow fadeInUp delay-0-6s">
+                <Image
+                  src="/assets/images/Casestudies/cisco/home-4.png"
+                  alt="Project Middle"
+                  width={800}
+                  height={600}
+                  style={{ width: "100%", height: "auto" }}
+                />
+              </div>
+            </div>
+            <div className="col-lg-12">
+              <div className="image mb-30 wow fadeInUp delay-0-6s">
+                <Image
+                  src="/assets/images/Casestudies/cisco/home-5.png"
+                  alt="Project Middle"
+                  width={800}
+                  height={600}
+                  style={{ width: "100%", height: "auto" }}
                 />
               </div>
             </div>
             <div className="col-lg-12">
               <div className="iframe mb-30 wow fadeInUp delay-0-6s">
-              <iframe width="100%" height="700"
-                src="https://miro.com/app/embed/uXjVO6G7kMw=/?pres=1&frameId=3458764556935056038&embedId=347979214595"
-                frameBorder="0" scrolling="no" allowFullScreen></iframe>
+                <iframe
+                  width="100%"
+                  height="700"
+                  src="https://xd.adobe.com/embed/45ede586-5dc6-4f4c-abe9-6a3d30d79a1c-10be/"
+                  frameBorder="0"
+                  scrolling="no"
+                  allowFullScreen
+                ></iframe>
               </div>
             </div>
             <div className="col-lg-12">
               <div className="image mb-30 wow fadeInUp delay-0-6s">
-                <img
-                  src="/assets/images/benz/5.png"
+                <Image
+                  src="/assets/images/Casestudies/cisco/home-6.png"
                   alt="Project Middle"
-                />
-              </div>
-            </div>
-            <div className="col-lg-12">
-              <div className="image mb-30 wow fadeInUp delay-0-6s">
-                <img
-                  src="/assets/images/benz/6.png"
-                  alt="Project Middle"
-                />
-              </div>
-            </div>
-            <div className="col-lg-12">
-              <div className="iframe mb-30 wow fadeInUp delay-0-6s">
-              <iframe width="100%" height="700"
-                src="https://miro.com/app/embed/uXjVO6G7kMw=/?pres=1&frameId=3458764556930073563&embedId=228051356671"
-                frameBorder="0" scrolling="no" allowFullScreen></iframe>
-              </div>
-            </div>
-            <div className="col-lg-12">
-              <div className="image mb-30 wow fadeInUp delay-0-6s">
-                <img
-                  src="/assets/images/benz/7.png"
-                  alt="Project Middle"
-                />
-              </div>
-            </div>
-            <div className="col-lg-12">
-              <div className="iframe mb-30 wow fadeInUp delay-0-6s">
-              <iframe width="100%" height="700"
-                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fk5F1bQ0lJCJXdz3XWBp2ci%2FDo-best-or-nothing%3Ftype%3Ddesign%26node-id%3D1%253A2%26t%3DrQA5nrTDnCorjyp5-1"
-                frameBorder="0" scrolling="no" allowFullScreen></iframe>
-              </div>
-            </div>
-            <div className="col-lg-12">
-              <div className="image mb-30 wow fadeInUp delay-0-6s">
-                <img
-                  src="/assets/images/benz/8.png"
-                  alt="Project Middle"
-                />
-              </div>
-            </div>
-            <div className="col-lg-12">
-              <div className="iframe mb-30 wow fadeInUp delay-0-6s">
-              <iframe width="100%" height="700"
-                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fk5F1bQ0lJCJXdz3XWBp2ci%2FDo-best-or-nothing%3Fpage-id%3D1%253A2%26type%3Ddesign%26node-id%3D1-224424%26viewport%3D370%252C626%252C0.02%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A224424%26show-proto-sidebar%3D1"
-                frameBorder="0" scrolling="no" allowFullScreen></iframe>
-              </div>
-            </div>
-            <div className="col-lg-12">
-              <div className="image mb-30 wow fadeInUp delay-0-6s">
-                <img
-                  src="/assets/images/benz/9.png"
-                  alt="Project Middle"
+                  width={800}
+                  height={600}
+                  style={{ width: "100%", height: "auto" }}
                 />
               </div>
             </div>
           </div>
-          
+
           {/* <div className="tag-share py-30 wow fadeInUp delay-0-2s">
             <div className="item">
               <b>Tags</b>

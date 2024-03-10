@@ -31,24 +31,26 @@ const Projects = () => {
               </Link>
             </h2>
             <p>
-              Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-              inventore veritatis architecto beatae Sed ut perspiciatis unde
-              omnin natus totam rem aperiam eaque inventore veritatis architecto
-              beatae Sed ut perspiciatis unde omnin natus totam rem aperiam
-              eaque inventore veritatis architecto beatae
+            AMG Driving academy, a car racing event organizer is planning to build a new platform to host their upcoming car racing event. The platform aims to provide a comprehensive solution for the participants, spectators, and event organizers to engage with each other before, during, and after the event.
             </p>
             <div className="tag-coulds badges">
               <Link legacyBehavior href=".#">
-                Design
+                web UI
               </Link>
               <Link legacyBehavior href="#">
                 Figma
               </Link>
               <Link legacyBehavior href="#">
-                Apps
+                Branding
+              </Link>
+              <Link legacyBehavior href="#">
+                Mobile App
               </Link>
               <Link legacyBehavior href="#">
                 Branding
+              </Link>
+              <Link legacyBehavior href="#">
+                B2C, B2B
               </Link>
             </div>
             <p></p>
@@ -69,28 +71,24 @@ const Projects = () => {
             <span className="sub-title">Web UI Design</span>
             <h2>
               <Link legacyBehavior href="/Ciscofoods">
-                Cisco foods
+              Food Delivery for Senior Citizens
               </Link>
             </h2>
             <p>
-              Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-              inventore veritatis architecto beatae Sed ut perspiciatis unde
-              omnin natus totam rem aperiam eaque inventore veritatis architecto
-              beatae Sed ut perspiciatis unde omnin natus totam rem aperiam
-              eaque inventore veritatis architecto beatae
+            Food Delivery Website for seniors. This innovative platform is designed with simplicity and accessibility in mind, ensuring that our elderly population can easily order delicious meals from the comfort of their homes. Innovation with compassionate service to empower our seniors and promote digital inclusion.
             </p>
             <div className="tag-coulds badges">
               <Link className="pe-none" legacyBehavior href=".#">
-                Design
+                Web UI Design
               </Link>
               <Link legacyBehavior href="#">
-                Figma
+                Accessibility
               </Link>
               <Link legacyBehavior href="#">
-                Apps
+                B2C
               </Link>
               <Link legacyBehavior href="#">
-                Branding
+                Data Visualization 
               </Link>
             </div>
             <p></p>
@@ -111,28 +109,24 @@ const Projects = () => {
             <span className="sub-title">Product Design</span>
             <h2>
               <Link legacyBehavior href="/ABC">
-                Abc
+              Redesigning a BI Analytics Configuration
               </Link>
             </h2>
             <p>
-              Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-              inventore veritatis architecto beatae Sed ut perspiciatis unde
-              omnin natus totam rem aperiam eaque inventore veritatis architecto
-              beatae Sed ut perspiciatis unde omnin natus totam rem aperiam
-              eaque inventore veritatis architecto beatae
+            The UI will showcase a redesigned user interface for the configuration screen of ABC Data Analytics Suite application. The redesign aims to improve usability, navigation, and overall user experience while aligning with modern UI trends and best practices.
             </p>
             <div className="tag-coulds badges">
               <Link legacyBehavior href=".#">
-                Design
+                Web UI Design
               </Link>
               <Link legacyBehavior href="#">
-                Figma
+                XD
               </Link>
               <Link legacyBehavior href="#">
-                Apps
+                B2B
               </Link>
               <Link legacyBehavior href="#">
-                Branding
+                Usability
               </Link>
             </div>
             <p></p>
