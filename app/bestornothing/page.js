@@ -25,7 +25,7 @@ const ProjectDetails = () => {
         <div className="container">
           <div className="Projects-details-image mb-50 wow fadeInUp delay-0-2s">
             <Image
-              src="/assets/images/benz/1.png"
+              src="/assets/images/Casestudies/benz/1.png"
               alt="Project Details"
               width={1500}
               height={600}
@@ -66,7 +66,7 @@ const ProjectDetails = () => {
               <div
                 className="project-details-info rmb-55"
                 style={{
-                  backgroundImage: "url(/assets/images/benz/1.png)",
+                  backgroundImage: "url(/assets/images/Casestudies/benz/1.png)",
                 }}
               >
                 <div className="pd-info-item">
@@ -140,7 +140,7 @@ const ProjectDetails = () => {
             <div className="col-lg-12">
               <div className="image mb-30 wow fadeInUp delay-0-2s">
                 <Image
-                  src="/assets/images/benz/2.png"
+                  src="/assets/images/Casestudies/benz/2.png"
                   alt="Project Middle"
                   width={800}
                   height={600}
@@ -151,7 +151,7 @@ const ProjectDetails = () => {
             <div className="col-lg-12">
               <div className="image mb-30 wow fadeInUp delay-0-4s">
                 <Image
-                  src="/assets/images/benz/3.png"
+                  src="/assets/images/Casestudies/benz/3.png"
                   alt="Project Middle"
                   width={800}
                   height={600}
@@ -162,7 +162,7 @@ const ProjectDetails = () => {
             <div className="col-lg-12">
               <div className="image mb-30 wow fadeInUp delay-0-6s">
                 <Image
-                  src="/assets/images/benz/4.png"
+                  src="/assets/images/Casestudies/benz/4.png"
                   alt="Project Middle"
                   width={800}
                   height={600}
@@ -185,7 +185,7 @@ const ProjectDetails = () => {
             <div className="col-lg-12">
               <div className="image mb-30 wow fadeInUp delay-0-6s">
                 <Image
-                  src="/assets/images/benz/5.png"
+                  src="/assets/images/Casestudies/benz/5.png"
                   alt="Project Middle"
                   width={800}
                   height={600}
@@ -208,7 +208,7 @@ const ProjectDetails = () => {
             <div className="col-lg-12">
               <div className="image mb-30 wow fadeInUp delay-0-6s">
                 <Image
-                  src="/assets/images/benz/5.png"
+                  src="/assets/images/Casestudies/benz/5.png"
                   alt="Project Middle"
                   width={800}
                   height={600}
@@ -219,7 +219,7 @@ const ProjectDetails = () => {
             <div className="col-lg-12">
               <div className="image mb-30 wow fadeInUp delay-0-6s">
                 <Image
-                  src="/assets/images/benz/6.png"
+                  src="/assets/images/Casestudies/benz/6.png"
                   alt="Project Middle"
                   width={800}
                   height={600}
@@ -242,7 +242,7 @@ const ProjectDetails = () => {
             <div className="col-lg-12">
               <div className="image mb-30 wow fadeInUp delay-0-6s">
                 <Image
-                  src="/assets/images/benz/7.png"
+                  src="/assets/images/Casestudies/benz/7.png"
                   alt="Project Middle"
                   width={800}
                   height={600}
@@ -265,7 +265,7 @@ const ProjectDetails = () => {
             <div className="col-lg-12">
               <div className="image mb-30 wow fadeInUp delay-0-6s">
                 <Image
-                  src="/assets/images/benz/8.png"
+                  src="/assets/images/Casestudies/benz/8.png"
                   alt="Project Middle"
                   width={800}
                   height={600}
@@ -288,7 +288,7 @@ const ProjectDetails = () => {
             <div className="col-lg-12">
               <div className="image mb-30 wow fadeInUp delay-0-6s">
                 <Image
-                  src="/assets/images/benz/9.png"
+                  src="/assets/images/Casestudies/benz/9.png"
                   alt="Project Middle"
                   width={800}
                   height={600}
