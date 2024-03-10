@@ -37,7 +37,7 @@ const Footer1 = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-8 col-md-7">
+          {/* <div className="col-lg-8 col-md-7">
             <div className="footer-widget widget_nav_menu me-0 wow fadeInUp delay-0-4s">
               <ul>
                 <li>
@@ -70,6 +70,42 @@ const Footer1 = () => {
                     Contact
                   </Link>
                 </li>
+              </ul>
+            </div>
+          </div> */}
+          <div className="col-lg-8 col-md-7">
+            <div className="footer-widget widget_nav_menu me-0 wow fadeInUp delay-0-4s">
+              <ul>
+                <li>
+                  <Link legacyBehavior href="https://uxai.designboard.club/">
+                    UXAI
+                  </Link>
+                </li>
+                <li>
+                  <Link legacyBehavior href="https://www.designboard.club/">
+                    Designboard.club
+                  </Link>
+                </li>
+                <li>
+                  <Link legacyBehavior href="#">
+                    Photography
+                  </Link>
+                </li>
+                <li>
+                  <Link legacyBehavior href="/resume">
+                    Resume
+                  </Link>
+                </li>
+                {/* <li>
+                  <Link legacyBehavior href="blog">
+                    News
+                  </Link>
+                </li>
+                <li>
+                  <Link legacyBehavior href="contact">
+                    Contact
+                  </Link>
+                </li> */}
               </ul>
             </div>
           </div>
