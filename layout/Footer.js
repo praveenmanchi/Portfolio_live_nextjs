@@ -78,12 +78,12 @@ const Footer1 = () => {
               <ul>
                 <li>
                   <Link legacyBehavior href="https://uxai.designboard.club/">
-                    UXAI
+                    UXAI ↗
                   </Link>
                 </li>
                 <li>
                   <Link legacyBehavior href="https://www.designboard.club/">
-                    Designboard.club
+                    Designboard.club ↗
                   </Link>
                 </li>
                 <li>
