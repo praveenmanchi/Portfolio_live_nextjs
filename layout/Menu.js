@@ -119,14 +119,14 @@ export const OnePageMenu = () => {
         </a>
       </li>
       <li>
-        <a href="/Resume" onClick={() => track("Resume")}>
+        <a href="/resume" onClick={() => track("Resume")}>
           Resume
         </a>
       </li>
       
       <li>
-        <a href="https://designboard.club/" onClick={() => track("designboard")}>
-        Designboard.club ↗ <i className="far fa-arrow-right" />
+        <a href="https://praveenmanchi.dev/" onClick={() => track("Old Portfolio")}>
+        Old Portfolio ↗ 
         </a>
       </li>
       

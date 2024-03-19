@@ -28,7 +28,7 @@ const Hero = () => {
                 </p>
                 <div className="hero-btns">
                   <Link legacyBehavior
-                        href="https://s466bgvk1segjdyf.public.blob.vercel-storage.com/Resume-AdInczTcCzuVCHVKG5Iv44XXTjFLIz.pdf">
+                        href="https://s466bgvk1segjdyf.public.blob.vercel-storage.com/Praveen_UX:UI-eOllNt4bdoNyGMRabZsjlv1tFIstLS.pdf">
                     <a className="theme-btn">
                       Download Resume <i className="far fa-angle-right"/>
                     </a>

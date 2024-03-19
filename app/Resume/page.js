@@ -29,7 +29,7 @@ const page = () => {
                 <div className="section-title mb-30">
                   {/* <span className="sub-title mb-15">Resume</span> */}
                   <h2>
-                    You have opening <span> Let's Connect </span>
+                    You have openings <span> Let's Connect </span>
                   </h2>
                   {/* <p>
                     Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
@@ -52,7 +52,7 @@ const page = () => {
                   </ul>
                 </div>
                 <div className="hero-btns">
-                <Link legacyBehavior href="https://s466bgvk1segjdyf.public.blob.vercel-storage.com/Resume-AdInczTcCzuVCHVKG5Iv44XXTjFLIz.pdf">
+                <Link legacyBehavior href="https://s466bgvk1segjdyf.public.blob.vercel-storage.com/Praveen_UX:UI-eOllNt4bdoNyGMRabZsjlv1tFIstLS.pdf">
                   <a className="theme-btn">
                     Download Resume <i className="far fa-angle-right" />
                   </a>
@@ -86,7 +86,7 @@ const page = () => {
             <div className="col-lg-8">
               <div className="iframe mb-30 wow fadeInUp delay-0-6s">
                 <iframe
-                  src="https://drive.google.com/file/d/1kS6Npr_RGTMhmq5KYJIVUuIgPJdcAIVZ/preview"
+                  src="https://drive.google.com/file/d/1TmbPPQwjPawpJsCBpC8AbrAgxBE850_E/preview"
                   width="800"
                   height="1000"
                   allow="autoplay"

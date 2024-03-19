@@ -21,7 +21,7 @@ const Projects = () => {
 
         <div className="blog-item wow fadeInUp delay-0-2s">
           <div className="image">
-            <img src="assets/images/benz/benz banner.png" alt="Blog" />
+            <img src="assets/images/Casestudies/benz/benz banner.png" alt="Blog" />
           </div>
           <div className="content">
             <span className="sub-title">Product Design</span>
@@ -31,29 +31,31 @@ const Projects = () => {
               </Link>
             </h2>
             <p>
-              Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-              inventore veritatis architecto beatae Sed ut perspiciatis unde
-              omnin natus totam rem aperiam eaque inventore veritatis architecto
-              beatae Sed ut perspiciatis unde omnin natus totam rem aperiam
-              eaque inventore veritatis architecto beatae
+            AMG Driving academy, a car racing event organizer is planning to build a new platform to host their upcoming car racing event. The platform aims to provide a comprehensive solution for the participants, spectators, and event organizers to engage with each other before, during, and after the event.
             </p>
             <div className="tag-coulds badges">
               <Link legacyBehavior href=".#">
-                Design
+                web UI
               </Link>
               <Link legacyBehavior href="#">
                 Figma
               </Link>
               <Link legacyBehavior href="#">
-                Apps
+                Branding
+              </Link>
+              <Link legacyBehavior href="#">
+                Mobile App
               </Link>
               <Link legacyBehavior href="#">
                 Branding
               </Link>
+              <Link legacyBehavior href="#">
+                B2C, B2B
+              </Link>
             </div>
             <p></p>
             <div className="project-btn text-center wow fadeInUp delay-0-2s">
-              <Link legacyBehavior  href="/Casestudies">
+              <Link legacyBehavior  href="/bestornothing">
                 <a className="theme-btn floatright">
                   View <i className="far fa-arrow-right" />
                 </a>
@@ -63,79 +65,73 @@ const Projects = () => {
         </div>
         <div className="blog-item wow fadeInUp delay-0-2s">
           <div className="image">
-            <img src="assets/images/benz/benz banner.png" alt="Blog" />
+            <img src="assets/images/Casestudies/cisco/main-2.png" alt="Blog" />
           </div>
           <div className="content">
-            <span className="sub-title">Product Design</span>
+            <span className="sub-title">Web UI Design</span>
             <h2>
-              <Link legacyBehavior href="/bestornothing">
-                Cisco foods
+              <Link legacyBehavior href="/Ciscofoods">
+              Food Delivery for Senior Citizens
               </Link>
             </h2>
             <p>
-              Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-              inventore veritatis architecto beatae Sed ut perspiciatis unde
-              omnin natus totam rem aperiam eaque inventore veritatis architecto
-              beatae Sed ut perspiciatis unde omnin natus totam rem aperiam
-              eaque inventore veritatis architecto beatae
+            Food Delivery Website for seniors. This innovative platform is designed with simplicity and accessibility in mind, ensuring that our elderly population can easily order delicious meals from the comfort of their homes. Innovation with compassionate service to empower our seniors and promote digital inclusion.
             </p>
             <div className="tag-coulds badges">
               <Link className="pe-none" legacyBehavior href=".#">
-                Design
+                Web UI Design
               </Link>
               <Link legacyBehavior href="#">
-                Figma
+                Accessibility
               </Link>
               <Link legacyBehavior href="#">
-                Apps
+                B2C
               </Link>
               <Link legacyBehavior href="#">
-                Branding
-              </Link>
-            </div>
-            <p></p>
-            <Link legacyBehavior  href="/project-details">
-              <a className="details-btn">
-                <i className="far fa-arrow-right" />
-              </a>
-            </Link>
-          </div>
-        </div>
-        <div className="blog-item wow fadeInUp delay-0-2s">
-          <div className="image">
-            <img src="assets/images/benz/benz banner.png" alt="Blog" />
-          </div>
-          <div className="content">
-            <span className="sub-title">Product Design</span>
-            <h2>
-              <Link legacyBehavior href="/bestornothing">
-                Abc
-              </Link>
-            </h2>
-            <p>
-              Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-              inventore veritatis architecto beatae Sed ut perspiciatis unde
-              omnin natus totam rem aperiam eaque inventore veritatis architecto
-              beatae Sed ut perspiciatis unde omnin natus totam rem aperiam
-              eaque inventore veritatis architecto beatae
-            </p>
-            <div className="tag-coulds badges">
-              <Link legacyBehavior href=".#">
-                Design
-              </Link>
-              <Link legacyBehavior href="#">
-                Figma
-              </Link>
-              <Link legacyBehavior href="#">
-                Apps
-              </Link>
-              <Link legacyBehavior href="#">
-                Branding
+                Data Visualization 
               </Link>
             </div>
             <p></p>
             <div className="project-btn text-center wow fadeInUp delay-0-2s">
-              <Link legacyBehavior href="/Casestudies">
+              <Link legacyBehavior  href="/Ciscofoods">
+                <a className="theme-btn floatright">
+                  View <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="blog-item wow fadeInUp delay-0-2s">
+          <div className="image">
+            <img src="assets/images/Casestudies/abc/group2.png" alt="Blog" />
+          </div>
+          <div className="content">
+            <span className="sub-title">Product Design</span>
+            <h2>
+              <Link legacyBehavior href="/ABC">
+              Redesigning a BI Analytics Configuration
+              </Link>
+            </h2>
+            <p>
+            The UI will showcase a redesigned user interface for the configuration screen of ABC Data Analytics Suite application. The redesign aims to improve usability, navigation, and overall user experience while aligning with modern UI trends and best practices.
+            </p>
+            <div className="tag-coulds badges">
+              <Link legacyBehavior href=".#">
+                Web UI Design
+              </Link>
+              <Link legacyBehavior href="#">
+                XD
+              </Link>
+              <Link legacyBehavior href="#">
+                B2B
+              </Link>
+              <Link legacyBehavior href="#">
+                Usability
+              </Link>
+            </div>
+            <p></p>
+            <div className="project-btn text-center wow fadeInUp delay-0-2s">
+              <Link legacyBehavior href="/ABC">
                 <a className="theme-btn floatright">
                   View <i className="far fa-arrow-right" />
                 </a>

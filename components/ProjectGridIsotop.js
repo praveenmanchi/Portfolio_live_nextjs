@@ -87,7 +87,7 @@ const ProjectGridIsotop = () => {
           <Link legacyBehavior href='bestornothing'>
           <div className="blog-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
-              <img src="assets/images/benz/benz banner.png" alt="Project" />
+              <img src="assets/images/Casestudies/benz/benz banner.png" alt="Project" />
             </div>
             <div className="content">
               <h3>
@@ -124,7 +124,7 @@ const ProjectGridIsotop = () => {
           <Link legacyBehavior href='Ciscofoods'>
           <div className="blog-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
-              <img src="assets/images/benz/benz banner.png" alt="Project" />
+              <img src="assets/images/Casestudies/cisco/main-2.png" alt="Project" />
             </div>
             <div className="content">
               <h3>
@@ -159,7 +159,7 @@ const ProjectGridIsotop = () => {
           <Link legacyBehavior href="ABC">
           <div className="blog-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
-              <img src="assets/images/benz/benz banner.png" alt="Project" />
+              <img src="assets/images/Casestudies/abc/group2.png" alt="Project" />
             </div>
             <div className="content">
               <h3>
@@ -194,7 +194,7 @@ const ProjectGridIsotop = () => {
           <Link legacyBehavior href="Paysafe">
           <div className="blog-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
-              <img src="assets/images/benz/benz banner.png" alt="Project" />
+              <img src="assets/images/Casestudies/pay/Paysafe-main.png" alt="Project" />
             </div>
 
             <div className="content">

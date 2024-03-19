@@ -85,7 +85,7 @@ const Clients = () => {
             href="contact"
           >
             <img
-              src="assets/images/client-logos/tataelxsi.svg"
+              src="assets/images/client-logos/cortexai.svg"
               alt="Client Logo"
             />
           </Link>

@@ -17,11 +17,11 @@ const Resume = () => {
               <h2>work &amp; Education</h2>
             </div>
           </div>
-          <div className="col-lg-4 text-lg-end">
-            <Link legacyBehavior href="https://s466bgvk1segjdyf.public.blob.vercel-storage.com/Resume-AdInczTcCzuVCHVKG5Iv44XXTjFLIz.pdf">
+          {/* <div className="col-lg-4 text-lg-end">
+            <Link legacyBehavior href="https://s466bgvk1segjdyf.public.blob.vercel-storage.com/Praveen_UX:UI-eOllNt4bdoNyGMRabZsjlv1tFIstLS.pdf">
               <a className="theme-btn mb-35">Download Resume</a>
             </Link>
-          </div>
+          </div> */}
         </div>
         <div className="row no-gap">
           <div className="col-xl-6">
