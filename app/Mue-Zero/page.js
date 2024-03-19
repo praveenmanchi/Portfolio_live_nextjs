@@ -28,7 +28,7 @@ const ProjectDetails = () => {
         <div className="container">
           <div className="Projects-details-image mb-50 wow fadeInUp delay-0-2s">
             <img
-              src="/assets/images/benz/1.png"
+              src="/assets/images/Casestudies/mue-zero/mue22.png"
               alt="Project Details"
             />
           </div>

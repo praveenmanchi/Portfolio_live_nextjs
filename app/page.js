@@ -136,7 +136,7 @@ export default function HomeOnePage() {
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
-                development
+                Development
                 <i className="far fa-asterisk" />
               </span>
               <span className="marquee-item">
