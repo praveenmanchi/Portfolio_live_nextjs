@@ -94,20 +94,19 @@ const ProjectGridIsotop = () => {
                   AMG Driving academy
               </h3>
               <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae Sed ut perspiciatis unde
+              Mockup for AMG Driving academy, a car racing event organizer is planning to build a new platform to host their upcoming car racing event. The platform aims to provide a comprehensive solution for the participants, spectators, and event organizers to engage with each other before, during, and after the event.
               </p>
               <hr />
               <div className="blog-meta mb-5">
                 <div className="tag-coulds badges">
                   <Link legacyBehavior href=".#">
-                    Design
+                    UX & UI
                   </Link>
                   <Link legacyBehavior href="#">
                     Figma
                   </Link>
                   <Link legacyBehavior href="#">
-                    Apps
+                    Web & Mobile App
                   </Link>
                   <Link legacyBehavior href="#">
                     Branding
@@ -131,23 +130,22 @@ const ProjectGridIsotop = () => {
                   Cisco Foods
               </h3>
               <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae Sed ut perspiciatis unde
+              UI for web application was thoughtfully designed food delivery website tailored to the unique needs and preferences of senior citizens in India. With accessibility at the forefront, the proposed solution aims to create an inclusive and seamless online experience for this often overlooked demographic.
               </p>
               <hr />
               <div className="blog-meta mb-5">
                 <div className="tag-coulds badges">
                   <Link legacyBehavior href=".#">
-                    Design
+                  Accessibility 
                   </Link>
                   <Link legacyBehavior href="#">
-                    Figma
+                    XD
                   </Link>
                   <Link legacyBehavior href="#">
-                    Apps
+                    Web Application
                   </Link>
                   <Link legacyBehavior href="#">
-                    Branding
+                    Data visualization 
                   </Link>
                 </div>
               </div>
@@ -166,23 +164,22 @@ const ProjectGridIsotop = () => {
                 ABC analytics UI Redesigning
               </h3>
               <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae Sed ut perspiciatis unde
+              Re-Desiging existing UI FOR better Usability for ABC Limited which is a BI Big Data Analytics Suite of digital applications. With that application they will track & monitor Analytics for manufacturing unit. We need re-redesign page is an existing Ul screen for one of the app. Study this screen and redesign it for a user.
               </p>
               <hr />
               <div className="blog-meta mb-5">
                 <div className="tag-coulds badges">
                   <Link legacyBehavior href=".#">
-                    Design
+                    UI
                   </Link>
                   <Link legacyBehavior href="#">
-                    Figma
+                  Usability
                   </Link>
                   <Link legacyBehavior href="#">
-                    Apps
+                    Web Application
                   </Link>
                   <Link legacyBehavior href="#">
-                    Branding
+                    User Testing
                   </Link>
                 </div>
               </div>
@@ -202,20 +199,19 @@ const ProjectGridIsotop = () => {
                   Paysafe
               </h3>
               <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae Sed ut perspiciatis unde
+              Created a seamless and user-friendly payment process for both web and mobile applications, enabling users to pay their utility bills efficiently and securely.
               </p>
               <hr />
               <div className="blog-meta mb-5">
                 <div className="tag-coulds badges">
                   <Link legacyBehavior href=".#">
-                    Design
+                    Web Design
                   </Link>
                   <Link legacyBehavior href="#">
                     Figma
                   </Link>
                   <Link legacyBehavior href="#">
-                    Apps
+                    B2C
                   </Link>
                   <Link legacyBehavior href="#">
                     Branding
@@ -238,23 +234,22 @@ const ProjectGridIsotop = () => {
 
               </h3>
               <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae Sed ut perspiciatis unde
+                Mockup UI for a collection of dials and gauges that typically sits behind the steering wheel, giving the driver a range of information about the vehicle's status
               </p>
               <hr />
               <div className="blog-meta mb-5">
                 <div className="tag-coulds badges">
                   <Link legacyBehavior href=".#">
-                    Design
+                    UI
                   </Link>
                   <Link legacyBehavior href="#">
-                    Figma
+                    XD
                   </Link>
                   <Link legacyBehavior href="#">
-                    Apps
+                    HMI
                   </Link>
                   <Link legacyBehavior href="#">
-                    Branding
+                    Usability
                   </Link>
                 </div>
               </div>
@@ -274,20 +269,19 @@ const ProjectGridIsotop = () => {
                   Mue-zero
               </h3>
               <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae Sed ut perspiciatis unde
+                Created UI for learning management system is a software application for the administration, documentation, tracking, reporting, automation, and delivery of educational courses, training programs, materials or learning and development programs. The learning management system concept emerged directly from e-Learning
               </p>
               <hr />
               <div className="blog-meta mb-5">
                 <div className="tag-coulds badges">
                   <Link legacyBehavior href=".#">
-                    Design
+                    Web UI
                   </Link>
                   <Link legacyBehavior href="#">
-                    Figma
+                    XD
                   </Link>
                   <Link legacyBehavior href="#">
-                    Apps
+                    User Flow
                   </Link>
                   <Link legacyBehavior href="#">
                     Branding
@@ -310,20 +304,19 @@ const ProjectGridIsotop = () => {
                 Inflight Entertainment System
               </h3>
               <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae Sed ut perspiciatis unde
+                UI for inflight entertainment, and the Touch HMI systems allow hassle-free internet access, browsing, video streaming, and more on passenger's devices.
               </p>
               <hr />
               <div className="blog-meta mb-5">
                 <div className="tag-coulds badges">
                   <Link legacyBehavior href=".#">
-                    Design
+                    HMI UI
                   </Link>
                   <Link legacyBehavior href="#">
-                    Figma
+                    XD
                   </Link>
                   <Link legacyBehavior href="#">
-                    Apps
+                    User-flow's
                   </Link>
                   <Link legacyBehavior href="#">
                     Branding

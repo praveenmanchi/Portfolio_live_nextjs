@@ -2,6 +2,8 @@ import PageBanner from "@/components/PageBanner";
 import NoxfolioLayout from "@/layout/NoxfolioLayout";
 import ScrollTop from "@/components/ScrollTop";
 import Link from "next/link";
+import Image from "next/image";
+
 
 // export const metadata = {
 //   title: "AMG Driving Academy",
@@ -10,12 +12,12 @@ import Link from "next/link";
 export const metadata = {
   title: {
     template: "Praveen Manchi || %s",
-    default:"Praveen Manchi || AMG Driving academy", // a default is required when creating a template
+    // default:"Praveen Manchi || AMG Driving academy", // a default is required when creating a template
   },
   openGraph: {
     images: ['https://ycsfwdainpwgmgsjqppv.supabase.co/storage/v1/object/public/OG-images/benz-og.png'],
   },
-  description: "AMG Driving academy, a car racing event organizer is planning to build a new platform to host their upcoming car racing event. The platform aims to provide a comprehensive solution for the participants, spectators, and event organizers to engage with each other before, during, and after the event.",
+  description: "A UI for car's instrument cluster houses the various displays and indicators that enable a driver to operate the vehicle. Among these are several gauges – often a speedometer, odometer, tachometer, oil pressure gauge, fuel gauge, etc. – as well as various indicators for system malfunctions and warnings.",
 };
 
 const ProjectDetails = () => {
@@ -27,26 +29,29 @@ const ProjectDetails = () => {
       <section className="Projects-details-area pt-40 pb-130 rpb-100 rel z-1">
         <div className="container">
           <div className="Projects-details-image mb-50 wow fadeInUp delay-0-2s">
-            <img
+            <Image
               src="/assets/images/Casestudies/Instrumentcluster/instrument cluster_small.png"
               alt="Project Details"
+              width={800}
+              height={600}
+              style={{ width: "100%", height: "auto" }}
             />
           </div>
           <div className="row gap-120">
             <div className="col-lg-8">
               <div className="project-details-content wow fadeInUp delay-0-2s">
-                <h3>AMG Driving academy case-study </h3>
+                <h3>Instrument Cluster</h3>
                 <p className="big-letter">
-                  AMG Driving academy, a car racing event organizer is planning to build a new platform to host their upcoming car racing event. The platform aims to provide a comprehensive solution for the participants, spectators, and event organizers to engage with each other before, during, and after the event.
+                Bestaş's digital instrument clusters employ high-resolution screens that provide a canvas for an immersive visual experience. Unlike analog counterparts, digital clusters allow for dynamic visualization of data. This includes the ability to display intricate graphics, animations, and customizable layouts that put essential information front and center. Drivers have the freedom to configure the cluster to their preferences, ensuring that the most relevant information is readily available.
                 </p>
-                <p>
+                {/* <p>
                 AMG Driving academy, a car racing event organizer is planning to build a new platform to host their upcoming car racing event. The platform aims to provide a comprehensive solution for the participants, spectators, and event organizers to engage with each other before, during, and after the event.
-                </p>
+                </p> */}
                 <ul className="list-style-one two-column mt-50 mb-40">
                   <li>UX &amp; UI Designing</li>
                   <li>Branding</li>
                   <li>Prototype </li>
-                  <li>HCI</li>
+                  <li>HMI</li>
                   {/* <li>Mobile Apps Design</li>
                   <li>System &amp; Guide</li>
                   <li>Graphics Design</li>
@@ -68,21 +73,21 @@ const ProjectDetails = () => {
                 </div>
                 <div className="pd-info-item">
                   <span>Clients</span>
-                  <h5>X_Design Studio</h5>
+                  <h5>Personal Mockup</h5>
                 </div>
                 <div className="pd-info-item">
                   <span>Tools Used</span>
                   <div style={{ display: "flex", gap: "30px" }}>
-                    <img src="assets/images/skills/skill1.svg" alt="Tool Icon 1" width="30" height="30" />
-                    <img src="assets/images/skills/skill2.svg" alt="Tool Icon 2" width="30" height="30" />
-                    <img src="assets/images/skills/skill3.svg" alt="Tool Icon 3" width="30" height="30" />
-                    <img src="assets/images/skills/skill4.svg" alt="Tool Icon 4" width="30" height="30" />
-                    <img src="assets/images/skills/skill5.svg" alt="Tool Icon 5" width="30" height="30" />
+                    {/* <img src="assets/images/skills/skill1.svg" alt="Tool Icon 1" width="30" height="30" /> */}
+                    <Image src="assets/images/skills/skill2.svg" alt="Tool Icon 2" width="30" height="30" />
+                    <Image src="assets/images/skills/skill3.svg" alt="Tool Icon 3" width="30" height="30" />
+                    {/* <img src="assets/images/skills/skill4.svg" alt="Tool Icon 4" width="30" height="30" />
+                    <img src="assets/images/skills/skill5.svg" alt="Tool Icon 5" width="30" height="30" /> */}
                   </div>
                 </div>
                 <div className="pd-info-item">
                   <span>Published</span>
-                  <h5>September 25, 2023</h5>
+                  <h5>March 21, 2021</h5>
                 </div>
               </div>
             </div>
@@ -90,30 +95,23 @@ const ProjectDetails = () => {
           <div className="project-bottom-content mb-50 wow fadeInUp delay-0-2s">
             <h3 className="title mb-25">Project Summery</h3>
             <p>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which don't look even
-              slightly believable. If you are going to use a passage of Lorem
-              Ipsum, you need to be sure there isn't anything embarrassing
-              hidden in the middle of text. All the Lorem Ipsum generators on
-              the Internet tend to repeat predefined chunks as necessary, making
-              this the first true generator on the Internet. It uses a
-              dictionary of over 200 Latin words, combined with a handful of
-              model sentence structures, to generate Lorem Ipsum which looks
-              reasonable. The generated Lorem Ipsum is therefore always free
-              from repetition, injected humour, or non-characteristic words etc.
+              
+            A UI for car's instrument cluster houses the various displays and indicators that enable a driver to operate the vehicle. Among these are several gauges – often a speedometer, odometer, tachometer, oil pressure gauge, fuel gauge, etc. – as well as various indicators for system malfunctions and warnings.
             </p>
           </div>
           <div className="row pb-15">
             <div className="col-lg-12">
               <div className="image mb-30 wow fadeInUp delay-0-2s">
-                <img
-                  src="/assets/images/benz/2.png"
+                <Image
+                  src="/assets/images/Casestudies/Instrumentcluster/instrument cluster .jpg"
                   alt="Project Middle"
+                  width={800}
+              height={600}
+              style={{ width: "100%", height: "auto" }}
                 />
               </div>
             </div>
-            <div className="col-lg-12">
+            {/* <div className="col-lg-12">
               <div className="image mb-30 wow fadeInUp delay-0-4s">
                 <img
                   src="/assets/images/benz/3.png"
@@ -211,7 +209,7 @@ const ProjectDetails = () => {
                   alt="Project Middle"
                 />
               </div>
-            </div>
+            </div> */}
           </div>
           
           {/* <div className="tag-share py-30 wow fadeInUp delay-0-2s">
@@ -263,7 +261,7 @@ const ProjectDetails = () => {
       </section>
       {/* Project Details Area end */}
       {/* Related Projects Area start */}
-      <section className="related-Projects-area pb-70 rpb-40 rel z-1">
+      {/* <section className="related-Projects-area pb-70 rpb-40 rel z-1">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-12">
@@ -341,7 +339,7 @@ const ProjectDetails = () => {
           <span />
           <span />
         </div>
-      </section>
+      </section> */}
       <ScrollTop />
     </NoxfolioLayout>
   );

@@ -7,7 +7,7 @@ import Image from "next/image";
 export const metadata = {
   title: {
     template: "Praveen Manchi || %s",
-    default: "Praveen Manchi || Paysafe",
+    // default: "Praveen Manchi || Paysafe",
   },
   openGraph: {
     images: [
@@ -15,7 +15,7 @@ export const metadata = {
     ],
   },
   description:
-    "AMG Driving academy, a car racing event organizer is planning to build a new platform to host their upcoming car racing event. The platform aims to provide a comprehensive solution for the participants, spectators, and event organizers to engage with each other before, during, and after the event.",
+    "Mockup for seamless and user-friendly payment process for both web and mobile applications, enabling users to pay their utility bills efficiently and securely.",
 };
 
 const ProjectDetails = () => {
@@ -39,13 +39,13 @@ const ProjectDetails = () => {
                 <p className="big-letter">
                 Create a seamless and user-friendly payment process for both web and mobile applications, enabling users to pay their utility bills efficiently and securely.
                 </p>
-                <p>
+                {/* <p>
                   AMG Driving academy, a car racing event organizer is planning
                   to build a new platform to host their upcoming car racing
                   event. The platform aims to provide a comprehensive solution
                   for the participants, spectators, and event organizers to
                   engage with each other before, during, and after the event.
-                </p>
+                </p> */}
                 <ul className="list-style-one two-column mt-50 mb-40">
                   <li>UX &amp; UI Designing</li>
                   <li>Branding</li>
@@ -71,7 +71,7 @@ const ProjectDetails = () => {
                 </div>
                 <div className="pd-info-item">
                   <span>Clients</span>
-                  <h5>X_Design Studio</h5>
+                  <h5>Paysafe</h5>
                 </div>
                 <div className="pd-info-item">
                   <span>Tools Used</span>
