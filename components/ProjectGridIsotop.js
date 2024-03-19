@@ -262,7 +262,7 @@ const ProjectGridIsotop = () => {
           </div>
           </Link>
         </div>
-        <div className="col-lg-6 item design development apps">
+        <div className="col-lg-6 item design branding development apps">
           <Link legacyBehavior href="Mue-Zero">
           <div className="blog-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
@@ -298,7 +298,7 @@ const ProjectGridIsotop = () => {
           </div>
         </Link>
         </div>
-        <div className="col-lg-6 item development graphics">
+        <div className="col-lg-6 item branding development graphics">
           <Link legacyBehavior href="#">
           <div className="blog-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">

@@ -22,16 +22,17 @@ const ProjectDetails = () => {
   return (
     <NoxfolioLayout onePageMenu={true}>
       <section className="Projects-details-area pt-40 pb-130 rpb-100 rel z-1">
-        <div className="container">
-          <div className="Projects-details-image mb-50 wow fadeInUp delay-0-2s">
+      <div className="Projects-details-image mb-50 wow fadeInUp delay-0-2s caseStudiesBanner">
             <Image
               src="/assets/images/Casestudies/pay/1.jpg"
               alt="Project Details"
-              width={1500}
+              width={2000}
               height={600}
               className="w-full h-auto" // Add these classes
             />
           </div>
+        <div className="container">
+         
           <div className="row gap-120">
             <div className="col-lg-8">
               <div className="project-details-content wow fadeInUp delay-0-2s">

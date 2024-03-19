@@ -17,9 +17,9 @@ const Hero = () => {
             <div className="col-lg-4 col-sm-7">
               <div className="hero-content rmb-55 wow fadeInUp delay-0-2s">
                 <span className="h2">Hello, i’m </span>
-                <h1>
+                <h2>
                   Praveen Manchi
-                </h1>
+                </h2>
                 {/* <h5>
                 Praveen Manchi
               </h5> */}

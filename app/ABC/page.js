@@ -25,13 +25,16 @@ const ProjectDetails = () => {
       {/* <PageBanner pageName={"Mobile Application Design"} /> */}
       {/* ProjectDetails Area start */}
       <section className="Projects-details-area pt-40 pb-130 rpb-100 rel z-1">
-        <div className="container">
-          <div className="Projects-details-image mb-50 wow fadeInUp delay-0-2s">
+      <div className="Projects-details-image mb-50 wow fadeInUp delay-0-2s caseStudiesBanner">
             <img
               src="/assets/images/benz/1.png"
               alt="Project Details"
+              width={2000}
+              height={600}
             />
           </div>
+        <div className="container">
+         
           <div className="row gap-120">
             <div className="col-lg-8">
               <div className="project-details-content wow fadeInUp delay-0-2s">

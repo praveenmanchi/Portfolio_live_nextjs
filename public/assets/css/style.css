@@ -7291,8 +7291,8 @@ h6,
   justify-content: space-between;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-left: -30px;
-  margin-right: -30px;
+  margin-left: 143px;
+  margin-right: 200px;
 }
 @media only screen and (max-width: 991px) {
   .client-logo-wrap {
@@ -8557,4 +8557,10 @@ blockquote .blockquote-footer:before {
     cursor: none;
     pointer-events: none;
   }
+}
+.branding{
+cursor: pointer;
+}
+.caseStudiesBanner{
+  margin-top:-43px;
 }
