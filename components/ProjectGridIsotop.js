@@ -118,6 +118,44 @@ const ProjectGridIsotop = () => {
           </div>
           </Link>
         </div>
+        <div className="col-lg-6 item branding development">
+          <Link legacyBehavior href='ATC-digitaltower'>
+          <div className="blog-item style-two wow fadeInUp delay-0-4s">
+            <div className="project-image">
+              <img src="/assets/images/Casestudies/ATC/00-3.jpg" alt="Project" />
+            </div>
+            <div className="content">
+              <h3>
+              Replacing ATC with Digital Tower Interfaces
+              </h3>
+              <p>
+              This UX case study explores the implementation of digital tower interfaces in airport operations, focusing on their pivotal role in enhancing air traffic controllers' capabilities. Through user-centric design processes, including research, wireframing, and iterative testing, the study demonstrates how intuitive interfaces improve situational awareness, streamline operations, and elevate the overall airport experience.
+              </p>
+              <hr />
+              <div className="blog-meta mb-5">
+                <div className="tag-coulds badges">
+                <Link legacyBehavior href="#">
+                Figma
+              </Link>
+              <Link legacyBehavior href="#">
+                B2B tool
+              </Link>
+              <Link legacyBehavior href="#">
+                HMI
+              </Link>
+              <Link legacyBehavior href="#">
+                Usability
+              </Link>
+              <Link legacyBehavior href="#">
+                VR
+              </Link>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          </Link>
+        </div>
 
         <div className="col-lg-6 item branding development">
           <Link legacyBehavior href='Ciscofoods'>
@@ -153,6 +191,7 @@ const ProjectGridIsotop = () => {
           </div>
           </Link>
         </div>
+        
         <div className="col-lg-6 item branding marketing graphics">
           <Link legacyBehavior href="ABC">
           <div className="blog-item style-two wow fadeInUp delay-0-4s">

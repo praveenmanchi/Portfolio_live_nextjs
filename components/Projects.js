@@ -63,6 +63,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
+
         <div className="blog-item wow fadeInUp delay-0-2s">
           <div className="image">
             <img src="assets/images/Casestudies/cisco/main-2.png" alt="Blog" />
@@ -94,6 +95,47 @@ const Projects = () => {
             <p></p>
             <div className="project-btn text-center wow fadeInUp delay-0-2s">
               <Link legacyBehavior  href="/Ciscofoods">
+                <a className="theme-btn floatright">
+                  View <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="blog-item wow fadeInUp delay-0-2s">
+          <div className="image">
+            <img src="/assets/images/Casestudies/ATC/00-3.jpg" alt="Blog" />
+          </div>
+          <div className="content">
+            <span className="sub-title">Product Design</span>
+            <h2>
+              <Link legacyBehavior href="/ATC-digitaltower">
+              Replacing ATC with Digital Tower Interfaces 
+              </Link>
+            </h2>
+            <p>
+            This UX case study explores the implementation of digital tower interfaces in airport operations, focusing on their pivotal role in enhancing air traffic controllers' capabilities. Through user-centric design processes, including research, wireframing, and iterative testing, the study demonstrates how intuitive interfaces improve situational awareness, streamline operations, and elevate the overall airport experience.
+            </p>
+            <div className="tag-coulds badges">
+              <Link legacyBehavior href="#">
+                Figma
+              </Link>
+              <Link legacyBehavior href="#">
+                B2B tool
+              </Link>
+              <Link legacyBehavior href="#">
+                HMI
+              </Link>
+              <Link legacyBehavior href="#">
+                Usability
+              </Link>
+              <Link legacyBehavior href="#">
+                VR
+              </Link>
+            </div>
+            <p></p>
+            <div className="project-btn text-center wow fadeInUp delay-0-2s">
+              <Link legacyBehavior  href="/ATC-digitaltower">
                 <a className="theme-btn floatright">
                   View <i className="far fa-arrow-right" />
                 </a>

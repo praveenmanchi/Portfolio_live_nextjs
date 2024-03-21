@@ -125,7 +125,7 @@ export const OnePageMenu = () => {
       </li>
       
       <li>
-        <a href="https://praveenmanchi.dev/" onClick={() => track("Old Portfolio")}>
+        <a href="https://praveenmanchi.netlify.app/" onClick={() => track("Old Portfolio")}>
         Old Portfolio ↗ 
         </a>
       </li>
