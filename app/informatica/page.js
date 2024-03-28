@@ -10,8 +10,8 @@ import Link from "next/link";
 
 export const metadata = {
   title: {
-    template: "Praveen Manchi || %s",
-    // default:"Praveen Manchi || AMG Driving academy", // a default is required when creating a template
+    // template: "Praveen Manchi || %s",
+    default:"Inflight Entertainment", // a default is required when creating a template
   },
   openGraph: {
     images: ['https://ycsfwdainpwgmgsjqppv.supabase.co/storage/v1/object/public/OG-images/home-og.png'],

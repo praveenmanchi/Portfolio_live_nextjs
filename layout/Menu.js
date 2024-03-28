@@ -114,7 +114,7 @@ export const OnePageMenu = () => {
         <a href="#skills" onClick={() => track("Skills")}>skills</a>
       </li> */}
       <li>
-        <a href="/Casestudies" onClick={() => track("Case Studies")}>
+        <a href="/casestudies" onClick={() => track("Case Studies")}>
           Casestudies
         </a>
       </li>

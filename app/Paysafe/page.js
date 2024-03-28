@@ -6,8 +6,8 @@ import Image from "next/image";
 
 export const metadata = {
   title: {
-    template: "Praveen Manchi || %s",
-    // default: "Praveen Manchi || Paysafe",
+    // template: "Praveen Manchi || %s",
+    default: "Paysafe",
   },
   openGraph: {
     images: [

@@ -15,8 +15,8 @@ import Head from "next/head";
 
 export const metadata = {
   title: {
-    template: "Praveen Manchi || %s",
-    default: "Praveen Manchi || Home", // a default is required when creating a template
+    template: "Praveen Manchi || Home ",
+    // default: "Praveen Manchi || Home", // a default is required when creating a template
   },
   openGraph: {
     images: [
@@ -30,6 +30,9 @@ export const metadata = {
 export default function HomeOnePage() {
   return (
     <NoxfolioLayout onePageMenu={true}>
+       <Head>
+        <link rel="shortcut icon" href="/assets/images/favicon.ico" />
+      </Head>
       {/* Hero Section Start */}
       <Hero />
       {/* Hero Section End */}

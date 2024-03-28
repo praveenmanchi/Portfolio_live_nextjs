@@ -9,6 +9,8 @@ import "@css/nice-select.min.css";
 import "@css/slick.min.css";
 import "@css/style.css";
 import "./globals.css";
+import Head from "next/head";
+
 
 /** google fonts */
 const inter = Inter({
@@ -30,7 +32,7 @@ const fontFamily = `${inter.variable} ${dm_sans.variable} `;
 export const metadata = {
   title: {
     template:
-      "Praveen Manchi -|| %s",
+      "Praveen Manchi | %s",
     // default:
     //   "Praveen Manchi -|| Home", // a default is required when creating a template
   },
@@ -42,6 +44,9 @@ export default function RootLayout({ children }) {
     <html lang="en" className={`${fontFamily} scroll-smooth`}>
       <body>
         <Preloader />
+        <Head>
+        <link rel="shortcut icon" href="/assets/images/favicon.ico" />
+        </Head>
         {children}
         <Analytics />
       </body>

@@ -119,7 +119,7 @@ const ProjectGridIsotop = () => {
           </Link>
         </div>
         <div className="col-lg-6 item branding development">
-          <Link legacyBehavior href='ATC-digitaltower'>
+          <Link legacyBehavior href='atc-digitaltower'>
           <div className="blog-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
               <img src="/assets/images/Casestudies/ATC/00-3.jpg" alt="Project" />
@@ -158,7 +158,7 @@ const ProjectGridIsotop = () => {
         </div>
 
         <div className="col-lg-6 item branding development">
-          <Link legacyBehavior href='Ciscofoods'>
+          <Link legacyBehavior href='ciscofoods'>
           <div className="blog-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
               <img src="assets/images/Casestudies/cisco/main-2.png" alt="Project" />
@@ -193,7 +193,7 @@ const ProjectGridIsotop = () => {
         </div>
         
         <div className="col-lg-6 item branding marketing graphics">
-          <Link legacyBehavior href="ABC">
+          <Link legacyBehavior href="abc">
           <div className="blog-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
               <img src="assets/images/Casestudies/abc/group2.png" alt="Project" />
@@ -227,7 +227,7 @@ const ProjectGridIsotop = () => {
           </Link>
         </div>
         <div className="col-lg-6 item branding development">
-          <Link legacyBehavior href="Paysafe">
+          <Link legacyBehavior href="paysafe">
           <div className="blog-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
               <img src="assets/images/Casestudies/pay/Paysafe-main.png" alt="Project" />
@@ -262,7 +262,7 @@ const ProjectGridIsotop = () => {
           </Link>
         </div>
         <div className="col-lg-6 item branding development">
-          <Link legacyBehavior href="Instrumentcluster">
+          <Link legacyBehavior href="instrumentcluster">
           <div className="blog-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
               <img src="/assets/images/Casestudies/Instrumentcluster/instrument cluster_small.png" alt="Project" />
@@ -297,7 +297,7 @@ const ProjectGridIsotop = () => {
           </Link>
         </div>
         <div className="col-lg-6 item design development apps">
-          <Link legacyBehavior href="Mue-Zero">
+          <Link legacyBehavior href="mue-zero">
           <div className="blog-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
               <img src="/assets/images/Casestudies/mue-zero/mue22.png" alt="Project" />

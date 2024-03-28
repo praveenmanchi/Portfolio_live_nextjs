@@ -71,7 +71,7 @@ const Projects = () => {
           <div className="content">
             <span className="sub-title">Web UI Design</span>
             <h2>
-              <Link legacyBehavior href="/Ciscofoods">
+              <Link legacyBehavior href="/ciscofoods">
               Food Delivery for Senior Citizens
               </Link>
             </h2>
@@ -94,7 +94,7 @@ const Projects = () => {
             </div>
             <p></p>
             <div className="project-btn text-center wow fadeInUp delay-0-2s">
-              <Link legacyBehavior  href="/Ciscofoods">
+              <Link legacyBehavior  href="/ciscofoods">
                 <a className="theme-btn floatright">
                   View <i className="far fa-arrow-right" />
                 </a>
@@ -109,7 +109,7 @@ const Projects = () => {
           <div className="content">
             <span className="sub-title">Product Design</span>
             <h2>
-              <Link legacyBehavior href="/ATC-digitaltower">
+              <Link legacyBehavior href="/atc-digitaltower">
               Replacing ATC with Digital Tower Interfaces 
               </Link>
             </h2>
@@ -135,7 +135,7 @@ const Projects = () => {
             </div>
             <p></p>
             <div className="project-btn text-center wow fadeInUp delay-0-2s">
-              <Link legacyBehavior  href="/ATC-digitaltower">
+              <Link legacyBehavior  href="/atc-digitaltower">
                 <a className="theme-btn floatright">
                   View <i className="far fa-arrow-right" />
                 </a>
@@ -150,7 +150,7 @@ const Projects = () => {
           <div className="content">
             <span className="sub-title">Product Design</span>
             <h2>
-              <Link legacyBehavior href="/ABC">
+              <Link legacyBehavior href="/abc">
               Redesigning a BI Analytics Configuration
               </Link>
             </h2>
@@ -173,7 +173,7 @@ const Projects = () => {
             </div>
             <p></p>
             <div className="project-btn text-center wow fadeInUp delay-0-2s">
-              <Link legacyBehavior href="/ABC">
+              <Link legacyBehavior href="/abc">
                 <a className="theme-btn floatright">
                   View <i className="far fa-arrow-right" />
                 </a>
@@ -290,7 +290,7 @@ const Projects = () => {
           </div>
         </div> */}
         <div className="project-btn text-center wow fadeInUp delay-0-2s">
-          <Link legacyBehavior href="/Casestudies">
+          <Link legacyBehavior href="/casestudies">
             <a className="theme-btn">
               View More Projects <i className="far fa-angle-right" />
             </a>

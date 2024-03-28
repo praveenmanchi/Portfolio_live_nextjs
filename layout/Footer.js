@@ -136,17 +136,14 @@ const Footer1 = () => {
               <div className="social-flow">
                 <h4>Follow :</h4>
                 <div className="social-style-one">
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/praveenmanchi/">
                     <i className="fab fa-linkedin" />
                   </a>
-                  <a href="#">
+                  <a href="https://github.com/praveenmanchi">
                     <i className="fab fa-GitHub-f" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.instagram.com/praveen_kumar_manchi/">
                     <i className="fab fa-instagram" />
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-dribble-p" />
                   </a>
                 </div>
               </div>
