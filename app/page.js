@@ -30,8 +30,8 @@ export const metadata = {
 export default function HomeOnePage() {
   return (
     <NoxfolioLayout onePageMenu={true}>
-       <Head>
-        <link rel="shortcut icon" href="/assets/images/favicon.ico" />
+      <Head>
+       <link rel="favicon.ico" href="/assets/images/favicon.ico" />
       </Head>
       {/* Hero Section Start */}
       <Hero />

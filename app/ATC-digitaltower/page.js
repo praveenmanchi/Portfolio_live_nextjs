@@ -21,9 +21,8 @@ export const metadata = {
 const ProjectDetails = () => {
   return (
     <NoxfolioLayout onePageMenu={true}>
-      <section className="Projects-details-area pt-40 pb-130 rpb-100 rel z-1">
-        <div className="container">
-          <div className="Projects-details-image mb-50 wow fadeInUp delay-0-2s">
+      <section className="Projects-details-area  pb-130 rpb-100 rel z-1">
+      <div className="Projects-details-image mb-50 wow fadeInUp delay-0-2s">
             <Image
               src="/assets/images/Casestudies/ATC/00-5.jpg"
               alt="Project Details"
@@ -32,6 +31,8 @@ const ProjectDetails = () => {
               className="w-full h-auto" // Add these classes
             />
           </div>
+        <div className="container">
+          
           <div className="row gap-120">
             <div className="col-lg-8">
               <div className="project-details-content wow fadeInUp delay-0-2s">

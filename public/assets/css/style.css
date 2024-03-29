@@ -7337,6 +7337,7 @@ h6,
 /*******************************************************/
 /******************** ## Blog Area ********************/
 /*******************************************************/
+
 .blog-item {
   margin-bottom: 30px;
   background: var(--lighter-color);
@@ -7352,6 +7353,7 @@ h6,
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s;
+
 }
 .blog-item:hover {
   border-color: rgba(255, 255, 255, 0.1);
@@ -8550,7 +8552,6 @@ blockquote .blockquote-footer:before {
 }
 .floatright{
   float: right;
-  margin-top: 3rem;
 }
 .badges{
   a{

@@ -20,19 +20,31 @@ const Projects = () => {
         </div>
 
         <div className="blog-item wow fadeInUp delay-0-2s">
-          <div className="image">
-            <img src="assets/images/Casestudies/benz/benz banner.png" alt="Blog" />
-          </div>
-          <div className="content">
+          
+          <div className="content" 
+          style={{backgroundImage: "url('assets/images/Casestudies/benz/banner_benz.png')", backgroundSize: 'cover', height: '696px', borderRadius: '12px', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '30px'}}
+          >
+            {/* <div className="image">
+              <img
+                src="assets/images/Casestudies/benz/benz banner.png"
+                alt="Blog"
+              />
+            </div> */}
+
             <span className="sub-title">Product Design</span>
             <h2>
-              <Link legacyBehavior href="/bestornothing">
+              
                 AMG Driving academy
-              </Link>
+              
             </h2>
             <p>
-            AMG Driving academy, a car racing event organizer is planning to build a new platform to host their upcoming car racing event. The platform aims to provide a comprehensive solution for the participants, spectators, and event organizers to engage with each other before, during, and after the event.
+              AMG Driving academy, a car racing event organizer is planning to
+              build a new platform to host their upcoming car racing event. The
+              platform aims to provide a comprehensive solution for the
+              participants, spectators, and event organizers to engage with each
+              other before, during, and after the event.
             </p>
+            <div style={{display: 'flex', justifyContent: 'space-between'}}>
             <div className="tag-coulds badges">
               <Link legacyBehavior href=".#">
                 web UI
@@ -53,18 +65,70 @@ const Projects = () => {
                 B2C, B2B
               </Link>
             </div>
-            <p></p>
+            
+            </div>
             <div className="project-btn text-center wow fadeInUp delay-0-2s">
-              <Link legacyBehavior  href="/bestornothing">
+              <Link legacyBehavior href="/bestornothing">
                 <a className="theme-btn floatright">
                   View <i className="far fa-arrow-right" />
                 </a>
               </Link>
             </div>
+            <p></p>
           </div>
         </div>
 
         <div className="blog-item wow fadeInUp delay-0-2s">
+          <div className="content" 
+          style={{backgroundImage: "url('assets/images/Casestudies/cisco/banner_cisco.png')", backgroundSize: 'cover', height: '696px', borderRadius: '12px', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '30px'}}
+          >
+            {/* <div className="image">
+              <img
+                src="assets/images/Casestudies/benz/benz banner.png"
+                alt="Blog"
+              />
+            </div> */}
+
+            <span className="sub-title">Web UI Design</span>
+            <h2>
+              Food Delivery for Senior Citizens
+            </h2>
+            <p>
+            Food Delivery Website for seniors. This innovative platform is
+            designed with simplicity and accessibility in mind, ensuring that
+            our elderly population can easily order delicious meals from the
+            comfort of their homes. Innovation with compassionate service to
+            empower our seniors and promote digital inclusion.
+            </p>
+            <div style={{display: 'flex', justifyContent: 'space-between'}}>
+            <div className="tag-coulds badges">
+              <Link legacyBehavior href=".#">
+              Web UI Design
+              </Link>
+              <Link legacyBehavior href="#">
+              Accessibility
+              </Link>
+              <Link legacyBehavior href="#">
+              B2C
+              </Link>
+              <Link legacyBehavior href="#">
+              Data Visualization
+              </Link>
+            </div>
+            
+            </div>
+            <div className="project-btn text-center wow fadeInUp delay-0-2s">
+              <Link legacyBehavior href="/ciscofoods">
+                <a className="theme-btn floatright">
+                  View <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+            <p></p>
+          </div>
+        </div>
+
+        {/* <div className="blog-item wow fadeInUp delay-0-2s">
           <div className="image">
             <img src="assets/images/Casestudies/cisco/main-2.png" alt="Blog" />
           </div>
@@ -72,11 +136,15 @@ const Projects = () => {
             <span className="sub-title">Web UI Design</span>
             <h2>
               <Link legacyBehavior href="/ciscofoods">
-              Food Delivery for Senior Citizens
+                Food Delivery for Senior Citizens
               </Link>
             </h2>
             <p>
-            Food Delivery Website for seniors. This innovative platform is designed with simplicity and accessibility in mind, ensuring that our elderly population can easily order delicious meals from the comfort of their homes. Innovation with compassionate service to empower our seniors and promote digital inclusion.
+              Food Delivery Website for seniors. This innovative platform is
+              designed with simplicity and accessibility in mind, ensuring that
+              our elderly population can easily order delicious meals from the
+              comfort of their homes. Innovation with compassionate service to
+              empower our seniors and promote digital inclusion.
             </p>
             <div className="tag-coulds badges">
               <Link className="pe-none" legacyBehavior href=".#">
@@ -89,20 +157,78 @@ const Projects = () => {
                 B2C
               </Link>
               <Link legacyBehavior href="#">
-                Data Visualization 
+                Data Visualization
               </Link>
             </div>
             <p></p>
             <div className="project-btn text-center wow fadeInUp delay-0-2s">
-              <Link legacyBehavior  href="/ciscofoods">
+              <Link legacyBehavior href="/ciscofoods">
                 <a className="theme-btn floatright">
                   View <i className="far fa-arrow-right" />
                 </a>
               </Link>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="blog-item wow fadeInUp delay-0-2s">
+          
+          <div className="content" 
+          style={{backgroundImage: "url('/assets/images/Casestudies/ATC/00-3.jpg')", backgroundSize: 'cover', height: '696px', borderRadius: '12px', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '30px'}}
+          >
+            {/* <div className="image">
+              <img
+                src="assets/images/Casestudies/benz/benz banner.png"
+                alt="Blog"
+              />
+            </div> */}
+
+            <span className="sub-title">Product Design</span>
+            <h2>
+              
+            Replacing ATC with Digital Tower Interfaces
+              
+            </h2>
+            <p>
+            This UX case study explores the implementation of digital tower
+              interfaces in airport operations, focusing on their pivotal role
+              in enhancing air traffic controllers' capabilities. Through
+              user-centric design processes, including research, wireframing,
+              and iterative testing, the study demonstrates how intuitive
+              interfaces improve situational awareness, streamline operations,
+              and elevate the overall airport experience.
+            </p>
+            <div style={{display: 'flex', justifyContent: 'space-between'}}>
+            <div className="tag-coulds badges">
+              <Link legacyBehavior href=".#">
+              Figma
+              </Link>
+              <Link legacyBehavior href="#">
+              B2B tool
+              </Link>
+              <Link legacyBehavior href="#">
+              HMI
+              </Link>
+              <Link legacyBehavior href="#">
+              Usability
+              </Link>
+              <Link legacyBehavior href="#">
+              AR
+              </Link>
+            </div>
+            
+            </div>
+            <div className="project-btn text-center wow fadeInUp delay-0-2s">
+              <Link legacyBehavior href="/atc-digitaltower">
+                <a className="theme-btn floatright">
+                  View <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+            <p></p>
+          </div>
+        </div>
+
+        {/* <div className="blog-item wow fadeInUp delay-0-2s">
           <div className="image">
             <img src="/assets/images/Casestudies/ATC/00-3.jpg" alt="Blog" />
           </div>
@@ -110,11 +236,17 @@ const Projects = () => {
             <span className="sub-title">Product Design</span>
             <h2>
               <Link legacyBehavior href="/atc-digitaltower">
-              Replacing ATC with Digital Tower Interfaces 
+                Replacing ATC with Digital Tower Interfaces
               </Link>
             </h2>
             <p>
-            This UX case study explores the implementation of digital tower interfaces in airport operations, focusing on their pivotal role in enhancing air traffic controllers' capabilities. Through user-centric design processes, including research, wireframing, and iterative testing, the study demonstrates how intuitive interfaces improve situational awareness, streamline operations, and elevate the overall airport experience.
+              This UX case study explores the implementation of digital tower
+              interfaces in airport operations, focusing on their pivotal role
+              in enhancing air traffic controllers' capabilities. Through
+              user-centric design processes, including research, wireframing,
+              and iterative testing, the study demonstrates how intuitive
+              interfaces improve situational awareness, streamline operations,
+              and elevate the overall airport experience.
             </p>
             <div className="tag-coulds badges">
               <Link legacyBehavior href="#">
@@ -135,14 +267,14 @@ const Projects = () => {
             </div>
             <p></p>
             <div className="project-btn text-center wow fadeInUp delay-0-2s">
-              <Link legacyBehavior  href="/atc-digitaltower">
+              <Link legacyBehavior href="/atc-digitaltower">
                 <a className="theme-btn floatright">
                   View <i className="far fa-arrow-right" />
                 </a>
               </Link>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="blog-item wow fadeInUp delay-0-2s">
           <div className="image">
             <img src="assets/images/Casestudies/abc/group2.png" alt="Blog" />
@@ -151,11 +283,15 @@ const Projects = () => {
             <span className="sub-title">Product Design</span>
             <h2>
               <Link legacyBehavior href="/abc">
-              Redesigning a BI Analytics Configuration
+                Redesigning a BI Analytics Configuration
               </Link>
             </h2>
             <p>
-            The UI will showcase a redesigned user interface for the configuration screen of ABC Data Analytics Suite application. The redesign aims to improve usability, navigation, and overall user experience while aligning with modern UI trends and best practices.
+              The UI will showcase a redesigned user interface for the
+              configuration screen of ABC Data Analytics Suite application. The
+              redesign aims to improve usability, navigation, and overall user
+              experience while aligning with modern UI trends and best
+              practices.
             </p>
             <div className="tag-coulds badges">
               <Link legacyBehavior href=".#">
@@ -181,114 +317,6 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        {/* <div className="row align-items-center pb-25">
-          <div className="col-lg-6">
-            <div className="project-image wow fadeInLeft delay-0-2s">
-              <img src="/assets/images/benz/benz banner.png" alt="Project" />
-            </div>
-          </div>
-          <div className="col-xl-5 col-lg-6">
-            <div className="project-content wow fadeInRight delay-0-2s">
-              <span className="sub-title">Product Design</span>
-              <h2>
-                <Link legacyBehavior href="/bestornothing">
-                  AMG Driving academy
-                </Link>
-              </h2>
-              <p>
-                AMG Driving academy, a car racing event organizer is planning to
-                build a new platform to host their upcoming car racing event.
-                The platform aims to provide a comprehensive solution for the
-                participants, spectators, and event organizers to engage with
-                each other before, during, and after the event.
-              </p>
-              <Link legacyBehavior href="/bestornothing">
-                <a className="details-btn">
-                  <i className="far fa-arrow-right" />
-                </a>
-              </Link>
-            </div>
-          </div>
-        </div>
-
-        <div className="row align-items-center pb-25">
-          <div className="col-lg-6 order-lg-2">
-            <div className="project-image wow fadeInLeft delay-0-2s">
-              <img src="assets/images/projects/project2.jpg" alt="Project" />
-            </div>
-          </div>
-          <div className="col-xl-5 col-lg-6 ms-auto">
-            <div className="project-content wow fadeInRight delay-0-2s">
-              <span className="sub-title">Product Design</span>
-              <h2>
-                <Link legacyBehavior href="project-details">
-                  Food Delivery for Senior Citizens
-                </Link>
-              </h2>
-              <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae
-              </p>
-              <Link legacyBehavior href="/project-details">
-                <a className="details-btn">
-                  <i className="far fa-arrow-right" />
-                </a>
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="row align-items-center pb-25">
-          <div className="col-lg-6">
-            <div className="project-image wow fadeInLeft delay-0-2s">
-              <img src="assets/images/projects/project3.jpg" alt="Project" />
-            </div>
-          </div>
-          <div className="col-xl-5 col-lg-6">
-            <div className="project-content wow fadeInRight delay-0-2s">
-              <span className="sub-title">Product Design</span>
-              <h2>
-                <Link legacyBehavior href="project-details">
-                  Paysafe
-                </Link>
-              </h2>
-              <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae
-              </p>
-              <Link legacyBehavior href="/project-details">
-                <a className="details-btn">
-                  <i className="far fa-arrow-right" />
-                </a>
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="row align-items-center pb-25">
-          <div className="col-lg-6 order-lg-2">
-            <div className="project-image wow fadeInLeft delay-0-2s">
-              <img src="assets/images/projects/project4.jpg" alt="Project" />
-            </div>
-          </div>
-          <div className="col-xl-5 col-lg-6 ms-auto">
-            <div className="project-content wow fadeInRight delay-0-2s">
-              <span className="sub-title">Product Design</span>
-              <h2>
-                <Link legacyBehavior href="project-details">
-                  ABC Re-design
-                </Link>
-              </h2>
-              <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae
-              </p>
-              <Link legacyBehavior href="/project-details">
-                <a className="details-btn">
-                  <i className="far fa-arrow-right" />
-                </a>
-              </Link>
-            </div>
-          </div>
-        </div> */}
         <div className="project-btn text-center wow fadeInUp delay-0-2s">
           <Link legacyBehavior href="/casestudies">
             <a className="theme-btn">

@@ -26,9 +26,8 @@ const ProjectDetails = () => {
     <NoxfolioLayout onePageMenu={true}>
       {/* <PageBanner pageName={"Mobile Application Design"} /> */}
       {/* ProjectDetails Area start */}
-      <section className="Projects-details-area pt-40 pb-130 rpb-100 rel z-1">
-        <div className="container">
-          <div className="Projects-details-image mb-50 wow fadeInUp delay-0-2s">
+      <section className="Projects-details-area  pb-130 rpb-100 rel z-1">
+      <div className="Projects-details-image mb-50 wow fadeInUp delay-0-2s">
             <Image
               src="/assets/images/Casestudies/mue-zero/mue22.png"
               alt="Project Details"
@@ -37,6 +36,8 @@ const ProjectDetails = () => {
               style={{ width: "100%", height: "auto" }}
             />
           </div>
+        <div className="container">
+          
           <div className="row gap-120">
             <div className="col-lg-8">
               <div className="project-details-content wow fadeInUp delay-0-2s">

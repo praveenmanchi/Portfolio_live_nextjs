@@ -17,14 +17,14 @@ const Hero = () => {
             <div className="col-lg-4 col-sm-7">
               <div className="hero-content rmb-55 wow fadeInUp delay-0-2s">
                 <span className="h2">Hello, i’m </span>
-                <h2>
+                <h1>
                   Praveen Manchi
-                </h2>
+                </h1>
                 {/* <h5>
                 Praveen Manchi
               </h5> */}
                 <p>
-                  UI/UX DESIGNER | PRODUCT DESIGNER | PHOTOGRAPHER
+                I am a designer focusing on design systems, interaction, and motion. Blending design and technology I love to create emotional and human-friendly solutions.
                 </p>
                 <div className="hero-btns">
                   <Link legacyBehavior

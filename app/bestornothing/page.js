@@ -21,9 +21,8 @@ export const metadata = {
 const ProjectDetails = () => {
   return (
     <NoxfolioLayout onePageMenu={true}>
-      <section className="Projects-details-area pt-40 pb-130 rpb-100 rel z-1">
-        <div className="container">
-          <div className="Projects-details-image mb-50 wow fadeInUp delay-0-2s">
+      <section className="Projects-details-area pb-130 rpb-100 rel z-1">
+      <div className="Projects-details-image mb-50 wow fadeInUp delay-0-2s">
             <Image
               src="/assets/images/Casestudies/benz/1.png"
               alt="Project Details"
@@ -32,6 +31,8 @@ const ProjectDetails = () => {
               className="w-full h-auto" // Add these classes
             />
           </div>
+        <div className="container">
+          
           <div className="row gap-120">
             <div className="col-lg-8">
               <div className="project-details-content wow fadeInUp delay-0-2s">
@@ -136,9 +137,10 @@ const ProjectDetails = () => {
               from repetition, injected humour, or non-characteristic words etc.
             </p>
           </div>
+          </div>
           <div className="row pb-15">
             <div className="col-lg-12">
-              <div className="image mb-30 wow fadeInUp delay-0-2s">
+              <div className="image wow fadeInUp delay-0-2s">
                 <Image
                   src="/assets/images/Casestudies/benz/2.png"
                   alt="Project Middle"
@@ -149,7 +151,7 @@ const ProjectDetails = () => {
               </div>
             </div>
             <div className="col-lg-12">
-              <div className="image mb-30 wow fadeInUp delay-0-4s">
+              <div className="image wow fadeInUp delay-0-4s">
                 <Image
                   src="/assets/images/Casestudies/benz/3.png"
                   alt="Project Middle"
@@ -160,7 +162,7 @@ const ProjectDetails = () => {
               </div>
             </div>
             <div className="col-lg-12">
-              <div className="image mb-30 wow fadeInUp delay-0-6s">
+              <div className="image wow fadeInUp delay-0-6s">
                 <Image
                   src="/assets/images/Casestudies/benz/4.png"
                   alt="Project Middle"
@@ -171,7 +173,7 @@ const ProjectDetails = () => {
               </div>
             </div>
             <div className="col-lg-12">
-              <div className="iframe mb-30 wow fadeInUp delay-0-6s">
+              <div className="iframe wow fadeInUp delay-0-6s">
                 <iframe
                   width="100%"
                   height="700"
@@ -183,7 +185,7 @@ const ProjectDetails = () => {
               </div>
             </div>
             <div className="col-lg-12">
-              <div className="image mb-30 wow fadeInUp delay-0-6s">
+              <div className="image wow fadeInUp delay-0-6s">
                 <Image
                   src="/assets/images/Casestudies/benz/5.png"
                   alt="Project Middle"
@@ -194,7 +196,7 @@ const ProjectDetails = () => {
               </div>
             </div>
             <div className="col-lg-12">
-              <div className="iframe mb-30 wow fadeInUp delay-0-6s">
+              <div className="iframe wow fadeInUp delay-0-6s">
                 <iframe
                   width="100%"
                   height="700"
@@ -206,7 +208,7 @@ const ProjectDetails = () => {
               </div>
             </div>
             <div className="col-lg-12">
-              <div className="image mb-30 wow fadeInUp delay-0-6s">
+              <div className="image wow fadeInUp delay-0-6s">
                 <Image
                   src="/assets/images/Casestudies/benz/5.png"
                   alt="Project Middle"
@@ -217,7 +219,7 @@ const ProjectDetails = () => {
               </div>
             </div>
             <div className="col-lg-12">
-              <div className="image mb-30 wow fadeInUp delay-0-6s">
+              <div className="image wow fadeInUp delay-0-6s">
                 <Image
                   src="/assets/images/Casestudies/benz/6.png"
                   alt="Project Middle"
@@ -228,7 +230,7 @@ const ProjectDetails = () => {
               </div>
             </div>
             <div className="col-lg-12">
-              <div className="iframe mb-30 wow fadeInUp delay-0-6s">
+              <div className="iframe wow fadeInUp delay-0-6s">
                 <iframe
                   width="100%"
                   height="700"
@@ -240,7 +242,7 @@ const ProjectDetails = () => {
               </div>
             </div>
             <div className="col-lg-12">
-              <div className="image mb-30 wow fadeInUp delay-0-6s">
+              <div className="image wow fadeInUp delay-0-6s">
                 <Image
                   src="/assets/images/Casestudies/benz/7.png"
                   alt="Project Middle"
@@ -251,7 +253,7 @@ const ProjectDetails = () => {
               </div>
             </div>
             <div className="col-lg-12">
-              <div className="iframe mb-30 wow fadeInUp delay-0-6s">
+              <div className="iframe wow fadeInUp delay-0-6s">
                 <iframe
                   width="100%"
                   height="700"
@@ -263,7 +265,7 @@ const ProjectDetails = () => {
               </div>
             </div>
             <div className="col-lg-12">
-              <div className="image mb-30 wow fadeInUp delay-0-6s">
+              <div className="image wow fadeInUp delay-0-6s">
                 <Image
                   src="/assets/images/Casestudies/benz/8.png"
                   alt="Project Middle"
@@ -274,7 +276,7 @@ const ProjectDetails = () => {
               </div>
             </div>
             <div className="col-lg-12">
-              <div className="iframe mb-30 wow fadeInUp delay-0-6s">
+              <div className="iframe wow fadeInUp delay-0-6s">
                 <iframe
                   width="100%"
                   height="700"
@@ -286,7 +288,7 @@ const ProjectDetails = () => {
               </div>
             </div>
             <div className="col-lg-12">
-              <div className="image mb-30 wow fadeInUp delay-0-6s">
+              <div className="image wow fadeInUp delay-0-6s">
                 <Image
                   src="/assets/images/Casestudies/benz/9.png"
                   alt="Project Middle"
@@ -331,7 +333,7 @@ const ProjectDetails = () => {
               </div>
             </div>
           </div> */}
-        </div>
+        
         <div className="bg-lines">
           <span />
           <span />
@@ -347,7 +349,7 @@ const ProjectDetails = () => {
       </section>
       {/* Project Details Area end */}
       {/* Related Projects Area start */}
-      <section className="related-Projects-area pb-70 rpb-40 rel z-1">
+      {/* <section className="related-Projects-area pb-70 rpb-40 rel z-1">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-12">
@@ -425,7 +427,7 @@ const ProjectDetails = () => {
           <span />
           <span />
         </div>
-      </section>
+      </section> */}
       <ScrollTop />
     </NoxfolioLayout>
   );
