@@ -117,7 +117,9 @@ const ProjectDetails = () => {
                   <span>Published</span>
                   <h5>September 25, 2023</h5>
                 </div>
+                
               </div>
+              
             </div>
           </div>
           <div className="project-bottom-content mb-50 wow fadeInUp delay-0-2s">

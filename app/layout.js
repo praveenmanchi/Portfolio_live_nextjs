@@ -10,7 +10,7 @@ import "@css/slick.min.css";
 import "@css/style.css";
 import "./globals.css";
 import Head from "next/head";
-
+import { CSPostHogProvider } from './providers';
 
 /** google fonts */
 const inter = Inter({
@@ -45,9 +45,11 @@ export default function RootLayout({ children }) {
       <body>
         <Preloader />
         <Head>
-        <link rel="shortcut icon" href="/assets/images/favicon.ico" />
+          <link rel="shortcut icon" href="/assets/images/favicon.ico" />
         </Head>
-        {children}
+        <CSPostHogProvider>
+          {children}
+        </CSPostHogProvider>
         <Analytics />
       </body>
     </html>
